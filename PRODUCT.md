@@ -12,7 +12,7 @@ Plain static HTML, CSS, and JavaScript deployed through GitHub Pages. Node.js sc
 
 ## Users
 
-Developers who use Paseo, Pi, Superset, Ghostty, or adjacent coding tools and want recognizable, readable color schemes across their agent development environment.
+Developers who use Paseo, Pi, Superset, ChatGPT, Codex CLI, Ghostty, or adjacent coding tools and want recognizable, readable color schemes across their agent development environment.
 
 ## Product Purpose
 
@@ -30,18 +30,18 @@ Users browse a public theme gallery, compare generated palette cards, choose a t
 
 ## Capabilities and Constraints
 
-- Generate native theme files for Paseo, Pi, and Superset.
+- Generate native theme files or portable imports for Paseo, Pi, Superset, ChatGPT, and Codex CLI.
 - Preserve terminal background, foreground, selection, cursor, and ANSI 0–15 colors in the canonical data.
 - Derive platform semantic colors with readable primary and secondary text contrast.
 - Publish a static gallery showing the actual generated colors for every theme.
-- Provide human installation steps and copyable agent prompts.
+- Provide copyable agent prompts that complete safe filesystem work, then stop for user-only in-app import or selection steps.
 - Keep source repositories, pinned commits, files, licenses, and adaptation notes with the palette data.
 - No CSS injection, CDP, telemetry, runtime network access, install hooks, commercial themes, or unclear redistribution licenses.
 - Paseo and Superset plugins are trusted local code; generated runtime files must remain static and reviewable.
 
 ## Brand Commitments
 
-The product is named “Agent Paint.” The voice is direct, technically honest, and developer-friendly. The brand should make color feel practical and approachable without AI jargon, empty statistics, or faux-terminal decoration. The project must describe themes as unofficial adaptations and must not imply endorsement by Paseo, Pi, Superset, terminal projects, or upstream theme authors.
+The product is named “Agent Paint.” The voice is direct, technically honest, and developer-friendly. The brand should make color feel practical and approachable without AI jargon, empty statistics, or faux-terminal decoration. The project must describe themes as unofficial adaptations and must not imply endorsement by Paseo, Pi, Superset, OpenAI, ChatGPT, Codex, terminal projects, or upstream theme authors.
 
 ## Evidence on Hand
 
@@ -50,6 +50,8 @@ The product is named “Agent Paint.” The voice is direct, technically honest,
 - Paseo's official `plugin.addTheme()` integration in `index.ts`.
 - Pi's complete custom-theme specification and built-in reference themes.
 - Superset's official custom-theme base format and import documentation.
+- ChatGPT desktop's `codex-theme-v1:` import schema, verified against the installed app bundle and official Appearance workflow.
+- Codex CLI's official `/theme`, `tui.theme`, and `$CODEX_HOME/themes/*.tmTheme` behavior.
 - Ghostty's bundled terminal themes, including Nord and most existing theme families.
 - User feedback that Catppuccin and Ayu Mirage map well, while Nord and several low-contrast mappings do not.
 

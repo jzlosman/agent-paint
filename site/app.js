@@ -9,6 +9,7 @@ const selectionTitle = document.querySelector("#selection-title");
 const selectionTarget = document.querySelector("#selection-target");
 const selectionDescription = document.querySelector("#selection-description");
 const themeDownload = document.querySelector("#theme-download");
+const copyThemeValue = document.querySelector("#copy-theme-value");
 const copyThemePrompt = document.querySelector("#copy-theme-prompt");
 
 const appUrl = new URL(import.meta.url);
@@ -20,6 +21,8 @@ const targetNotes = {
   paseo: "Paseo preview · plugin theme",
   pi: "Pi preview · native TUI theme",
   superset: "Superset preview · app and terminal theme",
+  chatgpt: "ChatGPT preview · desktop appearance import",
+  "codex-cli": "Codex CLI syntax preview · shown on the source terminal palette",
 };
 
 const state = {
@@ -57,6 +60,28 @@ function targetColors(theme) {
       mutedForeground: theme.superset.mutedForeground,
       ring: theme.superset.ring,
       strip: theme.terminal.ansi.slice(1, 8).concat(theme.terminal.ansi[15]),
+    };
+  }
+
+  if (state.target === "chatgpt") {
+    return {
+      ...theme.chatgpt,
+      strip: [
+        theme.chatgpt.diffRemoved, theme.chatgpt.diffAdded, theme.chatgpt.skill,
+        theme.chatgpt.accent, theme.chatgpt.raised, theme.chatgpt.control,
+        theme.chatgpt.mutedForeground, theme.chatgpt.foreground,
+      ],
+    };
+  }
+
+  if (state.target === "codex-cli") {
+    return {
+      ...theme.codexCli,
+      strip: [
+        theme.codexCli.error, theme.codexCli.success, theme.codexCli.number,
+        theme.codexCli.function, theme.codexCli.keyword, theme.codexCli.type,
+        theme.codexCli.comment, theme.codexCli.foreground,
+      ],
     };
   }
 
@@ -147,12 +172,23 @@ function renderGallery() {
   }
 }
 
+const targetNames = {
+  paseo: "Paseo",
+  pi: "Pi",
+  superset: "Superset",
+  chatgpt: "ChatGPT",
+  "codex-cli": "Codex CLI",
+};
+
 function promptFor(theme) {
-  const targetName = state.target === "pi" ? "Pi" : state.target === "superset" ? "Superset" : "Paseo";
-  const delivery = state.target === "paseo"
-    ? "Install the repository's static Paseo plugin, then select the named theme."
-    : "Use the generated native JSON file for that target.";
-  return `Read https://github.com/jzlosman/agent-paint/blob/main/README.md. Install the ${theme.name} theme for ${targetName}. ${delivery} Follow the repository instructions for that target. Review the code or file before installing it, preserve my existing settings, and ask before enabling plugins or changing the active theme.`;
+  const delivery = {
+    paseo: "Install the repository's static Paseo plugin, then select the named theme.",
+    pi: "Use the generated native Pi JSON file.",
+    superset: "Use the generated native Superset JSON file.",
+    chatgpt: `Read ${theme.chatgptDownload}. Give me the complete codex-theme-v1 string, then ask me to open ChatGPT Settings → Appearance, choose the matching ${theme.appearance} base theme, click Import, and paste it. Do not edit ChatGPT app storage directly.`,
+    "codex-cli": `Copy ${theme.codexCliDownload} to the themes directory under CODEX_HOME (default ~/.codex/themes) as ${theme.codexCliName}.tmTheme. Back up CODEX_HOME/config.toml (default ~/.codex/config.toml), then ask before setting tui.theme = "${theme.codexCliName}". This changes Codex CLI syntax highlighting only; do not change my terminal emulator theme.`,
+  }[state.target];
+  return `Read https://github.com/jzlosman/agent-paint/blob/main/README.md. Install the ${theme.name} theme for ${targetNames[state.target]}. ${delivery} Follow the repository instructions for that target, preserve my existing settings, and report every changed path and how to undo it.`;
 }
 
 function selectTheme(id) {
@@ -166,25 +202,40 @@ function selectTheme(id) {
     card.querySelector(".theme-card-button")?.setAttribute("aria-pressed", String(selected));
   }
 
-  const targetName = state.target === "pi" ? "Pi" : state.target === "superset" ? "Superset" : "Paseo";
+  const targetName = targetNames[state.target];
   selectionTarget.textContent = `${targetName} theme`;
   selectionTitle.textContent = theme.name;
-  selectionDescription.textContent = `Terminal source: ${theme.terminalSource}. Generated from the same checked-in palette as this specimen.`;
+  selectionDescription.textContent = state.target === "codex-cli"
+    ? `Syntax colors shown on the ${theme.terminalSource} source terminal palette; Codex CLI does not change terminal colors.`
+    : `Terminal source: ${theme.terminalSource}. Generated from the same checked-in palette as this specimen.`;
+
+  themeDownload.hidden = false;
+  copyThemeValue.hidden = true;
+  copyThemeValue.dataset.value = "";
+  themeDownload.removeAttribute("download");
+  themeDownload.removeAttribute("target");
+  themeDownload.removeAttribute("rel");
 
   if (state.target === "pi") {
     themeDownload.href = theme.piDownload;
     themeDownload.textContent = "Download Pi JSON";
     themeDownload.setAttribute("download", `${theme.id}.json`);
-    themeDownload.removeAttribute("target");
   } else if (state.target === "superset") {
     themeDownload.href = theme.supersetDownload;
     themeDownload.textContent = "Download Superset JSON";
     themeDownload.setAttribute("download", `${theme.id}.json`);
-    themeDownload.removeAttribute("target");
+  } else if (state.target === "chatgpt") {
+    themeDownload.hidden = true;
+    copyThemeValue.hidden = false;
+    copyThemeValue.textContent = "Copy ChatGPT theme";
+    copyThemeValue.dataset.value = theme.chatgptImport;
+  } else if (state.target === "codex-cli") {
+    themeDownload.href = theme.codexCliDownload;
+    themeDownload.textContent = "Download .tmTheme";
+    themeDownload.setAttribute("download", `${theme.codexCliName}.tmTheme`);
   } else {
     themeDownload.href = "https://github.com/jzlosman/agent-paint#paseo";
     themeDownload.textContent = "View Paseo install";
-    themeDownload.removeAttribute("download");
     themeDownload.target = "_blank";
     themeDownload.rel = "noreferrer";
   }
@@ -227,6 +278,7 @@ for (const button of document.querySelectorAll(".target-button")) {
 
 search.addEventListener("input", renderGallery);
 appearance.addEventListener("change", renderGallery);
+copyThemeValue.addEventListener("click", () => copyText(copyThemeValue.dataset.value, copyThemeValue));
 copyThemePrompt.addEventListener("click", () => copyText(copyThemePrompt.dataset.prompt, copyThemePrompt));
 document.querySelector("#copy-general-prompt").addEventListener("click", (event) => {
   copyText(document.querySelector("#general-prompt").textContent, event.currentTarget);

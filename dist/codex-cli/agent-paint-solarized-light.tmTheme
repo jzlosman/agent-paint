@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>Agent Paint · Solarized Light</string>
+  <key>author</key>
+  <string>Agent Paint contributors</string>
+  <key>settings</key>
+  <array>
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#fdf6e3</string>
+        <key>foreground</key>
+        <string>#47565c</string>
+        <key>caret</key>
+        <string>#657b83</string>
+        <key>selection</key>
+        <string>#eee8d5</string>
+        <key>selectionForeground</key>
+        <string>#586e75</string>
+        <key>lineHighlight</key>
+        <string>#efe9d8</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Comments</string>
+      <key>scope</key>
+      <string>comment, punctuation.definition.comment</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#002b36</string>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Strings</string>
+      <key>scope</key>
+      <string>string, constant.other.symbol</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#586e75</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Numbers and constants</string>
+      <key>scope</key>
+      <string>constant.numeric, constant.language, constant.character</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#60747c</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Keywords</string>
+      <key>scope</key>
+      <string>keyword, storage</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#666ab8</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Functions</string>
+      <key>scope</key>
+      <string>entity.name.function, support.function</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#667475</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Types</string>
+      <key>scope</key>
+      <string>entity.name.type, entity.name.class, support.type</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#697373</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Variables</string>
+      <key>scope</key>
+      <string>variable, variable.other.readwrite</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#697373</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Invalid</string>
+      <key>scope</key>
+      <string>invalid, invalid.illegal</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#c44915</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Headings</string>
+      <key>scope</key>
+      <string>markup.heading, entity.name.section</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#60747c</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Inserted</string>
+      <key>scope</key>
+      <string>markup.inserted, meta.diff.header.to-file</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#586e75</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Deleted</string>
+      <key>scope</key>
+      <string>markup.deleted, meta.diff.header.from-file</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#c44915</string>
+      </dict>
+    </dict>
+  </array>
+</dict>
+</plist>

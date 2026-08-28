@@ -109,6 +109,39 @@
       "highlight": "#528bff",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#21252b",
+      "foreground": "#abb2bf",
+      "raised": "#292e34",
+      "control": "#33383e",
+      "border": "#484d54",
+      "accent": "#528bff",
+      "mutedForeground": "#8b8b8b",
+      "ring": "#abb2bf",
+      "diffAdded": "#98c379",
+      "diffRemoved": "#e06c75",
+      "skill": "#c678dd"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#528bff\",\"contrast\":60,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#abb2bf\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#98c379\",\"diffRemoved\":\"#e06c75\",\"skill\":\"#c678dd\"},\"surface\":\"#21252b\"},\"variant\":\"dark\"}",
+    "codexCli": {
+      "background": "#21252b",
+      "foreground": "#abb2bf",
+      "raised": "#292e34",
+      "control": "#33383e",
+      "border": "#484d54",
+      "accent": "#61afef",
+      "mutedForeground": "#8b8b8b",
+      "ring": "#abb2bf",
+      "comment": "#8b8b8b",
+      "string": "#98c379",
+      "number": "#e5c07b",
+      "keyword": "#c678dd",
+      "function": "#61afef",
+      "type": "#56b6c2",
+      "variable": "#56b6c2",
+      "error": "#e06c75",
+      "success": "#98c379"
+    },
     "terminal": {
       "background": "#21252b",
       "foreground": "#abb2bf",
@@ -136,7 +169,10 @@
       ]
     },
     "piDownload": "dist/pi/one-dark.json",
-    "supersetDownload": "dist/superset/one-dark.json"
+    "supersetDownload": "dist/superset/one-dark.json",
+    "chatgptDownload": "dist/chatgpt/one-dark.txt",
+    "codexCliName": "agent-paint-one-dark",
+    "codexCliDownload": "dist/codex-cli/agent-paint-one-dark.tmTheme"
   },
   {
     "id": "one-light",
@@ -248,6 +284,39 @@
       "highlight": "#526fff",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#f9f9f9",
+      "foreground": "#2a2c33",
+      "raised": "#ececed",
+      "control": "#dcdcdd",
+      "border": "#bcbcbe",
+      "accent": "#526fff",
+      "mutedForeground": "#000000",
+      "ring": "#909090",
+      "diffAdded": "#3f953a",
+      "diffRemoved": "#de3e35",
+      "skill": "#a00095"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#526fff\",\"contrast\":45,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#2a2c33\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#3f953a\",\"diffRemoved\":\"#de3e35\",\"skill\":\"#a00095\"},\"surface\":\"#f9f9f9\"},\"variant\":\"light\"}",
+    "codexCli": {
+      "background": "#f9f9f9",
+      "foreground": "#2a2c33",
+      "raised": "#ececed",
+      "control": "#dcdcdd",
+      "border": "#bcbcbe",
+      "accent": "#2f5af3",
+      "mutedForeground": "#000000",
+      "ring": "#909090",
+      "comment": "#000000",
+      "string": "#378233",
+      "number": "#82714d",
+      "keyword": "#a00095",
+      "function": "#2f5af3",
+      "type": "#378233",
+      "variable": "#378233",
+      "error": "#d23b32",
+      "success": "#378233"
+    },
     "terminal": {
       "background": "#f9f9f9",
       "foreground": "#2a2c33",
@@ -275,7 +344,10 @@
       ]
     },
     "piDownload": "dist/pi/one-light.json",
-    "supersetDownload": "dist/superset/one-light.json"
+    "supersetDownload": "dist/superset/one-light.json",
+    "chatgptDownload": "dist/chatgpt/one-light.txt",
+    "codexCliName": "agent-paint-one-light",
+    "codexCliDownload": "dist/codex-cli/agent-paint-one-light.tmTheme"
   },
   {
     "id": "ayu-dark",
@@ -387,6 +459,39 @@
       "highlight": "#e6b450",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#0b0e14",
+      "foreground": "#bfbdb6",
+      "raised": "#191b20",
+      "control": "#25282c",
+      "border": "#3c3e41",
+      "accent": "#e6b450",
+      "mutedForeground": "#7a7a7a",
+      "ring": "#e6b450",
+      "diffAdded": "#aad94c",
+      "diffRemoved": "#f07178",
+      "skill": "#d2a6ff"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#e6b450\",\"contrast\":60,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#bfbdb6\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#aad94c\",\"diffRemoved\":\"#f07178\",\"skill\":\"#d2a6ff\"},\"surface\":\"#0b0e14\"},\"variant\":\"dark\"}",
+    "codexCli": {
+      "background": "#0b0e14",
+      "foreground": "#bfbdb6",
+      "raised": "#191b20",
+      "control": "#25282c",
+      "border": "#3c3e41",
+      "accent": "#59c2ff",
+      "mutedForeground": "#7a7a7a",
+      "ring": "#e6b450",
+      "comment": "#7a7a7a",
+      "string": "#aad94c",
+      "number": "#ffb454",
+      "keyword": "#d2a6ff",
+      "function": "#59c2ff",
+      "type": "#95e6cb",
+      "variable": "#95e6cb",
+      "error": "#f07178",
+      "success": "#aad94c"
+    },
     "terminal": {
       "background": "#0b0e14",
       "foreground": "#bfbdb6",
@@ -414,7 +519,10 @@
       ]
     },
     "piDownload": "dist/pi/ayu-dark.json",
-    "supersetDownload": "dist/superset/ayu-dark.json"
+    "supersetDownload": "dist/superset/ayu-dark.json",
+    "chatgptDownload": "dist/chatgpt/ayu-dark.txt",
+    "codexCliName": "agent-paint-ayu-dark",
+    "codexCliDownload": "dist/codex-cli/agent-paint-ayu-dark.tmTheme"
   },
   {
     "id": "ayu-light",
@@ -526,6 +634,39 @@
       "highlight": "#cc7f14",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#f8f9fa",
+      "foreground": "#52565b",
+      "raised": "#ebecee",
+      "control": "#dbdcde",
+      "border": "#babcbf",
+      "accent": "#cc7f14",
+      "mutedForeground": "#686868",
+      "ring": "#c48327",
+      "diffAdded": "#769d00",
+      "diffRemoved": "#e46b6b",
+      "skill": "#a37acc"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#cc7f14\",\"contrast\":45,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#52565b\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#769d00\",\"diffRemoved\":\"#e46b6b\",\"skill\":\"#a37acc\"},\"surface\":\"#f8f9fa\"},\"variant\":\"light\"}",
+    "codexCli": {
+      "background": "#f8f9fa",
+      "foreground": "#52565b",
+      "raised": "#ebecee",
+      "control": "#dbdcde",
+      "border": "#babcbf",
+      "accent": "#2b78af",
+      "mutedForeground": "#686868",
+      "ring": "#c48327",
+      "comment": "#686868",
+      "string": "#5e7d00",
+      "number": "#956b2d",
+      "keyword": "#8664a8",
+      "function": "#2b78af",
+      "type": "#338067",
+      "variable": "#338067",
+      "error": "#b65555",
+      "success": "#5e7d00"
+    },
     "terminal": {
       "background": "#f8f9fa",
       "foreground": "#5c6166",
@@ -553,7 +694,10 @@
       ]
     },
     "piDownload": "dist/pi/ayu-light.json",
-    "supersetDownload": "dist/superset/ayu-light.json"
+    "supersetDownload": "dist/superset/ayu-light.json",
+    "chatgptDownload": "dist/chatgpt/ayu-light.txt",
+    "codexCliName": "agent-paint-ayu-light",
+    "codexCliDownload": "dist/codex-cli/agent-paint-ayu-light.tmTheme"
   },
   {
     "id": "ayu-mirage",
@@ -665,6 +809,39 @@
       "highlight": "#ffcc66",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#1f2430",
+      "foreground": "#cccac2",
+      "raised": "#242936",
+      "control": "#282e3b",
+      "border": "#171b24",
+      "accent": "#ffcc66",
+      "mutedForeground": "#828b9a",
+      "ring": "#ffcc66",
+      "diffAdded": "#d5ff80",
+      "diffRemoved": "#f28779",
+      "skill": "#dfbfff"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#ffcc66\",\"contrast\":60,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#cccac2\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#d5ff80\",\"diffRemoved\":\"#f28779\",\"skill\":\"#dfbfff\"},\"surface\":\"#1f2430\"},\"variant\":\"dark\"}",
+    "codexCli": {
+      "background": "#1f2430",
+      "foreground": "#cccac2",
+      "raised": "#242936",
+      "control": "#282e3b",
+      "border": "#171b24",
+      "accent": "#73d0ff",
+      "mutedForeground": "#828b9a",
+      "ring": "#ffcc66",
+      "comment": "#828b9a",
+      "string": "#d5ff80",
+      "number": "#ffd173",
+      "keyword": "#dfbfff",
+      "function": "#73d0ff",
+      "type": "#95e6cb",
+      "variable": "#95e6cb",
+      "error": "#f28779",
+      "success": "#d5ff80"
+    },
     "terminal": {
       "background": "#1f2430",
       "foreground": "#cccac2",
@@ -692,7 +869,10 @@
       ]
     },
     "piDownload": "dist/pi/ayu-mirage.json",
-    "supersetDownload": "dist/superset/ayu-mirage.json"
+    "supersetDownload": "dist/superset/ayu-mirage.json",
+    "chatgptDownload": "dist/chatgpt/ayu-mirage.txt",
+    "codexCliName": "agent-paint-ayu-mirage",
+    "codexCliDownload": "dist/codex-cli/agent-paint-ayu-mirage.tmTheme"
   },
   {
     "id": "catppuccin-frappe",
@@ -804,6 +984,39 @@
       "highlight": "#ca9ee6",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#303446",
+      "foreground": "#c6d0f5",
+      "raised": "#414559",
+      "control": "#51576d",
+      "border": "#626880",
+      "accent": "#ca9ee6",
+      "mutedForeground": "#a5adce",
+      "ring": "#ca9ee6",
+      "diffAdded": "#8ec772",
+      "diffRemoved": "#e67172",
+      "skill": "#f2a4db"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#ca9ee6\",\"contrast\":60,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#c6d0f5\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#8ec772\",\"diffRemoved\":\"#e67172\",\"skill\":\"#f2a4db\"},\"surface\":\"#303446\"},\"variant\":\"dark\"}",
+    "codexCli": {
+      "background": "#303446",
+      "foreground": "#c6d0f5",
+      "raised": "#414559",
+      "control": "#51576d",
+      "border": "#626880",
+      "accent": "#7b9ef0",
+      "mutedForeground": "#a5adce",
+      "ring": "#ca9ee6",
+      "comment": "#a5adce",
+      "string": "#8ec772",
+      "number": "#d9ba73",
+      "keyword": "#f2a4db",
+      "function": "#7b9ef0",
+      "type": "#5abfb5",
+      "variable": "#5abfb5",
+      "error": "#e87e7e",
+      "success": "#8ec772"
+    },
     "terminal": {
       "background": "#303446",
       "foreground": "#c6d0f5",
@@ -831,7 +1044,10 @@
       ]
     },
     "piDownload": "dist/pi/catppuccin-frappe.json",
-    "supersetDownload": "dist/superset/catppuccin-frappe.json"
+    "supersetDownload": "dist/superset/catppuccin-frappe.json",
+    "chatgptDownload": "dist/chatgpt/catppuccin-frappe.txt",
+    "codexCliName": "agent-paint-catppuccin-frappe",
+    "codexCliDownload": "dist/codex-cli/agent-paint-catppuccin-frappe.tmTheme"
   },
   {
     "id": "catppuccin-latte",
@@ -943,6 +1159,39 @@
       "highlight": "#8839ef",
       "highlightForeground": "#ffffff"
     },
+    "chatgpt": {
+      "background": "#eff1f5",
+      "foreground": "#4c4f69",
+      "raised": "#ccd0da",
+      "control": "#bcc0cc",
+      "border": "#acb0be",
+      "accent": "#8839ef",
+      "mutedForeground": "#6a6d82",
+      "ring": "#8839ef",
+      "diffAdded": "#429e37",
+      "diffRemoved": "#de293e",
+      "skill": "#ca6aac"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#8839ef\",\"contrast\":45,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#4c4f69\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#429e37\",\"diffRemoved\":\"#de293e\",\"skill\":\"#ca6aac\"},\"surface\":\"#eff1f5\"},\"variant\":\"light\"}",
+    "codexCli": {
+      "background": "#eff1f5",
+      "foreground": "#4c4f69",
+      "raised": "#ccd0da",
+      "control": "#bcc0cc",
+      "border": "#acb0be",
+      "accent": "#3e63e5",
+      "mutedForeground": "#6a6d82",
+      "ring": "#8839ef",
+      "comment": "#6a6d82",
+      "string": "#347d2c",
+      "number": "#95641c",
+      "keyword": "#a05488",
+      "function": "#3e63e5",
+      "type": "#227980",
+      "variable": "#227980",
+      "error": "#d3273b",
+      "success": "#347d2c"
+    },
     "terminal": {
       "background": "#eff1f5",
       "foreground": "#4c4f69",
@@ -970,7 +1219,10 @@
       ]
     },
     "piDownload": "dist/pi/catppuccin-latte.json",
-    "supersetDownload": "dist/superset/catppuccin-latte.json"
+    "supersetDownload": "dist/superset/catppuccin-latte.json",
+    "chatgptDownload": "dist/chatgpt/catppuccin-latte.txt",
+    "codexCliName": "agent-paint-catppuccin-latte",
+    "codexCliDownload": "dist/codex-cli/agent-paint-catppuccin-latte.tmTheme"
   },
   {
     "id": "catppuccin-macchiato",
@@ -1082,6 +1334,39 @@
       "highlight": "#c6a0f6",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#24273a",
+      "foreground": "#cad3f5",
+      "raised": "#363a4f",
+      "control": "#494d64",
+      "border": "#5b6078",
+      "accent": "#c6a0f6",
+      "mutedForeground": "#a5adcb",
+      "ring": "#c6a0f6",
+      "diffAdded": "#8ccf7f",
+      "diffRemoved": "#ec7486",
+      "skill": "#f2a9dd"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#c6a0f6\",\"contrast\":60,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#cad3f5\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#8ccf7f\",\"diffRemoved\":\"#ec7486\",\"skill\":\"#f2a9dd\"},\"surface\":\"#24273a\"},\"variant\":\"dark\"}",
+    "codexCli": {
+      "background": "#24273a",
+      "foreground": "#cad3f5",
+      "raised": "#363a4f",
+      "control": "#494d64",
+      "border": "#5b6078",
+      "accent": "#78a1f6",
+      "mutedForeground": "#a5adcb",
+      "ring": "#c6a0f6",
+      "comment": "#a5adcb",
+      "string": "#8ccf7f",
+      "number": "#e1c682",
+      "keyword": "#f2a9dd",
+      "function": "#78a1f6",
+      "type": "#63cbc0",
+      "variable": "#63cbc0",
+      "error": "#ec7486",
+      "success": "#8ccf7f"
+    },
     "terminal": {
       "background": "#24273a",
       "foreground": "#cad3f5",
@@ -1109,7 +1394,10 @@
       ]
     },
     "piDownload": "dist/pi/catppuccin-macchiato.json",
-    "supersetDownload": "dist/superset/catppuccin-macchiato.json"
+    "supersetDownload": "dist/superset/catppuccin-macchiato.json",
+    "chatgptDownload": "dist/chatgpt/catppuccin-macchiato.txt",
+    "codexCliName": "agent-paint-catppuccin-macchiato",
+    "codexCliDownload": "dist/codex-cli/agent-paint-catppuccin-macchiato.tmTheme"
   },
   {
     "id": "catppuccin-mocha",
@@ -1221,6 +1509,39 @@
       "highlight": "#cba6f7",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#1e1e2e",
+      "foreground": "#cdd6f4",
+      "raised": "#313244",
+      "control": "#45475a",
+      "border": "#585b70",
+      "accent": "#cba6f7",
+      "mutedForeground": "#a6adc8",
+      "ring": "#cba6f7",
+      "diffAdded": "#89d88b",
+      "diffRemoved": "#f37799",
+      "skill": "#f2aede"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#cba6f7\",\"contrast\":60,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#cdd6f4\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#89d88b\",\"diffRemoved\":\"#f37799\",\"skill\":\"#f2aede\"},\"surface\":\"#1e1e2e\"},\"variant\":\"dark\"}",
+    "codexCli": {
+      "background": "#1e1e2e",
+      "foreground": "#cdd6f4",
+      "raised": "#313244",
+      "control": "#45475a",
+      "border": "#585b70",
+      "accent": "#74a8fc",
+      "mutedForeground": "#a6adc8",
+      "ring": "#cba6f7",
+      "comment": "#a6adc8",
+      "string": "#89d88b",
+      "number": "#ebd391",
+      "keyword": "#f2aede",
+      "function": "#74a8fc",
+      "type": "#6bd7ca",
+      "variable": "#6bd7ca",
+      "error": "#f37799",
+      "success": "#89d88b"
+    },
     "terminal": {
       "background": "#1e1e2e",
       "foreground": "#cdd6f4",
@@ -1248,7 +1569,10 @@
       ]
     },
     "piDownload": "dist/pi/catppuccin-mocha.json",
-    "supersetDownload": "dist/superset/catppuccin-mocha.json"
+    "supersetDownload": "dist/superset/catppuccin-mocha.json",
+    "chatgptDownload": "dist/chatgpt/catppuccin-mocha.txt",
+    "codexCliName": "agent-paint-catppuccin-mocha",
+    "codexCliDownload": "dist/codex-cli/agent-paint-catppuccin-mocha.tmTheme"
   },
   {
     "id": "dracula",
@@ -1360,6 +1684,39 @@
       "highlight": "#bd93f9",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#282a36",
+      "foreground": "#f8f8f2",
+      "raised": "#31323e",
+      "control": "#3a3c47",
+      "border": "#4f515a",
+      "accent": "#bd93f9",
+      "mutedForeground": "#8390b7",
+      "ring": "#f8f8f2",
+      "diffAdded": "#69ff94",
+      "diffRemoved": "#ff6e6e",
+      "skill": "#ff92df"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#bd93f9\",\"contrast\":60,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#f8f8f2\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#69ff94\",\"diffRemoved\":\"#ff6e6e\",\"skill\":\"#ff92df\"},\"surface\":\"#282a36\"},\"variant\":\"dark\"}",
+    "codexCli": {
+      "background": "#282a36",
+      "foreground": "#f8f8f2",
+      "raised": "#31323e",
+      "control": "#3a3c47",
+      "border": "#4f515a",
+      "accent": "#d6acff",
+      "mutedForeground": "#8390b7",
+      "ring": "#f8f8f2",
+      "comment": "#8390b7",
+      "string": "#69ff94",
+      "number": "#ffffa5",
+      "keyword": "#ff92df",
+      "function": "#d6acff",
+      "type": "#a4ffff",
+      "variable": "#a4ffff",
+      "error": "#ff6e6e",
+      "success": "#69ff94"
+    },
     "terminal": {
       "background": "#282a36",
       "foreground": "#f8f8f2",
@@ -1387,7 +1744,10 @@
       ]
     },
     "piDownload": "dist/pi/dracula.json",
-    "supersetDownload": "dist/superset/dracula.json"
+    "supersetDownload": "dist/superset/dracula.json",
+    "chatgptDownload": "dist/chatgpt/dracula.txt",
+    "codexCliName": "agent-paint-dracula",
+    "codexCliDownload": "dist/codex-cli/agent-paint-dracula.tmTheme"
   },
   {
     "id": "dracula-alucard",
@@ -1499,6 +1859,39 @@
       "highlight": "#644ac9",
       "highlightForeground": "#ffffff"
     },
+    "chatgpt": {
+      "background": "#fffbeb",
+      "foreground": "#1f1f1f",
+      "raised": "#f2eedf",
+      "control": "#e1ded0",
+      "border": "#c0beb2",
+      "accent": "#644ac9",
+      "mutedForeground": "#6c664b",
+      "ring": "#644ac9",
+      "diffAdded": "#14710a",
+      "diffRemoved": "#cb3a2a",
+      "skill": "#a3144d"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#644ac9\",\"contrast\":45,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#1f1f1f\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#14710a\",\"diffRemoved\":\"#cb3a2a\",\"skill\":\"#a3144d\"},\"surface\":\"#fffbeb\"},\"variant\":\"light\"}",
+    "codexCli": {
+      "background": "#fffbeb",
+      "foreground": "#1f1f1f",
+      "raised": "#f2eedf",
+      "control": "#e1ded0",
+      "border": "#c0beb2",
+      "accent": "#644ac9",
+      "mutedForeground": "#6c664b",
+      "ring": "#644ac9",
+      "comment": "#6c664b",
+      "string": "#14710a",
+      "number": "#846e15",
+      "keyword": "#a3144d",
+      "function": "#644ac9",
+      "type": "#077f97",
+      "variable": "#077f97",
+      "error": "#cb3a2a",
+      "success": "#14710a"
+    },
     "terminal": {
       "background": "#fffbeb",
       "foreground": "#1f1f1f",
@@ -1526,7 +1919,10 @@
       ]
     },
     "piDownload": "dist/pi/dracula-alucard.json",
-    "supersetDownload": "dist/superset/dracula-alucard.json"
+    "supersetDownload": "dist/superset/dracula-alucard.json",
+    "chatgptDownload": "dist/chatgpt/dracula-alucard.txt",
+    "codexCliName": "agent-paint-dracula-alucard",
+    "codexCliDownload": "dist/codex-cli/agent-paint-dracula-alucard.tmTheme"
   },
   {
     "id": "everforest-dark",
@@ -1638,6 +2034,39 @@
       "highlight": "#a7c080",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#1e2326",
+      "foreground": "#d3c6aa",
+      "raised": "#272c2d",
+      "control": "#333636",
+      "border": "#4a4b46",
+      "accent": "#a7c080",
+      "mutedForeground": "#a6b0a0",
+      "ring": "#e69875",
+      "diffAdded": "#8da101",
+      "diffRemoved": "#f85552",
+      "skill": "#df69ba"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#a7c080\",\"contrast\":60,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#d3c6aa\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#8da101\",\"diffRemoved\":\"#f85552\",\"skill\":\"#df69ba\"},\"surface\":\"#1e2326\"},\"variant\":\"dark\"}",
+    "codexCli": {
+      "background": "#1e2326",
+      "foreground": "#d3c6aa",
+      "raised": "#272c2d",
+      "control": "#333636",
+      "border": "#4a4b46",
+      "accent": "#3a94c5",
+      "mutedForeground": "#a6b0a0",
+      "ring": "#e69875",
+      "comment": "#a6b0a0",
+      "string": "#8da101",
+      "number": "#dfa000",
+      "keyword": "#df69ba",
+      "function": "#3a94c5",
+      "type": "#35a77c",
+      "variable": "#35a77c",
+      "error": "#f85552",
+      "success": "#8da101"
+    },
     "terminal": {
       "background": "#1e2326",
       "foreground": "#d3c6aa",
@@ -1665,7 +2094,10 @@
       ]
     },
     "piDownload": "dist/pi/everforest-dark.json",
-    "supersetDownload": "dist/superset/everforest-dark.json"
+    "supersetDownload": "dist/superset/everforest-dark.json",
+    "chatgptDownload": "dist/chatgpt/everforest-dark.txt",
+    "codexCliName": "agent-paint-everforest-dark",
+    "codexCliDownload": "dist/codex-cli/agent-paint-everforest-dark.tmTheme"
   },
   {
     "id": "everforest-light",
@@ -1777,6 +2209,39 @@
       "highlight": "#7e8f01",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#efebd4",
+      "foreground": "#444f55",
+      "raised": "#e1dfca",
+      "control": "#d1cfbe",
+      "border": "#b0b1a5",
+      "accent": "#7e8f01",
+      "mutedForeground": "#666c62",
+      "ring": "#d16a20",
+      "diffAdded": "#7e8f01",
+      "diffRemoved": "#eb514e",
+      "skill": "#cc60ab"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#7e8f01\",\"contrast\":45,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#444f55\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#7e8f01\",\"diffRemoved\":\"#eb514e\",\"skill\":\"#cc60ab\"},\"surface\":\"#efebd4\"},\"variant\":\"light\"}",
+    "codexCli": {
+      "background": "#efebd4",
+      "foreground": "#444f55",
+      "raised": "#e1dfca",
+      "control": "#d1cfbe",
+      "border": "#b0b1a5",
+      "accent": "#2c7096",
+      "mutedForeground": "#666c62",
+      "ring": "#d16a20",
+      "comment": "#666c62",
+      "string": "#637001",
+      "number": "#8b6300",
+      "keyword": "#a04c86",
+      "function": "#2c7096",
+      "type": "#267759",
+      "variable": "#267759",
+      "error": "#ba403d",
+      "success": "#637001"
+    },
     "terminal": {
       "background": "#efebd4",
       "foreground": "#5c6a72",
@@ -1804,7 +2269,10 @@
       ]
     },
     "piDownload": "dist/pi/everforest-light.json",
-    "supersetDownload": "dist/superset/everforest-light.json"
+    "supersetDownload": "dist/superset/everforest-light.json",
+    "chatgptDownload": "dist/chatgpt/everforest-light.txt",
+    "codexCliName": "agent-paint-everforest-light",
+    "codexCliDownload": "dist/codex-cli/agent-paint-everforest-light.tmTheme"
   },
   {
     "id": "github-dark",
@@ -1916,6 +2384,39 @@
       "highlight": "#005cc5",
       "highlightForeground": "#ffffff"
     },
+    "chatgpt": {
+      "background": "#0d1117",
+      "foreground": "#e6edf3",
+      "raised": "#191e24",
+      "control": "#252a30",
+      "border": "#3b4046",
+      "accent": "#005cc5",
+      "mutedForeground": "#757d87",
+      "ring": "#2f81f7",
+      "diffAdded": "#56d364",
+      "diffRemoved": "#ffa198",
+      "skill": "#d2a8ff"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#005cc5\",\"contrast\":60,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#e6edf3\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#56d364\",\"diffRemoved\":\"#ffa198\",\"skill\":\"#d2a8ff\"},\"surface\":\"#0d1117\"},\"variant\":\"dark\"}",
+    "codexCli": {
+      "background": "#0d1117",
+      "foreground": "#e6edf3",
+      "raised": "#191e24",
+      "control": "#252a30",
+      "border": "#3b4046",
+      "accent": "#79c0ff",
+      "mutedForeground": "#757d87",
+      "ring": "#2f81f7",
+      "comment": "#757d87",
+      "string": "#56d364",
+      "number": "#e3b341",
+      "keyword": "#d2a8ff",
+      "function": "#79c0ff",
+      "type": "#56d4dd",
+      "variable": "#56d4dd",
+      "error": "#ffa198",
+      "success": "#56d364"
+    },
     "terminal": {
       "background": "#0d1117",
       "foreground": "#e6edf3",
@@ -1943,7 +2444,10 @@
       ]
     },
     "piDownload": "dist/pi/github-dark.json",
-    "supersetDownload": "dist/superset/github-dark.json"
+    "supersetDownload": "dist/superset/github-dark.json",
+    "chatgptDownload": "dist/chatgpt/github-dark.txt",
+    "codexCliName": "agent-paint-github-dark",
+    "codexCliDownload": "dist/codex-cli/agent-paint-github-dark.tmTheme"
   },
   {
     "id": "github-dark-dimmed",
@@ -2055,6 +2559,39 @@
       "highlight": "#326eca",
       "highlightForeground": "#ffffff"
     },
+    "chatgpt": {
+      "background": "#22272e",
+      "foreground": "#adbac7",
+      "raised": "#2a3037",
+      "control": "#333a41",
+      "border": "#474f57",
+      "accent": "#326eca",
+      "mutedForeground": "#858e98",
+      "ring": "#539bf5",
+      "diffAdded": "#6bc46d",
+      "diffRemoved": "#ff938a",
+      "skill": "#dcbdfb"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#326eca\",\"contrast\":60,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#adbac7\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#6bc46d\",\"diffRemoved\":\"#ff938a\",\"skill\":\"#dcbdfb\"},\"surface\":\"#22272e\"},\"variant\":\"dark\"}",
+    "codexCli": {
+      "background": "#22272e",
+      "foreground": "#adbac7",
+      "raised": "#2a3037",
+      "control": "#333a41",
+      "border": "#474f57",
+      "accent": "#6cb6ff",
+      "mutedForeground": "#858e98",
+      "ring": "#539bf5",
+      "comment": "#858e98",
+      "string": "#6bc46d",
+      "number": "#daaa3f",
+      "keyword": "#dcbdfb",
+      "function": "#6cb6ff",
+      "type": "#56d4dd",
+      "variable": "#56d4dd",
+      "error": "#ff938a",
+      "success": "#6bc46d"
+    },
     "terminal": {
       "background": "#22272e",
       "foreground": "#adbac7",
@@ -2082,7 +2619,10 @@
       ]
     },
     "piDownload": "dist/pi/github-dark-dimmed.json",
-    "supersetDownload": "dist/superset/github-dark-dimmed.json"
+    "supersetDownload": "dist/superset/github-dark-dimmed.json",
+    "chatgptDownload": "dist/chatgpt/github-dark-dimmed.txt",
+    "codexCliName": "agent-paint-github-dark-dimmed",
+    "codexCliDownload": "dist/codex-cli/agent-paint-github-dark-dimmed.tmTheme"
   },
   {
     "id": "github-light",
@@ -2194,6 +2734,39 @@
       "highlight": "#2188ff",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#ffffff",
+      "foreground": "#1f2328",
+      "raised": "#f1f2f2",
+      "control": "#e1e1e2",
+      "border": "#c0c1c3",
+      "accent": "#2188ff",
+      "mutedForeground": "#57606a",
+      "ring": "#0969da",
+      "diffAdded": "#1a7f37",
+      "diffRemoved": "#a40e26",
+      "skill": "#a475f9"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#2188ff\",\"contrast\":45,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#1f2328\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#1a7f37\",\"diffRemoved\":\"#a40e26\",\"skill\":\"#a475f9\"},\"surface\":\"#ffffff\"},\"variant\":\"light\"}",
+    "codexCli": {
+      "background": "#ffffff",
+      "foreground": "#1f2328",
+      "raised": "#f1f2f2",
+      "control": "#e1e1e2",
+      "border": "#c0c1c3",
+      "accent": "#1c76d9",
+      "mutedForeground": "#57606a",
+      "ring": "#0969da",
+      "comment": "#57606a",
+      "string": "#1a7f37",
+      "number": "#633c01",
+      "keyword": "#8861cf",
+      "function": "#1c76d9",
+      "type": "#2b8096",
+      "variable": "#2b8096",
+      "error": "#a40e26",
+      "success": "#1a7f37"
+    },
     "terminal": {
       "background": "#ffffff",
       "foreground": "#1f2328",
@@ -2221,7 +2794,10 @@
       ]
     },
     "piDownload": "dist/pi/github-light.json",
-    "supersetDownload": "dist/superset/github-light.json"
+    "supersetDownload": "dist/superset/github-light.json",
+    "chatgptDownload": "dist/chatgpt/github-light.txt",
+    "codexCliName": "agent-paint-github-light",
+    "codexCliDownload": "dist/codex-cli/agent-paint-github-light.tmTheme"
   },
   {
     "id": "gruvbox-dark",
@@ -2333,6 +2909,39 @@
       "highlight": "#83a598",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#282828",
+      "foreground": "#ebdbb2",
+      "raised": "#31312f",
+      "control": "#3c3b36",
+      "border": "#524f46",
+      "accent": "#83a598",
+      "mutedForeground": "#9a8c7e",
+      "ring": "#ebdbb2",
+      "diffAdded": "#b8bb26",
+      "diffRemoved": "#fb4934",
+      "skill": "#d3869b"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#83a598\",\"contrast\":60,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#ebdbb2\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#b8bb26\",\"diffRemoved\":\"#fb4934\",\"skill\":\"#d3869b\"},\"surface\":\"#282828\"},\"variant\":\"dark\"}",
+    "codexCli": {
+      "background": "#282828",
+      "foreground": "#ebdbb2",
+      "raised": "#31312f",
+      "control": "#3c3b36",
+      "border": "#524f46",
+      "accent": "#83a598",
+      "mutedForeground": "#9a8c7e",
+      "ring": "#ebdbb2",
+      "comment": "#9a8c7e",
+      "string": "#b8bb26",
+      "number": "#fabd2f",
+      "keyword": "#d3869b",
+      "function": "#83a598",
+      "type": "#8ec07c",
+      "variable": "#8ec07c",
+      "error": "#fb533f",
+      "success": "#b8bb26"
+    },
     "terminal": {
       "background": "#282828",
       "foreground": "#ebdbb2",
@@ -2360,7 +2969,10 @@
       ]
     },
     "piDownload": "dist/pi/gruvbox-dark.json",
-    "supersetDownload": "dist/superset/gruvbox-dark.json"
+    "supersetDownload": "dist/superset/gruvbox-dark.json",
+    "chatgptDownload": "dist/chatgpt/gruvbox-dark.txt",
+    "codexCliName": "agent-paint-gruvbox-dark",
+    "codexCliDownload": "dist/codex-cli/agent-paint-gruvbox-dark.tmTheme"
   },
   {
     "id": "gruvbox-light",
@@ -2472,6 +3084,39 @@
       "highlight": "#076678",
       "highlightForeground": "#ffffff"
     },
+    "chatgpt": {
+      "background": "#fbf1c7",
+      "foreground": "#3c3836",
+      "raised": "#eee4bd",
+      "control": "#ded4b1",
+      "border": "#beb598",
+      "accent": "#076678",
+      "mutedForeground": "#786c60",
+      "ring": "#3c3836",
+      "diffAdded": "#79740e",
+      "diffRemoved": "#9d0006",
+      "skill": "#8f3f71"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#076678\",\"contrast\":45,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#3c3836\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#79740e\",\"diffRemoved\":\"#9d0006\",\"skill\":\"#8f3f71\"},\"surface\":\"#fbf1c7\"},\"variant\":\"light\"}",
+    "codexCli": {
+      "background": "#fbf1c7",
+      "foreground": "#3c3836",
+      "raised": "#eee4bd",
+      "control": "#ded4b1",
+      "border": "#beb598",
+      "accent": "#076678",
+      "mutedForeground": "#786c60",
+      "ring": "#3c3836",
+      "comment": "#786c60",
+      "string": "#75700e",
+      "number": "#976311",
+      "keyword": "#8f3f71",
+      "function": "#076678",
+      "type": "#417957",
+      "variable": "#417957",
+      "error": "#9d0006",
+      "success": "#75700e"
+    },
     "terminal": {
       "background": "#fbf1c7",
       "foreground": "#3c3836",
@@ -2499,7 +3144,10 @@
       ]
     },
     "piDownload": "dist/pi/gruvbox-light.json",
-    "supersetDownload": "dist/superset/gruvbox-light.json"
+    "supersetDownload": "dist/superset/gruvbox-light.json",
+    "chatgptDownload": "dist/chatgpt/gruvbox-light.txt",
+    "codexCliName": "agent-paint-gruvbox-light",
+    "codexCliDownload": "dist/codex-cli/agent-paint-gruvbox-light.tmTheme"
   },
   {
     "id": "kanagawa-wave",
@@ -2611,6 +3259,39 @@
       "highlight": "#938aa9",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#1f1f28",
+      "foreground": "#dcd7ba",
+      "raised": "#292830",
+      "control": "#333338",
+      "border": "#4a4849",
+      "accent": "#938aa9",
+      "mutedForeground": "#878780",
+      "ring": "#dcd7ba",
+      "diffAdded": "#98bb6c",
+      "diffRemoved": "#e82424",
+      "skill": "#938aa9"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#938aa9\",\"contrast\":60,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#dcd7ba\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#98bb6c\",\"diffRemoved\":\"#e82424\",\"skill\":\"#938aa9\"},\"surface\":\"#1f1f28\"},\"variant\":\"dark\"}",
+    "codexCli": {
+      "background": "#1f1f28",
+      "foreground": "#dcd7ba",
+      "raised": "#292830",
+      "control": "#333338",
+      "border": "#4a4849",
+      "accent": "#7fb4ca",
+      "mutedForeground": "#878780",
+      "ring": "#dcd7ba",
+      "comment": "#878780",
+      "string": "#98bb6c",
+      "number": "#e6c384",
+      "keyword": "#938aa9",
+      "function": "#7fb4ca",
+      "type": "#7aa89f",
+      "variable": "#7aa89f",
+      "error": "#ec4f4f",
+      "success": "#98bb6c"
+    },
     "terminal": {
       "background": "#1f1f28",
       "foreground": "#dcd7ba",
@@ -2638,7 +3319,10 @@
       ]
     },
     "piDownload": "dist/pi/kanagawa-wave.json",
-    "supersetDownload": "dist/superset/kanagawa-wave.json"
+    "supersetDownload": "dist/superset/kanagawa-wave.json",
+    "chatgptDownload": "dist/chatgpt/kanagawa-wave.txt",
+    "codexCliName": "agent-paint-kanagawa-wave",
+    "codexCliDownload": "dist/codex-cli/agent-paint-kanagawa-wave.tmTheme"
   },
   {
     "id": "light-owl",
@@ -2750,6 +3434,39 @@
       "highlight": "#2aa298",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#fbfbfb",
+      "foreground": "#403f53",
+      "raised": "#eeeeef",
+      "control": "#dedde1",
+      "border": "#bebdc4",
+      "accent": "#2aa298",
+      "mutedForeground": "#6f7482",
+      "ring": "#403f53",
+      "diffAdded": "#08916a",
+      "diffRemoved": "#de3d3b",
+      "skill": "#d6438a"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#2aa298\",\"contrast\":45,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#403f53\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#08916a\",\"diffRemoved\":\"#de3d3b\",\"skill\":\"#d6438a\"},\"surface\":\"#fbfbfb\"},\"variant\":\"light\"}",
+    "codexCli": {
+      "background": "#fbfbfb",
+      "foreground": "#403f53",
+      "raised": "#eeeeef",
+      "control": "#dedde1",
+      "border": "#bebdc4",
+      "accent": "#2279b8",
+      "mutedForeground": "#6f7482",
+      "ring": "#403f53",
+      "comment": "#6f7482",
+      "string": "#078461",
+      "number": "#907001",
+      "keyword": "#c83f81",
+      "function": "#2279b8",
+      "type": "#22817a",
+      "variable": "#22817a",
+      "error": "#d53a39",
+      "success": "#078461"
+    },
     "terminal": {
       "background": "#fbfbfb",
       "foreground": "#403f53",
@@ -2777,7 +3494,10 @@
       ]
     },
     "piDownload": "dist/pi/light-owl.json",
-    "supersetDownload": "dist/superset/light-owl.json"
+    "supersetDownload": "dist/superset/light-owl.json",
+    "chatgptDownload": "dist/chatgpt/light-owl.txt",
+    "codexCliName": "agent-paint-light-owl",
+    "codexCliDownload": "dist/codex-cli/agent-paint-light-owl.tmTheme"
   },
   {
     "id": "night-owl",
@@ -2889,6 +3609,39 @@
       "highlight": "#7e57c2",
       "highlightForeground": "#ffffff"
     },
+    "chatgpt": {
+      "background": "#011627",
+      "foreground": "#d6deeb",
+      "raised": "#0d2232",
+      "control": "#1a2e3e",
+      "border": "#314454",
+      "accent": "#7e57c2",
+      "mutedForeground": "#7e7e7e",
+      "ring": "#7e57c2",
+      "diffAdded": "#22da6e",
+      "diffRemoved": "#ef5350",
+      "skill": "#c792ea"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#7e57c2\",\"contrast\":60,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#d6deeb\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#22da6e\",\"diffRemoved\":\"#ef5350\",\"skill\":\"#c792ea\"},\"surface\":\"#011627\"},\"variant\":\"dark\"}",
+    "codexCli": {
+      "background": "#011627",
+      "foreground": "#d6deeb",
+      "raised": "#0d2232",
+      "control": "#1a2e3e",
+      "border": "#314454",
+      "accent": "#82aaff",
+      "mutedForeground": "#7e7e7e",
+      "ring": "#7e57c2",
+      "comment": "#7e7e7e",
+      "string": "#22da6e",
+      "number": "#ffeb95",
+      "keyword": "#c792ea",
+      "function": "#82aaff",
+      "type": "#7fdbca",
+      "variable": "#7fdbca",
+      "error": "#ef5350",
+      "success": "#22da6e"
+    },
     "terminal": {
       "background": "#011627",
       "foreground": "#d6deeb",
@@ -2916,7 +3669,10 @@
       ]
     },
     "piDownload": "dist/pi/night-owl.json",
-    "supersetDownload": "dist/superset/night-owl.json"
+    "supersetDownload": "dist/superset/night-owl.json",
+    "chatgptDownload": "dist/chatgpt/night-owl.txt",
+    "codexCliName": "agent-paint-night-owl",
+    "codexCliDownload": "dist/codex-cli/agent-paint-night-owl.tmTheme"
   },
   {
     "id": "nord",
@@ -3028,6 +3784,39 @@
       "highlight": "#88c0d0",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#2e3440",
+      "foreground": "#e5e9f0",
+      "raised": "#3b4252",
+      "control": "#434c5e",
+      "border": "#4c566a",
+      "accent": "#88c0d0",
+      "mutedForeground": "#81a1c1",
+      "ring": "#88c0d0",
+      "diffAdded": "#a3be8c",
+      "diffRemoved": "#bf616a",
+      "skill": "#b48ead"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#88c0d0\",\"contrast\":60,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#e5e9f0\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#a3be8c\",\"diffRemoved\":\"#bf616a\",\"skill\":\"#b48ead\"},\"surface\":\"#2e3440\"},\"variant\":\"dark\"}",
+    "codexCli": {
+      "background": "#2e3440",
+      "foreground": "#e5e9f0",
+      "raised": "#3b4252",
+      "control": "#434c5e",
+      "border": "#4c566a",
+      "accent": "#81a1c1",
+      "mutedForeground": "#81a1c1",
+      "ring": "#88c0d0",
+      "comment": "#81a1c1",
+      "string": "#a3be8c",
+      "number": "#ebcb8b",
+      "keyword": "#b590af",
+      "function": "#81a1c1",
+      "type": "#8fbcbb",
+      "variable": "#8fbcbb",
+      "error": "#cf888f",
+      "success": "#a3be8c"
+    },
     "terminal": {
       "background": "#2e3440",
       "foreground": "#d8dee9",
@@ -3055,7 +3844,10 @@
       ]
     },
     "piDownload": "dist/pi/nord.json",
-    "supersetDownload": "dist/superset/nord.json"
+    "supersetDownload": "dist/superset/nord.json",
+    "chatgptDownload": "dist/chatgpt/nord.txt",
+    "codexCliName": "agent-paint-nord",
+    "codexCliDownload": "dist/codex-cli/agent-paint-nord.tmTheme"
   },
   {
     "id": "rose-pine",
@@ -3167,6 +3959,39 @@
       "highlight": "#c4a7e7",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#191724",
+      "foreground": "#e0def4",
+      "raised": "#24222f",
+      "control": "#2f2d3a",
+      "border": "#444250",
+      "accent": "#c4a7e7",
+      "mutedForeground": "#817e96",
+      "ring": "#e0def4",
+      "diffAdded": "#31748f",
+      "diffRemoved": "#eb6f92",
+      "skill": "#c4a7e7"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#c4a7e7\",\"contrast\":60,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#e0def4\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#31748f\",\"diffRemoved\":\"#eb6f92\",\"skill\":\"#c4a7e7\"},\"surface\":\"#191724\"},\"variant\":\"dark\"}",
+    "codexCli": {
+      "background": "#191724",
+      "foreground": "#e0def4",
+      "raised": "#24222f",
+      "control": "#2f2d3a",
+      "border": "#444250",
+      "accent": "#9ccfd8",
+      "mutedForeground": "#817e96",
+      "ring": "#e0def4",
+      "comment": "#817e96",
+      "string": "#4f889f",
+      "number": "#f6c177",
+      "keyword": "#c4a7e7",
+      "function": "#9ccfd8",
+      "type": "#ebbcba",
+      "variable": "#ebbcba",
+      "error": "#eb6f92",
+      "success": "#4f889f"
+    },
     "terminal": {
       "background": "#191724",
       "foreground": "#e0def4",
@@ -3194,7 +4019,10 @@
       ]
     },
     "piDownload": "dist/pi/rose-pine.json",
-    "supersetDownload": "dist/superset/rose-pine.json"
+    "supersetDownload": "dist/superset/rose-pine.json",
+    "chatgptDownload": "dist/chatgpt/rose-pine.txt",
+    "codexCliName": "agent-paint-rose-pine",
+    "codexCliDownload": "dist/codex-cli/agent-paint-rose-pine.tmTheme"
   },
   {
     "id": "rose-pine-dawn",
@@ -3306,6 +4134,39 @@
       "highlight": "#907aa9",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#faf4ed",
+      "foreground": "#534f74",
+      "raised": "#ede7e4",
+      "control": "#ddd7d8",
+      "border": "#bcb7c0",
+      "accent": "#907aa9",
+      "mutedForeground": "#726e7c",
+      "ring": "#575279",
+      "diffAdded": "#286983",
+      "diffRemoved": "#b4637a",
+      "skill": "#907aa9"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#907aa9\",\"contrast\":45,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#534f74\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#286983\",\"diffRemoved\":\"#b4637a\",\"skill\":\"#907aa9\"},\"surface\":\"#faf4ed\"},\"variant\":\"light\"}",
+    "codexCli": {
+      "background": "#faf4ed",
+      "foreground": "#534f74",
+      "raised": "#ede7e4",
+      "control": "#ddd7d8",
+      "border": "#bcb7c0",
+      "accent": "#467881",
+      "mutedForeground": "#726e7c",
+      "ring": "#575279",
+      "comment": "#726e7c",
+      "string": "#286983",
+      "number": "#986622",
+      "keyword": "#7b6991",
+      "function": "#467881",
+      "type": "#9e5f5d",
+      "variable": "#9e5f5d",
+      "error": "#a45a6f",
+      "success": "#286983"
+    },
     "terminal": {
       "background": "#faf4ed",
       "foreground": "#575279",
@@ -3333,7 +4194,10 @@
       ]
     },
     "piDownload": "dist/pi/rose-pine-dawn.json",
-    "supersetDownload": "dist/superset/rose-pine-dawn.json"
+    "supersetDownload": "dist/superset/rose-pine-dawn.json",
+    "chatgptDownload": "dist/chatgpt/rose-pine-dawn.txt",
+    "codexCliName": "agent-paint-rose-pine-dawn",
+    "codexCliDownload": "dist/codex-cli/agent-paint-rose-pine-dawn.tmTheme"
   },
   {
     "id": "rose-pine-moon",
@@ -3445,6 +4309,39 @@
       "highlight": "#c4a7e7",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#232136",
+      "foreground": "#e0def4",
+      "raised": "#2c2a3f",
+      "control": "#36344a",
+      "border": "#4b495f",
+      "accent": "#c4a7e7",
+      "mutedForeground": "#8b879e",
+      "ring": "#e0def4",
+      "diffAdded": "#3e8fb0",
+      "diffRemoved": "#eb6f92",
+      "skill": "#c4a7e7"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#c4a7e7\",\"contrast\":60,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#e0def4\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#3e8fb0\",\"diffRemoved\":\"#eb6f92\",\"skill\":\"#c4a7e7\"},\"surface\":\"#232136\"},\"variant\":\"dark\"}",
+    "codexCli": {
+      "background": "#232136",
+      "foreground": "#e0def4",
+      "raised": "#2c2a3f",
+      "control": "#36344a",
+      "border": "#4b495f",
+      "accent": "#9ccfd8",
+      "mutedForeground": "#8b879e",
+      "ring": "#e0def4",
+      "comment": "#8b879e",
+      "string": "#4493b2",
+      "number": "#f6c177",
+      "keyword": "#c4a7e7",
+      "function": "#9ccfd8",
+      "type": "#ea9a97",
+      "variable": "#ea9a97",
+      "error": "#eb6f92",
+      "success": "#4493b2"
+    },
     "terminal": {
       "background": "#232136",
       "foreground": "#e0def4",
@@ -3472,7 +4369,10 @@
       ]
     },
     "piDownload": "dist/pi/rose-pine-moon.json",
-    "supersetDownload": "dist/superset/rose-pine-moon.json"
+    "supersetDownload": "dist/superset/rose-pine-moon.json",
+    "chatgptDownload": "dist/chatgpt/rose-pine-moon.txt",
+    "codexCliName": "agent-paint-rose-pine-moon",
+    "codexCliDownload": "dist/codex-cli/agent-paint-rose-pine-moon.tmTheme"
   },
   {
     "id": "solarized-dark",
@@ -3584,6 +4484,39 @@
       "highlight": "#268bd2",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#002b36",
+      "foreground": "#a8b4b5",
+      "raised": "#0a343e",
+      "control": "#173e48",
+      "border": "#31535b",
+      "accent": "#268bd2",
+      "mutedForeground": "#749299",
+      "ring": "#839496",
+      "diffAdded": "#5d737a",
+      "diffRemoved": "#cb4b16",
+      "skill": "#6c71c4"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#268bd2\",\"contrast\":60,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#a8b4b5\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#5d737a\",\"diffRemoved\":\"#cb4b16\",\"skill\":\"#6c71c4\"},\"surface\":\"#002b36\"},\"variant\":\"dark\"}",
+    "codexCli": {
+      "background": "#002b36",
+      "foreground": "#a8b4b5",
+      "raised": "#0a343e",
+      "control": "#173e48",
+      "border": "#31535b",
+      "accent": "#839496",
+      "mutedForeground": "#749299",
+      "ring": "#839496",
+      "comment": "#749299",
+      "string": "#7f9095",
+      "number": "#7d9096",
+      "keyword": "#8287cd",
+      "function": "#839496",
+      "type": "#93a1a1",
+      "variable": "#93a1a1",
+      "error": "#d67147",
+      "success": "#7f9095"
+    },
     "terminal": {
       "background": "#002b36",
       "foreground": "#839496",
@@ -3611,7 +4544,10 @@
       ]
     },
     "piDownload": "dist/pi/solarized-dark.json",
-    "supersetDownload": "dist/superset/solarized-dark.json"
+    "supersetDownload": "dist/superset/solarized-dark.json",
+    "chatgptDownload": "dist/chatgpt/solarized-dark.txt",
+    "codexCliName": "agent-paint-solarized-dark",
+    "codexCliDownload": "dist/codex-cli/agent-paint-solarized-dark.tmTheme"
   },
   {
     "id": "solarized-light",
@@ -3723,6 +4659,39 @@
       "highlight": "#268bd2",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#fdf6e3",
+      "foreground": "#47565c",
+      "raised": "#efe9d8",
+      "control": "#dddacc",
+      "border": "#b9bbb1",
+      "accent": "#268bd2",
+      "mutedForeground": "#002b36",
+      "ring": "#657b83",
+      "diffAdded": "#586e75",
+      "diffRemoved": "#cb4b16",
+      "skill": "#6c71c4"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#268bd2\",\"contrast\":45,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#47565c\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#586e75\",\"diffRemoved\":\"#cb4b16\",\"skill\":\"#6c71c4\"},\"surface\":\"#fdf6e3\"},\"variant\":\"light\"}",
+    "codexCli": {
+      "background": "#fdf6e3",
+      "foreground": "#47565c",
+      "raised": "#efe9d8",
+      "control": "#dddacc",
+      "border": "#b9bbb1",
+      "accent": "#667475",
+      "mutedForeground": "#002b36",
+      "ring": "#657b83",
+      "comment": "#002b36",
+      "string": "#586e75",
+      "number": "#60747c",
+      "keyword": "#666ab8",
+      "function": "#667475",
+      "type": "#697373",
+      "variable": "#697373",
+      "error": "#c44915",
+      "success": "#586e75"
+    },
     "terminal": {
       "background": "#fdf6e3",
       "foreground": "#657b83",
@@ -3750,7 +4719,10 @@
       ]
     },
     "piDownload": "dist/pi/solarized-light.json",
-    "supersetDownload": "dist/superset/solarized-light.json"
+    "supersetDownload": "dist/superset/solarized-light.json",
+    "chatgptDownload": "dist/chatgpt/solarized-light.txt",
+    "codexCliName": "agent-paint-solarized-light",
+    "codexCliDownload": "dist/codex-cli/agent-paint-solarized-light.tmTheme"
   },
   {
     "id": "tokyo-night-night",
@@ -3862,6 +4834,39 @@
       "highlight": "#7aa2f7",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#1a1b26",
+      "foreground": "#c0caf5",
+      "raised": "#232531",
+      "control": "#2d303e",
+      "border": "#414557",
+      "accent": "#7aa2f7",
+      "mutedForeground": "#7e8298",
+      "ring": "#c0caf5",
+      "diffAdded": "#9ece6a",
+      "diffRemoved": "#f7768e",
+      "skill": "#bb9af7"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#7aa2f7\",\"contrast\":60,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#c0caf5\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#9ece6a\",\"diffRemoved\":\"#f7768e\",\"skill\":\"#bb9af7\"},\"surface\":\"#1a1b26\"},\"variant\":\"dark\"}",
+    "codexCli": {
+      "background": "#1a1b26",
+      "foreground": "#c0caf5",
+      "raised": "#232531",
+      "control": "#2d303e",
+      "border": "#414557",
+      "accent": "#7aa2f7",
+      "mutedForeground": "#7e8298",
+      "ring": "#c0caf5",
+      "comment": "#7e8298",
+      "string": "#9ece6a",
+      "number": "#e0af68",
+      "keyword": "#bb9af7",
+      "function": "#7aa2f7",
+      "type": "#7dcfff",
+      "variable": "#7dcfff",
+      "error": "#f7768e",
+      "success": "#9ece6a"
+    },
     "terminal": {
       "background": "#1a1b26",
       "foreground": "#c0caf5",
@@ -3889,7 +4894,10 @@
       ]
     },
     "piDownload": "dist/pi/tokyo-night-night.json",
-    "supersetDownload": "dist/superset/tokyo-night-night.json"
+    "supersetDownload": "dist/superset/tokyo-night-night.json",
+    "chatgptDownload": "dist/chatgpt/tokyo-night-night.txt",
+    "codexCliName": "agent-paint-tokyo-night-night",
+    "codexCliDownload": "dist/codex-cli/agent-paint-tokyo-night-night.tmTheme"
   },
   {
     "id": "tokyo-night-day",
@@ -4001,6 +5009,39 @@
       "highlight": "#2e7de9",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#e1e2e7",
+      "foreground": "#28458a",
+      "raised": "#d3d6e0",
+      "control": "#c2c7d7",
+      "border": "#9ea9c6",
+      "accent": "#2e7de9",
+      "mutedForeground": "#616477",
+      "ring": "#3760bf",
+      "diffAdded": "#587539",
+      "diffRemoved": "#f52a65",
+      "skill": "#9854f1"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#2e7de9\",\"contrast\":45,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#28458a\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#587539\",\"diffRemoved\":\"#f52a65\",\"skill\":\"#9854f1\"},\"surface\":\"#e1e2e7\"},\"variant\":\"light\"}",
+    "codexCli": {
+      "background": "#e1e2e7",
+      "foreground": "#28458a",
+      "raised": "#d3d6e0",
+      "control": "#c2c7d7",
+      "border": "#9ea9c6",
+      "accent": "#2564b9",
+      "mutedForeground": "#616477",
+      "ring": "#3760bf",
+      "comment": "#616477",
+      "string": "#526d35",
+      "number": "#7d6037",
+      "keyword": "#7e46c9",
+      "function": "#2564b9",
+      "type": "#006d92",
+      "variable": "#006d92",
+      "error": "#c12150",
+      "success": "#526d35"
+    },
     "terminal": {
       "background": "#e1e2e7",
       "foreground": "#3760bf",
@@ -4028,7 +5069,10 @@
       ]
     },
     "piDownload": "dist/pi/tokyo-night-day.json",
-    "supersetDownload": "dist/superset/tokyo-night-day.json"
+    "supersetDownload": "dist/superset/tokyo-night-day.json",
+    "chatgptDownload": "dist/chatgpt/tokyo-night-day.txt",
+    "codexCliName": "agent-paint-tokyo-night-day",
+    "codexCliDownload": "dist/codex-cli/agent-paint-tokyo-night-day.tmTheme"
   },
   {
     "id": "tokyo-night-storm",
@@ -4140,6 +5184,39 @@
       "highlight": "#7aa2f7",
       "highlightForeground": "#000000"
     },
+    "chatgpt": {
+      "background": "#24283b",
+      "foreground": "#c0caf5",
+      "raised": "#2c3045",
+      "control": "#363a50",
+      "border": "#494f67",
+      "accent": "#7aa2f7",
+      "mutedForeground": "#8a8fa4",
+      "ring": "#c0caf5",
+      "diffAdded": "#9ece6a",
+      "diffRemoved": "#f7768e",
+      "skill": "#bb9af7"
+    },
+    "chatgptImport": "codex-theme-v1:{\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#7aa2f7\",\"contrast\":60,\"fonts\":{\"code\":null,\"ui\":null},\"ink\":\"#c0caf5\",\"opaqueWindows\":true,\"semanticColors\":{\"diffAdded\":\"#9ece6a\",\"diffRemoved\":\"#f7768e\",\"skill\":\"#bb9af7\"},\"surface\":\"#24283b\"},\"variant\":\"dark\"}",
+    "codexCli": {
+      "background": "#24283b",
+      "foreground": "#c0caf5",
+      "raised": "#2c3045",
+      "control": "#363a50",
+      "border": "#494f67",
+      "accent": "#7aa2f7",
+      "mutedForeground": "#8a8fa4",
+      "ring": "#c0caf5",
+      "comment": "#8a8fa4",
+      "string": "#9ece6a",
+      "number": "#e0af68",
+      "keyword": "#bb9af7",
+      "function": "#7aa2f7",
+      "type": "#7dcfff",
+      "variable": "#7dcfff",
+      "error": "#f7768e",
+      "success": "#9ece6a"
+    },
     "terminal": {
       "background": "#24283b",
       "foreground": "#c0caf5",
@@ -4167,6 +5244,9 @@
       ]
     },
     "piDownload": "dist/pi/tokyo-night-storm.json",
-    "supersetDownload": "dist/superset/tokyo-night-storm.json"
+    "supersetDownload": "dist/superset/tokyo-night-storm.json",
+    "chatgptDownload": "dist/chatgpt/tokyo-night-storm.txt",
+    "codexCliName": "agent-paint-tokyo-night-storm",
+    "codexCliDownload": "dist/codex-cli/agent-paint-tokyo-night-storm.tmTheme"
   }
 ]

@@ -3,28 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Agent Paint brings popular color schemes to coding-agent harnesses and development environments.">
+  <meta name="description" content="Agent Paint brings popular color schemes to Paseo, Pi, Superset, ChatGPT, and Codex CLI.">
   <meta name="color-scheme" content="dark light">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Agent Paint">
   <meta property="og:title" content="Agent Paint — Themes for coding agents">
-  <meta property="og:description" content="Popular color schemes for coding agents, available for Paseo, Pi, and Superset.">
+  <meta property="og:description" content="Popular color schemes for Paseo, Pi, Superset, ChatGPT, and Codex CLI.">
   <meta property="og:url" content="https://jzlosman.github.io/agent-paint/">
-  <meta property="og:image" content="https://jzlosman.github.io/agent-paint/agent-paint-open-graph.png">
+  <meta property="og:image" content="https://jzlosman.github.io/agent-paint/agent-paint-open-graph.png?v=5-targets">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1280">
   <meta property="og:image:height" content="640">
-  <meta property="og:image:alt" content="Agent Paint paintbrush logo and color swatches">
+  <meta property="og:image:alt" content="Agent Paint themes for Paseo, Pi, Superset, ChatGPT, and Codex CLI">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Agent Paint — Themes for coding agents">
-  <meta name="twitter:description" content="Popular color schemes for coding agents, available for Paseo, Pi, and Superset.">
-  <meta name="twitter:image" content="https://jzlosman.github.io/agent-paint/agent-paint-open-graph.png">
-  <meta name="twitter:image:alt" content="Agent Paint paintbrush logo and color swatches">
+  <meta name="twitter:description" content="Popular color schemes for Paseo, Pi, Superset, ChatGPT, and Codex CLI.">
+  <meta name="twitter:image" content="https://jzlosman.github.io/agent-paint/agent-paint-open-graph.png?v=5-targets">
+  <meta name="twitter:image:alt" content="Agent Paint themes for Paseo, Pi, Superset, ChatGPT, and Codex CLI">
   <title>Agent Paint — Themes for coding agents</title>
   <link rel="canonical" href="https://jzlosman.github.io/agent-paint/">
   <link rel="icon" href="favicon.png" type="image/png">
-  <link rel="stylesheet" href="styles.css?v=agent-paint-2">
-  <script type="module" src="app.js?v=agent-paint-2"></script>
+  <link rel="stylesheet" href="styles.css?v=agent-paint-3">
+  <script type="module" src="app.js?v=agent-paint-3"></script>
 </head>
 <body>
   <!--
@@ -52,7 +52,7 @@
       <img class="intro-logo" src="agent-paint-logo.png" alt="" width="512" height="512">
       <div class="intro-copy">
         <h1 id="page-title">Agent Paint</h1>
-        <p>Popular color schemes for agent harnesses and agent development environments. Pick a theme for Paseo, Pi, or Superset, then let your coding agent apply it.</p>
+        <p>Popular color schemes for agent harnesses and agent development environments. Pick a theme for one of five supported targets, then let your coding agent apply it.</p>
       </div>
     </section>
 
@@ -66,7 +66,7 @@
           <span>INSTALL_PROMPT.txt</span>
           <button class="copy-button copy-button--quiet" id="copy-general-prompt" type="button">Copy prompt</button>
         </div>
-        <pre id="general-prompt">Read https://github.com/jzlosman/agent-paint/blob/main/README.md. Install the [THEME NAME] theme for [PI, SUPERSET, OR PASEO]. Follow the repository instructions for that target. Review the file or plugin before installing it, preserve my existing settings, and ask before enabling plugins or changing the active theme.</pre>
+        <pre id="general-prompt">Read https://github.com/jzlosman/agent-paint/blob/main/README.md. Install the [THEME NAME] theme for [PASEO, PI, SUPERSET, CHATGPT, OR CODEX CLI]. Follow the repository instructions for that target. Review the file or plugin before installing it, preserve my existing settings, and ask before enabling plugins or changing the active theme.</pre>
       </div>
     </section>
 
@@ -76,6 +76,8 @@
         <button class="target-button is-active" type="button" data-target="paseo" aria-pressed="true">Paseo</button>
         <button class="target-button" type="button" data-target="pi" aria-pressed="false">Pi</button>
         <button class="target-button" type="button" data-target="superset" aria-pressed="false">Superset</button>
+        <button class="target-button" type="button" data-target="chatgpt" aria-pressed="false">ChatGPT</button>
+        <button class="target-button" type="button" data-target="codex-cli" aria-pressed="false">Codex CLI</button>
       </div>
       <label class="search-control">
         <span class="control-label">Find a theme</span>
@@ -106,13 +108,14 @@
       </div>
       <div class="selection-actions">
         <a class="download-link" id="theme-download" href="#">Download theme</a>
+        <button class="copy-button" id="copy-theme-value" type="button" hidden>Copy theme</button>
         <button class="copy-button" id="copy-theme-prompt" type="button">Copy install prompt</button>
       </div>
     </section>
 
     <section class="method" aria-labelledby="method-title">
-      <h2 id="method-title">One palette, three native themes.</h2>
-      <p>Agent Paint starts with terminal colors and generates native files for Paseo, Pi, and Superset. The previews above use the same checked-in colors you install.</p>
+      <h2 id="method-title">One palette, five targets.</h2>
+      <p>Agent Paint generates native files or import strings for Paseo, Pi, Superset, ChatGPT, and Codex CLI. The previews above use the same checked-in colors you install.</p>
     </section>
   </main>
 

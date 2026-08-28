@@ -131,7 +131,7 @@ main, footer {
 
 .control-bus {
   display: grid;
-  grid-template-columns: minmax(420px, auto) minmax(240px, 1fr) 170px;
+  grid-template-columns: minmax(570px, auto) minmax(240px, 1fr) 170px;
   gap: 1px;
   border: 1px solid var(--line-bright);
   background: var(--line-bright);
@@ -314,6 +314,7 @@ main, footer {
 .selection-panel h2 { margin: 0; font-size: 22px; }
 .selection-panel #selection-description { margin: 6px 0 0; color: var(--muted); font-size: 13px; }
 .selection-actions { display: flex; gap: 10px; flex: none; }
+.selection-actions [hidden] { display: none; }
 
 .download-link, .copy-button {
   display: inline-flex;
@@ -394,9 +395,10 @@ footer a { color: var(--muted); }
   .intro h1 { margin-bottom: 16px; font-size: clamp(43px, 13.5vw, 58px); }
   .intro-copy > p { font-size: 16px; line-height: 1.5; }
   .control-bus { grid-template-columns: minmax(0, 1fr) 122px; }
-  .target-control { display: grid; grid-column: 1 / -1; grid-template-columns: repeat(3, 1fr); }
+  .target-control { display: grid; grid-column: 1 / -1; grid-template-columns: repeat(6, 1fr); }
   .target-control .control-label { grid-column: 1 / -1; }
-  .target-button { min-width: 0; width: auto; padding-inline: 6px; }
+  .target-button { grid-column: span 2; min-width: 0; width: auto; padding-inline: 6px; border-right-width: 1px; }
+  .target-button:nth-of-type(4), .target-button:nth-of-type(5) { grid-column: span 3; }
   .search-control { min-width: 0; }
   .appearance-control { min-width: 0; padding-inline: 12px; }
   .gallery-status { display: block; }

@@ -1,10 +1,12 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 import {
+  buildChatGptThemeString,
   buildPiTheme,
   buildSiteCatalog,
   buildSupersetTheme,
   loadThemes,
+  renderCodexCliTheme,
   renderPlugin,
   renderPreview,
 } from "./theme-pack.mjs";
@@ -19,6 +21,8 @@ const generatedFiles = [
   ...themes.flatMap((theme) => [
     [new URL(`dist/pi/${theme.id}.json`, root), `${JSON.stringify(buildPiTheme(theme), null, 2)}\n`],
     [new URL(`dist/superset/${theme.id}.json`, root), `${JSON.stringify(buildSupersetTheme(theme), null, 2)}\n`],
+    [new URL(`dist/chatgpt/${theme.id}.txt`, root), `${buildChatGptThemeString(theme)}\n`],
+    [new URL(`dist/codex-cli/agent-paint-${theme.id}.tmTheme`, root), renderCodexCliTheme(theme)],
   ]),
   [
     new URL("dist/superset/all-themes.json", root),
@@ -45,8 +49,10 @@ if (process.argv.includes("--check")) {
     mkdir(new URL("docs/", root), { recursive: true }),
     mkdir(new URL("dist/pi/", root), { recursive: true }),
     mkdir(new URL("dist/superset/", root), { recursive: true }),
+    mkdir(new URL("dist/chatgpt/", root), { recursive: true }),
+    mkdir(new URL("dist/codex-cli/", root), { recursive: true }),
     mkdir(new URL("site/", root), { recursive: true }),
   ]);
   await Promise.all(generatedFiles.map(([url, contents]) => writeFile(url, contents)));
-  console.log(`Generated Paseo, Pi, Superset, and preview files for ${themes.length} themes.`);
+  console.log(`Generated Paseo, Pi, Superset, ChatGPT, Codex CLI, and preview files for ${themes.length} themes.`);
 }

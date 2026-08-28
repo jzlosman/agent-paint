@@ -113,7 +113,7 @@ components:
 
 The interface is an engineered wall for comparing real outputs, not a campaign around color. Graphite-dark framing, measured labels, tight borders, and direct controls create a quiet instrument panel; the actual generated theme specimens carry the visual energy and remain the subject.
 
-The mood is engineered, measured, color-accurate, and direct. Controls should recede until needed, while truthful differences between Paseo, Pi, and Superset outputs stay vivid and inspectable. The system rejects generic marketing hero cards, decorative fake previews, neon or glow-heavy terminal cosplay, and any flow that hides installation behind the gallery.
+The mood is engineered, measured, color-accurate, and direct. Controls should recede until needed, while truthful differences between Paseo, Pi, Superset, ChatGPT, and Codex CLI outputs stay vivid and inspectable. The system rejects generic marketing hero cards, decorative fake previews, neon or glow-heavy terminal cosplay, and any flow that hides installation behind the gallery.
 
 **Key Characteristics:**
 - Graphite-dark, high-clarity application framing.
@@ -161,7 +161,7 @@ The shell uses a cool graphite neutral stack and one precise calibration-blue fo
 
 The frame uses a maximum width of 1540px with 24px side gutters on large screens and 14px gutters below 850px. The opening composition pairs the Agent Paint mark with a direct product description, then presents the agent-install prompt as the primary path. Gallery controls and specimens follow as the secondary browse-and-compare path.
 
-The gallery runs four columns by default with 14px gutters, then moves to three columns at 1180px, two at 850px, and one at 590px. At 1180px the intro stacks and the target selector spans the full control bus; at 590px the bus becomes a compact two-column field row under a three-button target row. The selected action tray is sticky on larger screens and fixed to 14px side insets on mobile so the chosen theme remains actionable.
+The gallery runs four columns by default with 14px gutters, then moves to three columns at 1180px, two at 850px, and one at 590px. At 1180px the intro stacks and the target selector spans the full control bus; at 590px the bus becomes a compact two-column field row under a five-button target selector arranged as three buttons above two. The selected action tray is sticky on larger screens and fixed to 14px side insets on mobile so the chosen theme remains actionable.
 
 Spacing follows a compact instrument rhythm inside controls and cards, then opens substantially between narrative sections. Preserve the contrast between dense comparison tools and generous explanatory bands rather than applying one uniform spacing scale everywhere.
 
@@ -186,7 +186,7 @@ Borders are one-pixel structural lines. Cards clip their generated colors cleanl
 
 A restrained segmented instrument for changing the generated output under inspection.
 
-- **Shape:** Square segments with shared one-pixel boundaries; only the final segment restores the right border.
+- **Shape:** Square segments with shared one-pixel boundaries on wide screens; the mobile 3+2 layout restores complete borders around each segment.
 - **Default:** Transparent over the panel with muted text and compact 9px by 16px padding.
 - **Hover / Focus / Active:** Hover uses the stronger graphite tone; keyboard focus uses the global three-pixel focus ring. The active segment inverts to a pale solid surface with dark text and maintains `aria-pressed`.
 
@@ -208,7 +208,7 @@ The signature component and visual subject: a generated theme rendered as interf
 
 ### Selected Action Tray
 
-A persistent handoff surface that connects the chosen specimen directly to its generated output.
+A persistent handoff surface that connects the chosen specimen to its generated file, ChatGPT import string, or target-specific agent prompt.
 
 - **Style:** Strong graphite background, bright border, 14px radius, and the system's only ambient shadow.
 - **Behavior:** Sticky and centered on larger screens; fixed with 14px side insets on mobile. Descriptive copy may collapse on mobile, but the selected name and actions remain visible.

@@ -201,6 +201,128 @@ function withAlpha(hex, alpha) {
   return `rgba(${red}, ${green}, ${blue}, ${alpha})`;
 }
 
+function buildChatGptPreview(theme) {
+  const ui = deriveUiColors(theme);
+  const readableSemantic = (color) => ensureTextContrast(color, ui.background, 3);
+  return {
+    ...ui,
+    diffAdded: readableSemantic(theme.terminal.ansi[10]),
+    diffRemoved: readableSemantic(theme.terminal.ansi[9]),
+    skill: readableSemantic(theme.terminal.ansi[13]),
+  };
+}
+
+export function buildChatGptThemeString(theme) {
+  const preview = buildChatGptPreview(theme);
+  const payload = {
+    codeThemeId: "codex",
+    theme: {
+      accent: preview.accent,
+      contrast: theme.appearance === "dark" ? 60 : 45,
+      fonts: {
+        code: null,
+        ui: null,
+      },
+      ink: preview.foreground,
+      opaqueWindows: true,
+      semanticColors: {
+        diffAdded: preview.diffAdded,
+        diffRemoved: preview.diffRemoved,
+        skill: preview.skill,
+      },
+      surface: preview.background,
+    },
+    variant: theme.appearance,
+  };
+  return `codex-theme-v1:${JSON.stringify(payload)}`;
+}
+
+function tmThemeSetting(name, scope, foreground, fontStyle) {
+  const style = fontStyle == null
+    ? ""
+    : `\n        <key>fontStyle</key>\n        <string>${escapeXml(fontStyle)}</string>`;
+  return `    <dict>
+      <key>name</key>
+      <string>${escapeXml(name)}</string>
+      <key>scope</key>
+      <string>${escapeXml(scope)}</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>${foreground}</string>${style}
+      </dict>
+    </dict>`;
+}
+
+function buildCodexCliPreview(theme) {
+  const ui = deriveUiColors(theme);
+  const ansi = theme.terminal.ansi;
+  const readable = (color) => ensureTextContrast(color, ui.background, 4.5);
+  return {
+    ...ui,
+    accent: readable(ansi[12]),
+    comment: readable(ui.mutedForeground),
+    string: readable(ansi[10]),
+    number: readable(ansi[11]),
+    keyword: readable(ansi[13]),
+    function: readable(ansi[12]),
+    type: readable(ansi[14]),
+    variable: readable(ansi[14]),
+    error: readable(ansi[9]),
+    success: readable(ansi[10]),
+  };
+}
+
+export function renderCodexCliTheme(theme) {
+  const ui = buildCodexCliPreview(theme);
+  const settings = [
+    tmThemeSetting("Comments", "comment, punctuation.definition.comment", ui.comment, "italic"),
+    tmThemeSetting("Strings", "string, constant.other.symbol", ui.string),
+    tmThemeSetting("Numbers and constants", "constant.numeric, constant.language, constant.character", ui.number),
+    tmThemeSetting("Keywords", "keyword, storage", ui.keyword, "bold"),
+    tmThemeSetting("Functions", "entity.name.function, support.function", ui.function),
+    tmThemeSetting("Types", "entity.name.type, entity.name.class, support.type", ui.type),
+    tmThemeSetting("Variables", "variable, variable.other.readwrite", ui.variable),
+    tmThemeSetting("Invalid", "invalid, invalid.illegal", ui.error),
+    tmThemeSetting("Headings", "markup.heading, entity.name.section", ui.number, "bold"),
+    tmThemeSetting("Inserted", "markup.inserted, meta.diff.header.to-file", ui.success),
+    tmThemeSetting("Deleted", "markup.deleted, meta.diff.header.from-file", ui.error),
+  ].join("\n");
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>Agent Paint · ${escapeXml(theme.name)}</string>
+  <key>author</key>
+  <string>Agent Paint contributors</string>
+  <key>settings</key>
+  <array>
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>${ui.background}</string>
+        <key>foreground</key>
+        <string>${ui.foreground}</string>
+        <key>caret</key>
+        <string>${theme.terminal.cursor}</string>
+        <key>selection</key>
+        <string>${theme.terminal.selectionBackground}</string>
+        <key>selectionForeground</key>
+        <string>${theme.terminal.selectionForeground}</string>
+        <key>lineHighlight</key>
+        <string>${ui.raised}</string>
+      </dict>
+    </dict>
+${settings}
+  </array>
+</dict>
+</plist>
+`;
+}
+
 export function buildPiTheme(theme) {
   const ui = deriveUiColors(theme);
   const ansi = theme.terminal.ansi;
@@ -359,9 +481,15 @@ export function buildSiteCatalog(themes) {
       paseo: deriveUiColors(theme),
       pi: buildPiTheme(theme).colors,
       superset: buildSupersetTheme(theme).ui,
+      chatgpt: buildChatGptPreview(theme),
+      chatgptImport: buildChatGptThemeString(theme),
+      codexCli: buildCodexCliPreview(theme),
       terminal: theme.terminal,
       piDownload: `dist/pi/${theme.id}.json`,
       supersetDownload: `dist/superset/${theme.id}.json`,
+      chatgptDownload: `dist/chatgpt/${theme.id}.txt`,
+      codexCliName: `agent-paint-${theme.id}`,
+      codexCliDownload: `dist/codex-cli/agent-paint-${theme.id}.tmTheme`,
     }));
 }
 
@@ -479,7 +607,7 @@ export function renderPreview(themes) {
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
   <rect width="100%" height="100%" fill="#0f1117"/>
-  <text x="${margin}" y="48" fill="#f2f4f8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="30" font-weight="800">Agent Paint · Paseo, Pi &amp; Superset</text>
+  <text x="${margin}" y="48" fill="#f2f4f8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="30" font-weight="800">Agent Paint · Paseo, Pi, Superset, ChatGPT &amp; Codex CLI</text>
   <text x="${margin}" y="78" fill="#9aa4b2" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">${sorted.length} terminal-first palettes · generated Paseo output shown below</text>
   <g font-family="ui-sans-serif, system-ui, sans-serif">
 ${cards}

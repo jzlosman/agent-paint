@@ -3,6 +3,7 @@ import { readFile } from "node:fs/promises";
 import { test } from "node:test";
 
 import {
+  buildChatGptThemeString,
   buildPiTheme,
   buildSiteCatalog,
   buildSupersetTheme,
@@ -10,6 +11,7 @@ import {
   deriveUiColors,
   loadThemes,
   parseGhosttyTheme,
+  renderCodexCliTheme,
   renderPlugin,
   renderPreview,
   validateTheme,
@@ -150,6 +152,42 @@ test("builds a complete Superset UI and terminal theme", () => {
   assert.equal(Object.keys(output.terminal).length, 21);
 });
 
+test("builds a portable ChatGPT desktop appearance string", () => {
+  const output = buildChatGptThemeString(validTheme);
+  assert.match(output, /^codex-theme-v1:\{/);
+
+  const payload = JSON.parse(output.slice("codex-theme-v1:".length));
+  assert.deepEqual(Object.keys(payload).sort(), ["codeThemeId", "theme", "variant"]);
+  assert.equal(payload.codeThemeId, "codex");
+  assert.equal(payload.variant, "dark");
+  assert.deepEqual(payload.theme.fonts, { code: null, ui: null });
+  assert.equal(payload.theme.surface, deriveUiColors(validTheme).background);
+  assert.equal(payload.theme.ink, deriveUiColors(validTheme).foreground);
+  assert.equal(payload.theme.accent, deriveUiColors(validTheme).accent);
+  assert.equal(payload.theme.opaqueWindows, true);
+  assert.ok(Number.isInteger(payload.theme.contrast));
+  assert.deepEqual(
+    Object.keys(payload.theme.semanticColors).sort(),
+    ["diffAdded", "diffRemoved", "skill"],
+  );
+  assert.equal(output, buildChatGptThemeString(structuredClone(validTheme)));
+});
+
+test("renders a deterministic Codex CLI TextMate theme", () => {
+  const output = renderCodexCliTheme(validTheme);
+
+  assert.match(output, /^<\?xml version="1\.0" encoding="UTF-8"\?>/);
+  assert.match(output, /<plist version="1\.0">/);
+  assert.match(output, /<string>Agent Paint · Example Dark<\/string>/);
+  assert.match(output, /<key>background<\/key>\s*<string>#101010<\/string>/);
+  assert.match(output, /<key>foreground<\/key>\s*<string>#f0f0f0<\/string>/);
+  assert.match(output, /<key>selection<\/key>\s*<string>#303030<\/string>/);
+  assert.match(output, /comment, punctuation\.definition\.comment/);
+  assert.match(output, /string, constant\.other\.symbol/);
+  assert.match(output, /keyword, storage/);
+  assert.equal(output, renderCodexCliTheme(structuredClone(validTheme)));
+});
+
 test("renders deterministic Paseo theme contributions", () => {
   const output = renderPlugin([validTheme]);
 
@@ -216,17 +254,27 @@ test("builds gallery records from generated target truth", () => {
   assert.deepEqual(record.paseo, deriveUiColors(validTheme));
   assert.equal(record.piDownload, `dist/pi/${validTheme.id}.json`);
   assert.equal(record.supersetDownload, `dist/superset/${validTheme.id}.json`);
+  assert.equal(record.chatgpt.background, deriveUiColors(validTheme).background);
+  assert.match(record.chatgptImport, /^codex-theme-v1:/);
+  assert.equal(record.chatgptDownload, `dist/chatgpt/${validTheme.id}.txt`);
+  assert.equal(record.codexCli.background, deriveUiColors(validTheme).background);
+  assert.equal(record.codexCliName, `agent-paint-${validTheme.id}`);
+  assert.equal(record.codexCliDownload, `dist/codex-cli/agent-paint-${validTheme.id}.tmTheme`);
   assert.equal(record.terminal.ansi.length, 16);
 });
 
-test("checked-in Pi and Superset themes match the JSON source", async () => {
+test("checked-in generated themes match the JSON source", async () => {
   const themes = await loadThemes(new URL("../themes/", import.meta.url));
 
   for (const theme of themes) {
     const pi = JSON.parse(await readFile(new URL(`../dist/pi/${theme.id}.json`, import.meta.url), "utf8"));
     const superset = JSON.parse(await readFile(new URL(`../dist/superset/${theme.id}.json`, import.meta.url), "utf8"));
+    const chatgpt = await readFile(new URL(`../dist/chatgpt/${theme.id}.txt`, import.meta.url), "utf8");
+    const codexCli = await readFile(new URL(`../dist/codex-cli/agent-paint-${theme.id}.tmTheme`, import.meta.url), "utf8");
     assert.deepEqual(pi, buildPiTheme(theme));
     assert.deepEqual(superset, buildSupersetTheme(theme));
+    assert.equal(chatgpt, `${buildChatGptThemeString(theme)}\n`);
+    assert.equal(codexCli, renderCodexCliTheme(theme));
   }
 
   const bundle = JSON.parse(await readFile(new URL("../dist/superset/all-themes.json", import.meta.url), "utf8"));
@@ -242,6 +290,9 @@ test("checked-in gallery data and shell expose every theme and target", async ()
   assert.match(html, /data-target="paseo"/);
   assert.match(html, /data-target="pi"/);
   assert.match(html, /data-target="superset"/);
+  assert.match(html, /data-target="chatgpt"/);
+  assert.match(html, /data-target="codex-cli"/);
+  assert.match(html, /id="copy-theme-value"/);
   assert.match(html, /id="theme-gallery"/);
   assert.ok(
     html.indexOf('id="agent-install"') < html.indexOf('id="theme-gallery"'),
@@ -253,9 +304,10 @@ test("checked-in gallery data and shell expose every theme and target", async ()
   );
   assert.match(html, /Agent Paint/);
   assert.match(html, /Let your agent install it/);
+  assert.match(html, /One palette, five targets/);
   assert.match(html, /agent-paint-logo\.png/);
-  assert.match(html, /styles\.css\?v=agent-paint-2/);
-  assert.match(html, /app\.js\?v=agent-paint-2/);
+  assert.match(html, /styles\.css\?v=agent-paint-3/);
+  assert.match(html, /app\.js\?v=agent-paint-3/);
   assert.doesNotMatch(html, /signal-strip|contrast-badge|AA[\s\S]*secondary text/);
 });
 
@@ -267,6 +319,11 @@ test("mobile gallery keeps selected actions and agent install reachable", async 
   assert.doesNotMatch(css, /nav a:not\(:last-child\)/);
   assert.match(app, /button\.setAttribute\("aria-pressed", "false"\)/);
   assert.match(app, /catalogUrl\.searchParams\.set\("v"/);
+  assert.match(app, /chatgptImport/);
+  assert.match(app, /codexCliDownload/);
+  assert.match(app, /tui\.theme =/);
+  assert.match(app, /source terminal palette/);
+  assert.match(css, /grid-template-columns: repeat\(6, 1fr\)/);
 });
 
 test("release site publishes downloadable target files and safe undo instructions", async () => {
@@ -275,6 +332,8 @@ test("release site publishes downloadable target files and safe undo instruction
   const html = await readFile(new URL("../site/index.html", import.meta.url), "utf8");
   const readme = await readFile(new URL("../README.md", import.meta.url), "utf8");
   const packageJson = JSON.parse(await readFile(new URL("../package.json", import.meta.url), "utf8"));
+  const product = await readFile(new URL("../PRODUCT.md", import.meta.url), "utf8");
+  const designSidecar = await readFile(new URL("../.impeccable/design.json", import.meta.url), "utf8");
 
   assert.match(workflow, /cp -R dist _site\/dist/);
   assert.match(app, /setAttribute\("download"/);
@@ -285,7 +344,13 @@ test("release site publishes downloadable target files and safe undo instruction
   assert.match(readme, /actions\/workflows\/pages\.yml\/badge\.svg/);
   assert.match(readme, /img\.shields\.io\/badge\/license-MIT/);
   assert.match(readme, /img\.shields\.io\/badge\/themes-30/);
+  assert.match(readme, /img\.shields\.io\/badge\/targets-5/);
   assert.match(readme, /href="#let-your-agent-install-a-theme"/);
+  assert.match(readme, /### ChatGPT[\s\S]*codex-theme-v1:/);
+  assert.match(readme, /### Codex CLI[\s\S]*\$CODEX_HOME\/themes/);
+  assert.match(readme, /agent-paint-nord\.tmTheme/);
+  assert.match(readme, /tui\.theme = "agent-paint-nord"/);
+  assert.match(readme, /Codex CLI themes syntax highlighting only/);
   assert.ok(
     readme.indexOf("https://jzlosman.github.io/agent-paint/") < readme.indexOf("- **Paseo:**"),
     "the gallery link should appear before target details",
@@ -294,12 +359,14 @@ test("release site publishes downloadable target files and safe undo instruction
   assert.match(readme, /before-theme-pack/);
   assert.match(readme, /superset settings theme remove theme-pack-nord/);
   assert.match(readme, /paseo plugin remove paseo-theme-pack/);
+  assert.doesNotMatch(product, /\[tui\]\.theme/);
+  assert.match(designSidecar, /switching the generated Paseo, Pi, Superset, ChatGPT, or Codex CLI output/);
 });
 
 test("site publishes Open Graph metadata and image", async () => {
   const html = await readFile(new URL("../site/index.html", import.meta.url), "utf8");
 
-  assert.match(html, /property="og:image" content="https:\/\/jzlosman\.github\.io\/agent-paint\/agent-paint-open-graph\.png"/);
+  assert.match(html, /property="og:image" content="https:\/\/jzlosman\.github\.io\/agent-paint\/agent-paint-open-graph\.png\?v=5-targets"/);
   assert.match(html, /property="og:image:width" content="1280"/);
   assert.match(html, /property="og:image:height" content="640"/);
   assert.match(html, /name="twitter:card" content="summary_large_image"/);
