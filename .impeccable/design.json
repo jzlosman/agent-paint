@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-28T06:18:44Z",
+  "title": "Design System: Paseo Theme Pack",
+  "extensions": {
+    "colorMeta": {
+      "page": {
+        "role": "neutral",
+        "displayName": "Graphite Page",
+        "tonalRamp": [
+          "oklch(15% 0.012 260.6)",
+          "oklch(26% 0.012 260.6)",
+          "oklch(37% 0.012 260.6)",
+          "oklch(48% 0.012 260.6)",
+          "oklch(59% 0.012 260.6)",
+          "oklch(70% 0.012 260.6)",
+          "oklch(82% 0.012 260.6)",
+          "oklch(95% 0.012 260.6)"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Instrument Panel",
+        "tonalRamp": [
+          "oklch(15% 0.019 266.1)",
+          "oklch(26% 0.019 266.1)",
+          "oklch(37% 0.019 266.1)",
+          "oklch(48% 0.019 266.1)",
+          "oklch(59% 0.019 266.1)",
+          "oklch(70% 0.019 266.1)",
+          "oklch(82% 0.019 266.1)",
+          "oklch(95% 0.019 266.1)"
+        ]
+      },
+      "panel-strong": {
+        "role": "neutral",
+        "displayName": "Raised Graphite",
+        "tonalRamp": [
+          "oklch(15% 0.021 264.1)",
+          "oklch(26% 0.021 264.1)",
+          "oklch(37% 0.021 264.1)",
+          "oklch(48% 0.021 264.1)",
+          "oklch(59% 0.021 264.1)",
+          "oklch(70% 0.021 264.1)",
+          "oklch(82% 0.021 264.1)",
+          "oklch(95% 0.021 264.1)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Measured Line",
+        "tonalRamp": [
+          "oklch(15% 0.025 262.8)",
+          "oklch(26% 0.025 262.8)",
+          "oklch(37% 0.025 262.8)",
+          "oklch(48% 0.025 262.8)",
+          "oklch(59% 0.025 262.8)",
+          "oklch(70% 0.025 262.8)",
+          "oklch(82% 0.025 262.8)",
+          "oklch(95% 0.025 262.8)"
+        ]
+      },
+      "line-bright": {
+        "role": "neutral",
+        "displayName": "Bright Measure",
+        "tonalRamp": [
+          "oklch(15% 0.030 257.7)",
+          "oklch(26% 0.030 257.7)",
+          "oklch(37% 0.030 257.7)",
+          "oklch(48% 0.030 257.7)",
+          "oklch(59% 0.030 257.7)",
+          "oklch(70% 0.030 257.7)",
+          "oklch(82% 0.030 257.7)",
+          "oklch(95% 0.030 257.7)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Calibration White",
+        "tonalRamp": [
+          "oklch(15% 0.004 236.5)",
+          "oklch(26% 0.004 236.5)",
+          "oklch(37% 0.004 236.5)",
+          "oklch(48% 0.004 236.5)",
+          "oklch(59% 0.004 236.5)",
+          "oklch(70% 0.004 236.5)",
+          "oklch(82% 0.004 236.5)",
+          "oklch(95% 0.004 236.5)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Cool Muted Text",
+        "tonalRamp": [
+          "oklch(15% 0.020 255.6)",
+          "oklch(26% 0.020 255.6)",
+          "oklch(37% 0.020 255.6)",
+          "oklch(48% 0.020 255.6)",
+          "oklch(59% 0.020 255.6)",
+          "oklch(70% 0.020 255.6)",
+          "oklch(82% 0.020 255.6)",
+          "oklch(95% 0.020 255.6)"
+        ]
+      },
+      "dim": {
+        "role": "neutral",
+        "displayName": "Dim Instrument Text",
+        "tonalRamp": [
+          "oklch(15% 0.025 254.5)",
+          "oklch(26% 0.025 254.5)",
+          "oklch(37% 0.025 254.5)",
+          "oklch(48% 0.025 254.5)",
+          "oklch(59% 0.025 254.5)",
+          "oklch(70% 0.025 254.5)",
+          "oklch(82% 0.025 254.5)",
+          "oklch(95% 0.025 254.5)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Calibration Blue",
+        "tonalRamp": [
+          "oklch(15% 0.100 247.0)",
+          "oklch(26% 0.100 247.0)",
+          "oklch(37% 0.100 247.0)",
+          "oklch(48% 0.100 247.0)",
+          "oklch(59% 0.100 247.0)",
+          "oklch(70% 0.100 247.0)",
+          "oklch(82% 0.100 247.0)",
+          "oklch(95% 0.100 247.0)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The page promise and other singular, high-authority statements."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Major explanatory section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Theme names and compact card-level headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Explanatory product and installation copy."
+      },
+      "label": {
+        "displayName": "Instrument Label",
+        "purpose": "Counts, target metadata, contrast evidence, filenames, and control headings."
+      },
+      "navigation": {
+        "displayName": "Navigation",
+        "purpose": "Compact header links and segmented controls."
+      }
+    },
+    "shadows": [
+      {
+        "name": "selected-tray-ambient",
+        "value": "0 18px 48px rgba(0, 0, 0, 0.42)",
+        "purpose": "The only elevation shadow; keeps the selected-theme action tray legible over dark and light generated specimens."
+      }
+    ],
+    "motion": [
+      {
+        "name": "specimen-response",
+        "value": "180ms ease-out",
+        "purpose": "Moves the inner generated specimen by 2px and transitions its surface and border during hover or keyboard focus."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "three-column",
+        "value": "1180px"
+      },
+      {
+        "name": "compact-layout",
+        "value": "850px"
+      },
+      {
+        "name": "mobile",
+        "value": "590px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Target Button",
+      "kind": "button",
+      "refersTo": "target-button",
+      "description": "A square segmented control for switching the generated Paseo, Pi, or Superset output under inspection.",
+      "html": "<div class=\"ds-target-control\" role=\"group\" aria-label=\"Preview target\"><span class=\"ds-control-label\">Preview output</span><div class=\"ds-target-row\"><button class=\"ds-target-button ds-target-button-active\" type=\"button\" aria-pressed=\"true\">Paseo</button><button class=\"ds-target-button\" type=\"button\" aria-pressed=\"false\">Pi</button><button class=\"ds-target-button\" type=\"button\" aria-pressed=\"false\">Superset</button></div></div>",
+      "css": ".ds-target-control { padding: 13px 14px 14px; background: var(--panel, #151922); color: var(--text, #f2f5f7); font-family: \"Mona Sans\", \"Helvetica Neue\", sans-serif; }\n.ds-control-label { display: block; margin-bottom: 10px; color: var(--dim, #7e8997); font: 700 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .08em; text-transform: uppercase; }\n.ds-target-row { display: flex; }\n.ds-target-button { min-width: 92px; padding: 9px 16px; border: 1px solid var(--line, #303744); border-right-width: 0; border-radius: 0; background: transparent; color: var(--muted, #aab3bf); cursor: pointer; font: 700 14px/1.2 \"Mona Sans\", \"Helvetica Neue\", sans-serif; }\n.ds-target-button:last-child { border-right-width: 1px; }\n.ds-target-button:hover { background: var(--panel-strong, #1b202a); color: var(--text, #f2f5f7); }\n.ds-target-button:focus-visible { position: relative; z-index: 1; outline: 3px solid var(--focus, #8cc8ff); outline-offset: 3px; }\n.ds-target-button:active { background: #282f3b; }\n.ds-target-button-active, .ds-target-button-active:hover, .ds-target-button-active:active { border-color: #e9eff5; background: #e9eff5; color: #101318; }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-field",
+      "description": "An underlined live filter integrated into the graphite control bus.",
+      "html": "<label class=\"ds-search-field\"><span class=\"ds-search-label\">Find a palette</span><input class=\"ds-search-input\" type=\"search\" placeholder=\"Nord, Catppuccin, Tokyo…\" autocomplete=\"off\"></label>",
+      "css": ".ds-search-field { display: block; padding: 13px 16px 14px; background: var(--panel, #151922); color: var(--text, #f2f5f7); font-family: \"Mona Sans\", \"Helvetica Neue\", sans-serif; }\n.ds-search-label { display: block; margin-bottom: 10px; color: var(--dim, #7e8997); font: 700 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .08em; text-transform: uppercase; }\n.ds-search-input { width: 100%; height: 38px; border: 0; border-bottom: 1px solid var(--line-bright, #4a5565); border-radius: 0; outline: 0; background: transparent; color: var(--text, #f2f5f7); font: 400 16px/1.2 \"Mona Sans\", \"Helvetica Neue\", sans-serif; }\n.ds-search-input::placeholder { color: var(--dim, #7e8997); }\n.ds-search-input:hover { border-bottom-color: var(--muted, #aab3bf); }\n.ds-search-input:focus-visible { outline: 3px solid var(--focus, #8cc8ff); outline-offset: 3px; }"
+    },
+    {
+      "name": "Theme Specimen Card",
+      "kind": "card",
+      "refersTo": "theme-specimen-card",
+      "description": "The signature evidence card; its local colors are generated Atom One Dark content, not Paseo Theme Pack brand tokens.",
+      "html": "<article class=\"ds-theme-card\" style=\"--ds-card-bg:#21252b;--ds-card-fg:#abb2bf;--ds-card-raised:#292e34;--ds-card-control:#33383e;--ds-card-border:#484d54;--ds-card-accent:#528bff;--ds-card-muted:#8b8b8b;--ds-card-ring:#abb2bf\"><button class=\"ds-theme-card-button\" type=\"button\" aria-label=\"Inspect Atom One Dark for Paseo\" aria-pressed=\"false\"><span class=\"ds-theme-heading\"><span><strong class=\"ds-theme-name\">Atom One Dark</strong><small class=\"ds-theme-meta\">Dark · Paseo</small></span><span class=\"ds-contrast-badge\" aria-label=\"Secondary text contrast 4.5 to 1\">4.5:1</span></span><span class=\"ds-interface-specimen\" aria-hidden=\"true\"><span class=\"ds-specimen-rail\"></span><span class=\"ds-specimen-main\"><i class=\"ds-specimen-title\"></i><i class=\"ds-specimen-copy\"></i><span class=\"ds-specimen-command\"><i></i><i></i><i></i></span></span></span><span class=\"ds-palette-strip\" aria-label=\"Theme colors\"><i style=\"background:#21252b\"></i><i style=\"background:#292e34\"></i><i style=\"background:#33383e\"></i><i style=\"background:#484d54\"></i><i style=\"background:#528bff\"></i><i style=\"background:#abb2bf\"></i><i style=\"background:#8b8b8b\"></i><i style=\"background:#abb2bf\"></i></span></button></article>",
+      "css": ".ds-theme-card { min-width: 0; overflow: clip; contain: layout paint; border: 1px solid var(--ds-card-border); border-radius: 14px; background: var(--ds-card-bg); color: var(--ds-card-fg); font-family: \"Mona Sans\", \"Helvetica Neue\", sans-serif; }\n.ds-theme-card-button { display: block; width: 100%; min-height: 286px; padding: 18px; border: 0; background: transparent; color: inherit; cursor: pointer; text-align: left; }\n.ds-theme-card-button:focus-visible { outline: 3px solid var(--ds-card-ring); outline-offset: -4px; }\n.ds-theme-heading { display: flex; min-height: 52px; align-items: flex-start; justify-content: space-between; gap: 12px; }\n.ds-theme-name { display: block; font-size: 17px; line-height: 1.2; letter-spacing: -.02em; }\n.ds-theme-meta { display: block; margin-top: 7px; color: var(--ds-card-muted); font: 700 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .06em; text-transform: uppercase; }\n.ds-contrast-badge { flex: none; padding: 5px 7px; border: 1px solid var(--ds-card-border); color: var(--ds-card-muted); font: 700 9px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; }\n.ds-interface-specimen { display: grid; grid-template-columns: 42px 1fr; min-height: 132px; margin-top: 16px; overflow: hidden; border: 1px solid var(--ds-card-border); border-radius: 10px; background: var(--ds-card-raised); transition: background-color 180ms ease-out, border-color 180ms ease-out, transform 180ms ease-out; }\n.ds-theme-card-button:hover .ds-interface-specimen, .ds-theme-card-button:focus-visible .ds-interface-specimen { transform: translateY(-2px); }\n.ds-theme-card-button:active .ds-interface-specimen { transform: translateY(0); }\n.ds-specimen-rail { border-right: 1px solid var(--ds-card-border); background: var(--ds-card-control); }\n.ds-specimen-main { padding: 17px 15px; }\n.ds-specimen-title, .ds-specimen-copy { display: block; border-radius: 2px; }\n.ds-specimen-title { width: 52%; height: 8px; background: var(--ds-card-fg); }\n.ds-specimen-copy { width: 78%; height: 6px; margin-top: 11px; background: var(--ds-card-muted); }\n.ds-specimen-command { display: grid; gap: 6px; margin-top: 20px; padding: 11px; background: var(--ds-card-control); }\n.ds-specimen-command i { display: block; height: 4px; background: var(--ds-card-muted); opacity: .78; }\n.ds-specimen-command i:nth-child(1) { width: 82%; }\n.ds-specimen-command i:nth-child(2) { width: 64%; }\n.ds-specimen-command i:nth-child(3) { width: 72%; background: var(--ds-card-accent); opacity: 1; }\n.ds-palette-strip { display: grid; grid-template-columns: repeat(8, 1fr); height: 24px; margin-top: 16px; overflow: hidden; border-radius: 6px; }\n.ds-palette-strip i { min-width: 0; }\n@media (prefers-reduced-motion: reduce) { .ds-interface-specimen { transition-duration: .01ms; } }"
+    },
+    {
+      "name": "Selected Action Tray",
+      "kind": "custom",
+      "refersTo": "selected-action-tray",
+      "description": "The only elevated surface, keeping the chosen generated theme and its two direct handoff actions persistent.",
+      "html": "<section class=\"ds-selection-tray\" aria-label=\"Selected theme actions\"><div class=\"ds-selection-copy\"><p class=\"ds-selection-target\">Pi theme</p><h2 class=\"ds-selection-title\">Nord</h2><p class=\"ds-selection-description\">Generated from the same checked-in palette as this specimen.</p></div><div class=\"ds-selection-actions\"><a class=\"ds-tray-action\" href=\"#download\">Download Pi JSON</a><button class=\"ds-tray-action\" type=\"button\">Copy agent prompt</button></div></section>",
+      "css": ".ds-selection-tray { display: flex; width: min(920px, calc(100% - 28px)); margin: 0 auto; padding: 18px 20px; align-items: center; justify-content: space-between; gap: 30px; border: 1px solid var(--line-bright, #4a5565); border-radius: 14px; background: #171c24; color: var(--text, #f2f5f7); box-shadow: 0 18px 48px rgba(0,0,0,.42); font-family: \"Mona Sans\", \"Helvetica Neue\", sans-serif; }\n.ds-selection-target { margin: 0 0 5px; color: var(--focus, #8cc8ff); font: 400 11px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; text-transform: uppercase; }\n.ds-selection-title { margin: 0; font-size: 22px; line-height: 1.2; }\n.ds-selection-description { margin: 6px 0 0; color: var(--muted, #aab3bf); font-size: 13px; }\n.ds-selection-actions { display: flex; flex: none; gap: 10px; }\n.ds-tray-action { display: inline-flex; min-height: 42px; padding: 0 15px; align-items: center; justify-content: center; border: 1px solid #dce7f1; border-radius: 8px; background: #eaf1f7; color: #101318; cursor: pointer; font: 750 14px/1.2 \"Mona Sans\", \"Helvetica Neue\", sans-serif; text-decoration: none; }\n.ds-tray-action:hover { background: #fff; }\n.ds-tray-action:focus-visible { outline: 3px solid var(--focus, #8cc8ff); outline-offset: 3px; }\n.ds-tray-action:active { background: #dce7f1; }\n@media (max-width: 590px) { .ds-selection-tray { display: block; width: auto; padding: 14px; } .ds-selection-description { display: none; } .ds-selection-title { font-size: 19px; } .ds-selection-actions { margin-top: 12px; } .ds-tray-action { flex: 1; } }"
+    },
+    {
+      "name": "Primary Download / Copy Action",
+      "kind": "button",
+      "refersTo": "primary-action",
+      "description": "The shared high-contrast action treatment for generated downloads, install links, and copy operations.",
+      "html": "<button class=\"ds-primary-action\" type=\"button\">Copy agent prompt</button>",
+      "css": ".ds-primary-action { display: inline-flex; min-height: 42px; padding: 0 15px; align-items: center; justify-content: center; border: 1px solid #dce7f1; border-radius: 8px; background: #eaf1f7; color: #101318; cursor: pointer; font: 750 14px/1.2 \"Mona Sans\", \"Helvetica Neue\", sans-serif; text-decoration: none; }\n.ds-primary-action:hover { background: #fff; }\n.ds-primary-action:focus-visible { outline: 3px solid var(--focus, #8cc8ff); outline-offset: 3px; }\n.ds-primary-action:active { background: #dce7f1; }"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "refersTo": "header-navigation",
+      "description": "A compact sticky index with a grid-mark brand and muted links that stay secondary to theme comparison.",
+      "html": "<header class=\"ds-site-header\"><a class=\"ds-brand\" href=\"#top\" aria-label=\"Theme Pack home\"><svg viewBox=\"0 0 28 28\" aria-hidden=\"true\"><path d=\"M3 4h9v9H3zM16 4h9v9h-9zM3 17h9v7H3zM16 17h9v7h-9z\" fill=\"currentColor\"/></svg><span>Theme Pack</span></a><nav class=\"ds-header-links\" aria-label=\"Primary navigation\"><a class=\"ds-header-link ds-header-link-themes\" href=\"#themes\">Themes</a><a class=\"ds-header-link\" href=\"#agent-install\">Agent install</a><a class=\"ds-header-link\" href=\"#github\">GitHub</a></nav></header>",
+      "css": ".ds-site-header { display: flex; min-height: 64px; padding: 0 28px; align-items: center; justify-content: space-between; border-bottom: 1px solid color-mix(in srgb, var(--line, #303744), transparent 22%); background: color-mix(in srgb, var(--page, #0d1015), transparent 8%); color: var(--text, #f2f5f7); backdrop-filter: blur(14px); font-family: \"Mona Sans\", \"Helvetica Neue\", sans-serif; }\n.ds-brand { display: inline-flex; gap: 10px; align-items: center; color: inherit; font-weight: 760; letter-spacing: -.02em; text-decoration: none; }\n.ds-brand svg { width: 21px; height: 21px; color: #d6e2ef; }\n.ds-brand:focus-visible, .ds-header-link:focus-visible { outline: 3px solid var(--focus, #8cc8ff); outline-offset: 3px; }\n.ds-header-links { display: flex; gap: 26px; }\n.ds-header-link { color: var(--muted, #aab3bf); font-size: 14px; font-weight: 600; text-decoration: none; }\n.ds-header-link:hover { color: var(--text, #f2f5f7); }\n.ds-header-link:active { color: var(--focus, #8cc8ff); }\n@media (max-width: 850px) { .ds-site-header { padding-inline: 16px; } .ds-header-links { gap: 14px; } .ds-header-link { font-size: 12px; } .ds-header-link-themes { display: none; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Calibration Wall.",
+    "overview": "The interface is an engineered wall for comparing real outputs, not a campaign around color. Graphite-dark framing, measured labels, tight borders, and direct controls create a quiet instrument panel; the actual generated theme specimens carry the visual energy and remain the subject.\n\nThe mood is engineered, measured, color-accurate, and direct. Controls should recede until needed, while truthful differences between Paseo, Pi, and Superset outputs stay vivid and inspectable. The system rejects generic marketing hero cards, decorative fake previews, neon or glow-heavy terminal cosplay, and any flow that hides installation behind the gallery.",
+    "keyCharacteristics": [
+      "Graphite-dark, high-clarity application framing.",
+      "Restrained instrument controls around vivid generated specimens.",
+      "Dense comparison layouts with measured metadata and visible contrast evidence.",
+      "Direct installation and agent handoff paths beside the gallery experience."
+    ],
+    "rules": [
+      {
+        "name": "The Specimen Truth Rule",
+        "body": "Dynamic theme-card colors are generated product content, not global brand tokens. Never normalize them into the graphite shell palette or reuse a specimen accent as site chrome.",
+        "section": "colors"
+      },
+      {
+        "name": "The Instrument Label Rule",
+        "body": "Use monospace only where text behaves like a reading, filename, state, count, or machine-oriented label; narrative copy remains Mona Sans.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-by-Default Rule",
+        "body": "Do not add card, control, header, or section shadows; tonal separation and measured borders carry the hierarchy until an action tray must float over generated content.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep graphite surfaces and measured one-pixel boundaries subordinate to the generated specimens.",
+      "Do make actual generated target colors, contrast evidence, and palette strips the visual subject.",
+      "Do preserve the four-to-three-to-two-to-one gallery progression across the 1180px, 850px, and 590px breakpoints.",
+      "Do use the three-pixel calibration-blue focus ring with a three-pixel offset for keyboard-visible interaction.",
+      "Do keep installation and agent handoff guidance visible as first-class page content beside the gallery flow."
+    ],
+    "donts": [
+      "Don't replace the opening composition or gallery with generic marketing hero cards.",
+      "Don't use decorative fake previews when generated theme values are available.",
+      "Don't add neon glows, faux terminal effects, or cyberpunk cosplay to imply technical credibility.",
+      "Don't hide installation, downloads, or agent handoff behind the gallery or an ornamental interaction."
+    ]
+  }
+}

@@ -7,14 +7,14 @@ const themes: PluginThemeContribution[] = [
     name: "Atom One Dark",
     appearance: "dark",
     colors: {
-      background: "#282c34",
+      background: "#21252b",
       foreground: "#abb2bf",
-      raised: "#353b45",
-      control: "#1b1d23",
-      border: "#181a1f",
+      raised: "#292e34",
+      control: "#33383e",
+      border: "#484d54",
       accent: "#528bff",
-      mutedForeground: "#828997",
-      ring: "#528bff"
+      mutedForeground: "#8b8b8b",
+      ring: "#abb2bf"
     }
   },
   {
@@ -22,14 +22,14 @@ const themes: PluginThemeContribution[] = [
     name: "Atom One Light",
     appearance: "light",
     colors: {
-      background: "#fafafa",
-      foreground: "#383a42",
-      raised: "#ffffff",
-      control: "#ffffff",
-      border: "#dbdbdc",
+      background: "#f9f9f9",
+      foreground: "#2a2c33",
+      raised: "#ececed",
+      control: "#dcdcdd",
+      border: "#bcbcbe",
       accent: "#526fff",
-      mutedForeground: "#696c77",
-      ring: "#526fff"
+      mutedForeground: "#000000",
+      ring: "#909090"
     }
   },
   {
@@ -37,13 +37,13 @@ const themes: PluginThemeContribution[] = [
     name: "Ayu Dark",
     appearance: "dark",
     colors: {
-      background: "#0d1017",
+      background: "#0b0e14",
       foreground: "#bfbdb6",
-      raised: "#10141c",
-      control: "#141821",
-      border: "#1b1f29",
+      raised: "#191b20",
+      control: "#25282c",
+      border: "#3c3e41",
       accent: "#e6b450",
-      mutedForeground: "#5a6378",
+      mutedForeground: "#7a7a7a",
       ring: "#e6b450"
     }
   },
@@ -53,13 +53,13 @@ const themes: PluginThemeContribution[] = [
     appearance: "light",
     colors: {
       background: "#f8f9fa",
-      foreground: "#5c6166",
-      raised: "#fcfcfc",
-      control: "#fafafa",
-      border: "#e7eaed",
-      accent: "#f29718",
-      mutedForeground: "#828e9f",
-      ring: "#f29718"
+      foreground: "#52565b",
+      raised: "#ebecee",
+      control: "#dbdcde",
+      border: "#babcbf",
+      accent: "#cc7f14",
+      mutedForeground: "#686868",
+      ring: "#c48327"
     }
   },
   {
@@ -73,7 +73,7 @@ const themes: PluginThemeContribution[] = [
       control: "#282e3b",
       border: "#171b24",
       accent: "#ffcc66",
-      mutedForeground: "#707a8c",
+      mutedForeground: "#828b9a",
       ring: "#ffcc66"
     }
   },
@@ -103,7 +103,7 @@ const themes: PluginThemeContribution[] = [
       control: "#bcc0cc",
       border: "#acb0be",
       accent: "#8839ef",
-      mutedForeground: "#6c6f85",
+      mutedForeground: "#6a6d82",
       ring: "#8839ef"
     }
   },
@@ -144,12 +144,12 @@ const themes: PluginThemeContribution[] = [
     colors: {
       background: "#282a36",
       foreground: "#f8f8f2",
-      raised: "#343746",
-      control: "#44475a",
-      border: "#191a21",
+      raised: "#31323e",
+      control: "#3a3c47",
+      border: "#4f515a",
       accent: "#bd93f9",
-      mutedForeground: "#6272a4",
-      ring: "#6272a4"
+      mutedForeground: "#8390b7",
+      ring: "#f8f8f2"
     }
   },
   {
@@ -159,9 +159,9 @@ const themes: PluginThemeContribution[] = [
     colors: {
       background: "#fffbeb",
       foreground: "#1f1f1f",
-      raised: "#cfcfde",
-      control: "#cfcfde",
-      border: "#6c664b",
+      raised: "#f2eedf",
+      control: "#e1ded0",
+      border: "#c0beb2",
       accent: "#644ac9",
       mutedForeground: "#6c664b",
       ring: "#644ac9"
@@ -172,14 +172,14 @@ const themes: PluginThemeContribution[] = [
     name: "Everforest Dark",
     appearance: "dark",
     colors: {
-      background: "#2d353b",
+      background: "#1e2326",
       foreground: "#d3c6aa",
-      raised: "#343f44",
-      control: "#3d484d",
-      border: "#859289",
+      raised: "#272c2d",
+      control: "#333636",
+      border: "#4a4b46",
       accent: "#a7c080",
-      mutedForeground: "#859289",
-      ring: "#a7c080"
+      mutedForeground: "#a6b0a0",
+      ring: "#e69875"
     }
   },
   {
@@ -187,14 +187,14 @@ const themes: PluginThemeContribution[] = [
     name: "Everforest Light",
     appearance: "light",
     colors: {
-      background: "#fdf6e3",
-      foreground: "#5c6a72",
-      raised: "#f4f0d9",
-      control: "#efebd4",
-      border: "#939f91",
-      accent: "#8da101",
-      mutedForeground: "#939f91",
-      ring: "#8da101"
+      background: "#efebd4",
+      foreground: "#444f55",
+      raised: "#e1dfca",
+      control: "#d1cfbe",
+      border: "#b0b1a5",
+      accent: "#7e8f01",
+      mutedForeground: "#666c62",
+      ring: "#d16a20"
     }
   },
   {
@@ -202,14 +202,14 @@ const themes: PluginThemeContribution[] = [
     name: "GitHub Dark",
     appearance: "dark",
     colors: {
-      background: "#24292e",
-      foreground: "#e1e4e8",
-      raised: "#1f2428",
-      control: "#2f363d",
-      border: "#1b1f23",
+      background: "#0d1117",
+      foreground: "#e6edf3",
+      raised: "#191e24",
+      control: "#252a30",
+      border: "#3b4046",
       accent: "#005cc5",
-      mutedForeground: "#959da5",
-      ring: "#005cc5"
+      mutedForeground: "#757d87",
+      ring: "#2f81f7"
     }
   },
   {
@@ -219,12 +219,12 @@ const themes: PluginThemeContribution[] = [
     colors: {
       background: "#22272e",
       foreground: "#adbac7",
-      raised: "#2d333b",
-      control: "#22272e",
-      border: "#444c56",
-      accent: "#316dca",
-      mutedForeground: "#768390",
-      ring: "#316dca"
+      raised: "#2a3037",
+      control: "#333a41",
+      border: "#474f57",
+      accent: "#326eca",
+      mutedForeground: "#858e98",
+      ring: "#539bf5"
     }
   },
   {
@@ -233,13 +233,13 @@ const themes: PluginThemeContribution[] = [
     appearance: "light",
     colors: {
       background: "#ffffff",
-      foreground: "#24292e",
-      raised: "#f6f8fa",
-      control: "#fafbfc",
-      border: "#e1e4e8",
+      foreground: "#1f2328",
+      raised: "#f1f2f2",
+      control: "#e1e1e2",
+      border: "#c0c1c3",
       accent: "#2188ff",
-      mutedForeground: "#6a737d",
-      ring: "#2188ff"
+      mutedForeground: "#57606a",
+      ring: "#0969da"
     }
   },
   {
@@ -249,12 +249,12 @@ const themes: PluginThemeContribution[] = [
     colors: {
       background: "#282828",
       foreground: "#ebdbb2",
-      raised: "#3c3836",
-      control: "#504945",
-      border: "#665c54",
+      raised: "#31312f",
+      control: "#3c3b36",
+      border: "#524f46",
       accent: "#83a598",
-      mutedForeground: "#928374",
-      ring: "#83a598"
+      mutedForeground: "#9a8c7e",
+      ring: "#ebdbb2"
     }
   },
   {
@@ -264,12 +264,12 @@ const themes: PluginThemeContribution[] = [
     colors: {
       background: "#fbf1c7",
       foreground: "#3c3836",
-      raised: "#ebdbb2",
-      control: "#d5c4a1",
-      border: "#bdae93",
+      raised: "#eee4bd",
+      control: "#ded4b1",
+      border: "#beb598",
       accent: "#076678",
-      mutedForeground: "#928374",
-      ring: "#076678"
+      mutedForeground: "#786c60",
+      ring: "#3c3836"
     }
   },
   {
@@ -279,12 +279,12 @@ const themes: PluginThemeContribution[] = [
     colors: {
       background: "#1f1f28",
       foreground: "#dcd7ba",
-      raised: "#2a2a37",
-      control: "#223249",
-      border: "#54546d",
+      raised: "#292830",
+      control: "#333338",
+      border: "#4a4849",
       accent: "#938aa9",
-      mutedForeground: "#727169",
-      ring: "#938aa9"
+      mutedForeground: "#878780",
+      ring: "#dcd7ba"
     }
   },
   {
@@ -294,12 +294,12 @@ const themes: PluginThemeContribution[] = [
     colors: {
       background: "#fbfbfb",
       foreground: "#403f53",
-      raised: "#f6f6f6",
-      control: "#f0f0f0",
-      border: "#d9d9d9",
+      raised: "#eeeeef",
+      control: "#dedde1",
+      border: "#bebdc4",
       accent: "#2aa298",
-      mutedForeground: "#93a1a1",
-      ring: "#93a1a1"
+      mutedForeground: "#6f7482",
+      ring: "#403f53"
     }
   },
   {
@@ -309,12 +309,12 @@ const themes: PluginThemeContribution[] = [
     colors: {
       background: "#011627",
       foreground: "#d6deeb",
-      raised: "#0b2942",
-      control: "#0b253a",
-      border: "#5f7e97",
+      raised: "#0d2232",
+      control: "#1a2e3e",
+      border: "#314454",
       accent: "#7e57c2",
-      mutedForeground: "#5f7e97",
-      ring: "#122d42"
+      mutedForeground: "#7e7e7e",
+      ring: "#7e57c2"
     }
   },
   {
@@ -323,12 +323,12 @@ const themes: PluginThemeContribution[] = [
     appearance: "dark",
     colors: {
       background: "#2e3440",
-      foreground: "#d8dee9",
+      foreground: "#e5e9f0",
       raised: "#3b4252",
-      control: "#3b4252",
-      border: "#3b4252",
+      control: "#434c5e",
+      border: "#4c566a",
       accent: "#88c0d0",
-      mutedForeground: "#4c566a",
+      mutedForeground: "#81a1c1",
       ring: "#88c0d0"
     }
   },
@@ -339,12 +339,12 @@ const themes: PluginThemeContribution[] = [
     colors: {
       background: "#191724",
       foreground: "#e0def4",
-      raised: "#1f1d2e",
-      control: "#26233a",
-      border: "#524f67",
+      raised: "#24222f",
+      control: "#2f2d3a",
+      border: "#444250",
       accent: "#c4a7e7",
-      mutedForeground: "#6e6a86",
-      ring: "#c4a7e7"
+      mutedForeground: "#817e96",
+      ring: "#e0def4"
     }
   },
   {
@@ -353,13 +353,13 @@ const themes: PluginThemeContribution[] = [
     appearance: "light",
     colors: {
       background: "#faf4ed",
-      foreground: "#464261",
-      raised: "#fffaf3",
-      control: "#f2e9e1",
-      border: "#cecacd",
+      foreground: "#534f74",
+      raised: "#ede7e4",
+      control: "#ddd7d8",
+      border: "#bcb7c0",
       accent: "#907aa9",
-      mutedForeground: "#9893a5",
-      ring: "#907aa9"
+      mutedForeground: "#726e7c",
+      ring: "#575279"
     }
   },
   {
@@ -369,12 +369,12 @@ const themes: PluginThemeContribution[] = [
     colors: {
       background: "#232136",
       foreground: "#e0def4",
-      raised: "#2a273f",
-      control: "#393552",
-      border: "#56526e",
+      raised: "#2c2a3f",
+      control: "#36344a",
+      border: "#4b495f",
       accent: "#c4a7e7",
-      mutedForeground: "#6e6a86",
-      ring: "#c4a7e7"
+      mutedForeground: "#8b879e",
+      ring: "#e0def4"
     }
   },
   {
@@ -383,13 +383,13 @@ const themes: PluginThemeContribution[] = [
     appearance: "dark",
     colors: {
       background: "#002b36",
-      foreground: "#839496",
-      raised: "#073642",
-      control: "#073642",
-      border: "#586e75",
+      foreground: "#a8b4b5",
+      raised: "#0a343e",
+      control: "#173e48",
+      border: "#31535b",
       accent: "#268bd2",
-      mutedForeground: "#586e75",
-      ring: "#268bd2"
+      mutedForeground: "#749299",
+      ring: "#839496"
     }
   },
   {
@@ -398,13 +398,13 @@ const themes: PluginThemeContribution[] = [
     appearance: "light",
     colors: {
       background: "#fdf6e3",
-      foreground: "#586e75",
-      raised: "#eee8d5",
-      control: "#eee8d5",
-      border: "#93a1a1",
+      foreground: "#47565c",
+      raised: "#efe9d8",
+      control: "#dddacc",
+      border: "#b9bbb1",
       accent: "#268bd2",
-      mutedForeground: "#657b83",
-      ring: "#268bd2"
+      mutedForeground: "#002b36",
+      ring: "#657b83"
     }
   },
   {
@@ -414,12 +414,12 @@ const themes: PluginThemeContribution[] = [
     colors: {
       background: "#1a1b26",
       foreground: "#c0caf5",
-      raised: "#16161e",
-      control: "#292e42",
-      border: "#15161e",
+      raised: "#232531",
+      control: "#2d303e",
+      border: "#414557",
       accent: "#7aa2f7",
-      mutedForeground: "#a9b1d6",
-      ring: "#27a1b9"
+      mutedForeground: "#7e8298",
+      ring: "#c0caf5"
     }
   },
   {
@@ -428,13 +428,13 @@ const themes: PluginThemeContribution[] = [
     appearance: "light",
     colors: {
       background: "#e1e2e7",
-      foreground: "#3760bf",
-      raised: "#d0d5e3",
-      control: "#c4c8da",
-      border: "#b4b5b9",
+      foreground: "#28458a",
+      raised: "#d3d6e0",
+      control: "#c2c7d7",
+      border: "#9ea9c6",
       accent: "#2e7de9",
-      mutedForeground: "#6172b0",
-      ring: "#4094a3"
+      mutedForeground: "#616477",
+      ring: "#3760bf"
     }
   },
   {
@@ -444,12 +444,12 @@ const themes: PluginThemeContribution[] = [
     colors: {
       background: "#24283b",
       foreground: "#c0caf5",
-      raised: "#1f2335",
-      control: "#292e42",
-      border: "#1d202f",
+      raised: "#2c3045",
+      control: "#363a50",
+      border: "#494f67",
       accent: "#7aa2f7",
-      mutedForeground: "#a9b1d6",
-      ring: "#29a4bd"
+      mutedForeground: "#8a8fa4",
+      ring: "#c0caf5"
     }
   }
 ];

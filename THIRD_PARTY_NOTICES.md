@@ -1,6 +1,8 @@
 # Third-party notices
 
-Paseo Theme Pack contains unofficial semantic adaptations of third-party color palettes. It does not include upstream extension code, logos, icons, fonts, wallpaper, or syntax definitions. Names identify the source palettes and do not imply endorsement.
+Theme Pack contains unofficial semantic adaptations of third-party color palettes. It does not include upstream extension code, logos, icons, fonts, or wallpaper. Names identify source palettes and do not imply endorsement.
+
+Terminal records are normalized primarily from [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) at commit `752a9c079396cc9939b86e893578ed81e80c140f`, using its Ghostty-format exports. The collection code and curation are MIT licensed by Mark Badolato; the repository states that each individual theme's copyright and license remain with its author. Canonical palette/editor sources remain listed below so individual provenance is not replaced by the collection license.
 
 | Theme family | Canonical source | Pinned commit | License |
 | --- | --- | --- | --- |
@@ -20,12 +22,15 @@ Paseo Theme Pack contains unofficial semantic adaptations of third-party color p
 
 ## Adaptation notes
 
-- Upstream editor themes expose many more roles than Paseo. Each record selects eight representative semantic colors and lets Paseo derive the rest.
+- Upstream editor themes expose many roles that do not safely map across applications. Each canonical record preserves terminal background, foreground, selection, cursor, ANSI 0–15, and a representative accent.
+- Target adapters generate the larger Pi and Superset schemas and Paseo's eight semantic colors. Functional primary and secondary text receive independent contrast floors.
 - Catppuccin uses Mauve as the representative accent.
 - Atom One combines the canonical UI and syntax palette values; the original Atom repositories are archived.
 - Tokyo Night uses the canonical generated Night, Storm, and Day palettes. This adaptation is modified from upstream for Paseo's semantic API.
 - Gruvbox and Everforest use their default medium-contrast palettes.
 - Solarized Light uses `base01` for primary foreground rather than `base00` so normal text meets WCAG AA contrast against `base3`.
 - Kanagawa uses `springViolet1` as Paseo's accent and focus color.
+
+The gallery self-hosts [Mona Sans](https://github.com/github/mona-sans) at commit `0f7dc66ddd766605eb0e75c3f47bf9d1dd38ceca` under the SIL Open Font License 1.1. Its license text is included at `site/fonts/OFL.txt`.
 
 The repository's MIT license applies only to the adapter code and original documentation. Upstream licenses govern their respective palette material. Trademark rights are not granted by these licenses.

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Thirty popular coding palettes generated for Paseo, Pi, and Superset from one terminal-first source.">
+  <meta name="color-scheme" content="dark light">
+  <title>Theme Pack — Paseo, Pi & Superset</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <!--
+  THESIS: The gallery is a calibration wall; actual generated themes replace decorative marketing cards.
+  OWN-WORLD: A graphite instrument panel carries full-color specimens, measured labels, and restrained controls.
+  STORY: Compare real outputs, choose a target, inspect a palette, then download it or hand the task to an agent.
+  FIRST VIEWPORT: Product promise and target bus sit above the live theme wall; the gallery begins before the fold.
+  FORM: User-pinned generated-theme gallery, refined as a calibration wall; seed key fb6f340c.
+  FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+  -->
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Theme Pack home">
+      <svg viewBox="0 0 28 28" aria-hidden="true">
+        <path d="M3 4h9v9H3zM16 4h9v9h-9zM3 17h9v7H3zM16 17h9v7h-9z" fill="currentColor"/>
+      </svg>
+      <span>Theme Pack</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#themes">Themes</a>
+      <a href="#agent-install">Agent install</a>
+      <a href="https://github.com/jzlosman/paseo-theme-pack">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="intro" aria-labelledby="page-title">
+      <div class="intro-copy">
+        <h1 id="page-title">One palette.<br>Every agent surface.</h1>
+        <p>Thirty terminal-first color schemes, translated into native themes for Paseo, Pi, and Superset. Every specimen below uses the colors in the file you download.</p>
+      </div>
+      <dl class="signal-strip" aria-label="Collection facts">
+        <div><dt>30</dt><dd>themes</dd></div>
+        <div><dt>3</dt><dd>targets</dd></div>
+        <div><dt>AA</dt><dd>secondary text</dd></div>
+        <div><dt>0</dt><dd>runtime dependencies</dd></div>
+      </dl>
+    </section>
+
+    <section class="control-bus" id="themes" aria-label="Theme controls">
+      <div class="target-control" role="group" aria-label="Preview target">
+        <span class="control-label">Preview output</span>
+        <button class="target-button is-active" type="button" data-target="paseo" aria-pressed="true">Paseo</button>
+        <button class="target-button" type="button" data-target="pi" aria-pressed="false">Pi</button>
+        <button class="target-button" type="button" data-target="superset" aria-pressed="false">Superset</button>
+      </div>
+      <label class="search-control">
+        <span class="control-label">Find a palette</span>
+        <input id="theme-search" type="search" placeholder="Nord, Catppuccin, Tokyo…" autocomplete="off">
+      </label>
+      <label class="appearance-control">
+        <span class="control-label">Appearance</span>
+        <select id="appearance-filter">
+          <option value="all">All themes</option>
+          <option value="dark">Dark</option>
+          <option value="light">Light</option>
+        </select>
+      </label>
+    </section>
+
+    <div class="gallery-status" aria-live="polite">
+      <p id="result-count">Loading generated themes…</p>
+      <p class="target-note" id="target-note">Paseo specimens show the eight semantic colors registered through <code>plugin.addTheme()</code>.</p>
+    </div>
+
+    <section id="theme-gallery" class="theme-gallery" aria-label="Generated theme gallery" aria-busy="true"></section>
+
+    <section class="selection-panel" id="selection-panel" aria-labelledby="selection-title" hidden>
+      <div class="selection-copy">
+        <p class="selection-target" id="selection-target">Paseo theme</p>
+        <h2 id="selection-title">Choose a theme</h2>
+        <p id="selection-description">Select a specimen to inspect its generated output.</p>
+      </div>
+      <div class="selection-actions">
+        <a class="download-link" id="theme-download" href="#">Download theme</a>
+        <button class="copy-button" id="copy-theme-prompt" type="button">Copy agent prompt</button>
+      </div>
+    </section>
+
+    <section class="agent-install" id="agent-install" aria-labelledby="agent-title">
+      <div>
+        <h2 id="agent-title">Give this site to your agent.</h2>
+        <p>You do not need to translate paths or theme schemas. Replace the two bracketed values, paste the prompt into your coding agent, and approve any settings change before it happens.</p>
+      </div>
+      <div class="prompt-console">
+        <div class="prompt-console-bar">
+          <span>INSTALL_PROMPT.txt</span>
+          <button class="copy-button copy-button--quiet" id="copy-general-prompt" type="button">Copy prompt</button>
+        </div>
+        <pre id="general-prompt">Read https://jzlosman.github.io/paseo-theme-pack/ and its linked README. Install the [THEME NAME] theme for [PI, SUPERSET, OR PASEO]. For Pi or Superset, use the generated native JSON. For Paseo, install the static plugin and select the named theme. Review the file or plugin before installing it, preserve my existing settings, and ask before enabling plugins or changing the active theme.</pre>
+      </div>
+    </section>
+
+    <section class="method" aria-labelledby="method-title">
+      <h2 id="method-title">Terminal truth in. Native themes out.</h2>
+      <div class="method-flow" role="list">
+        <div role="listitem"><strong>Source</strong><span>Background, foreground, cursor, selection, ANSI 0–15</span></div>
+        <svg viewBox="0 0 44 16" aria-hidden="true"><path d="M1 8h38m-6-6 6 6-6 6"/></svg>
+        <div role="listitem"><strong>Derive</strong><span>Readable text, distinct surfaces, target semantics</span></div>
+        <svg viewBox="0 0 44 16" aria-hidden="true"><path d="M1 8h38m-6-6 6 6-6 6"/></svg>
+        <div role="listitem"><strong>Generate</strong><span>Paseo plugin, Pi JSON, Superset JSON, this gallery</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Unofficial adaptations. Theme names belong to their respective projects.</p>
+    <a href="https://github.com/jzlosman/paseo-theme-pack/blob/main/THIRD_PARTY_NOTICES.md">Sources & licenses</a>
+  </footer>
+
+  <template id="theme-card-template">
+    <article class="theme-card">
+      <button class="theme-card-button" type="button">
+        <div class="theme-card-heading">
+          <div>
+            <h2></h2>
+            <p class="theme-meta"></p>
+          </div>
+          <span class="contrast-badge"></span>
+        </div>
+        <div class="interface-specimen" aria-hidden="true">
+          <div class="specimen-rail"></div>
+          <div class="specimen-main">
+            <span class="specimen-title"></span>
+            <span class="specimen-copy"></span>
+            <div class="specimen-command"><i></i><i></i><i></i></div>
+          </div>
+        </div>
+        <div class="palette-strip" aria-label="Theme colors"></div>
+      </button>
+    </article>
+  </template>
+</body>
+</html>

@@ -3,210 +3,1518 @@
     "id": "catppuccin-latte",
     "name": "Catppuccin Latte",
     "appearance": "light",
-    "colors": { "background": "#eff1f5", "foreground": "#4c4f69", "raised": "#ccd0da", "control": "#bcc0cc", "border": "#acb0be", "accent": "#8839ef", "mutedForeground": "#6c6f85", "ring": "#8839ef" },
-    "source": { "repository": "https://github.com/catppuccin/palette", "commit": "07d02aa110ef9eb7e7427afca5c73ba9cf7f8ebd", "files": ["palette.json"], "license": "MIT", "licenseUrl": "https://github.com/catppuccin/palette/blob/07d02aa110ef9eb7e7427afca5c73ba9cf7f8ebd/LICENSE" }
+    "source": {
+      "repository": "https://github.com/catppuccin/palette",
+      "commit": "07d02aa110ef9eb7e7427afca5c73ba9cf7f8ebd",
+      "files": [
+        "palette.json"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/catppuccin/palette/blob/07d02aa110ef9eb7e7427afca5c73ba9cf7f8ebd/LICENSE"
+    },
+    "terminal": {
+      "background": "#eff1f5",
+      "foreground": "#4c4f69",
+      "cursor": "#dc8a78",
+      "cursorText": "#eff1f5",
+      "selectionBackground": "#acb0be",
+      "selectionForeground": "#4c4f69",
+      "ansi": [
+        "#5c5f77",
+        "#d20f39",
+        "#40a02b",
+        "#df8e1d",
+        "#1e66f5",
+        "#ea76cb",
+        "#179299",
+        "#acb0be",
+        "#6c6f85",
+        "#de293e",
+        "#49af3d",
+        "#eea02d",
+        "#456eff",
+        "#fe85d8",
+        "#2d9fa8",
+        "#bcc0cc"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Catppuccin Latte",
+      "theme": "Catppuccin Latte",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#8839ef",
+    "uiOverrides": {
+      "background": "#eff1f5",
+      "foreground": "#4c4f69",
+      "raised": "#ccd0da",
+      "control": "#bcc0cc",
+      "border": "#acb0be",
+      "accent": "#8839ef",
+      "mutedForeground": "#6c6f85",
+      "ring": "#8839ef"
+    }
   },
   {
     "id": "catppuccin-frappe",
     "name": "Catppuccin Frappé",
     "appearance": "dark",
-    "colors": { "background": "#303446", "foreground": "#c6d0f5", "raised": "#414559", "control": "#51576d", "border": "#626880", "accent": "#ca9ee6", "mutedForeground": "#a5adce", "ring": "#ca9ee6" },
-    "source": { "repository": "https://github.com/catppuccin/palette", "commit": "07d02aa110ef9eb7e7427afca5c73ba9cf7f8ebd", "files": ["palette.json"], "license": "MIT", "licenseUrl": "https://github.com/catppuccin/palette/blob/07d02aa110ef9eb7e7427afca5c73ba9cf7f8ebd/LICENSE" }
+    "source": {
+      "repository": "https://github.com/catppuccin/palette",
+      "commit": "07d02aa110ef9eb7e7427afca5c73ba9cf7f8ebd",
+      "files": [
+        "palette.json"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/catppuccin/palette/blob/07d02aa110ef9eb7e7427afca5c73ba9cf7f8ebd/LICENSE"
+    },
+    "terminal": {
+      "background": "#303446",
+      "foreground": "#c6d0f5",
+      "cursor": "#f2d5cf",
+      "cursorText": "#303446",
+      "selectionBackground": "#626880",
+      "selectionForeground": "#c6d0f5",
+      "ansi": [
+        "#51576d",
+        "#e78284",
+        "#a6d189",
+        "#e5c890",
+        "#8caaee",
+        "#f4b8e4",
+        "#81c8be",
+        "#a5adce",
+        "#626880",
+        "#e67172",
+        "#8ec772",
+        "#d9ba73",
+        "#7b9ef0",
+        "#f2a4db",
+        "#5abfb5",
+        "#b5bfe2"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Catppuccin Frappe",
+      "theme": "Catppuccin Frappe",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#ca9ee6",
+    "uiOverrides": {
+      "background": "#303446",
+      "foreground": "#c6d0f5",
+      "raised": "#414559",
+      "control": "#51576d",
+      "border": "#626880",
+      "accent": "#ca9ee6",
+      "mutedForeground": "#a5adce",
+      "ring": "#ca9ee6"
+    }
   },
   {
     "id": "catppuccin-macchiato",
     "name": "Catppuccin Macchiato",
     "appearance": "dark",
-    "colors": { "background": "#24273a", "foreground": "#cad3f5", "raised": "#363a4f", "control": "#494d64", "border": "#5b6078", "accent": "#c6a0f6", "mutedForeground": "#a5adcb", "ring": "#c6a0f6" },
-    "source": { "repository": "https://github.com/catppuccin/palette", "commit": "07d02aa110ef9eb7e7427afca5c73ba9cf7f8ebd", "files": ["palette.json"], "license": "MIT", "licenseUrl": "https://github.com/catppuccin/palette/blob/07d02aa110ef9eb7e7427afca5c73ba9cf7f8ebd/LICENSE" }
+    "source": {
+      "repository": "https://github.com/catppuccin/palette",
+      "commit": "07d02aa110ef9eb7e7427afca5c73ba9cf7f8ebd",
+      "files": [
+        "palette.json"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/catppuccin/palette/blob/07d02aa110ef9eb7e7427afca5c73ba9cf7f8ebd/LICENSE"
+    },
+    "terminal": {
+      "background": "#24273a",
+      "foreground": "#cad3f5",
+      "cursor": "#f4dbd6",
+      "cursorText": "#24273a",
+      "selectionBackground": "#5b6078",
+      "selectionForeground": "#cad3f5",
+      "ansi": [
+        "#494d64",
+        "#ed8796",
+        "#a6da95",
+        "#eed49f",
+        "#8aadf4",
+        "#f5bde6",
+        "#8bd5ca",
+        "#a5adcb",
+        "#5b6078",
+        "#ec7486",
+        "#8ccf7f",
+        "#e1c682",
+        "#78a1f6",
+        "#f2a9dd",
+        "#63cbc0",
+        "#b8c0e0"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Catppuccin Macchiato",
+      "theme": "Catppuccin Macchiato",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#c6a0f6",
+    "uiOverrides": {
+      "background": "#24273a",
+      "foreground": "#cad3f5",
+      "raised": "#363a4f",
+      "control": "#494d64",
+      "border": "#5b6078",
+      "accent": "#c6a0f6",
+      "mutedForeground": "#a5adcb",
+      "ring": "#c6a0f6"
+    }
   },
   {
     "id": "catppuccin-mocha",
     "name": "Catppuccin Mocha",
     "appearance": "dark",
-    "colors": { "background": "#1e1e2e", "foreground": "#cdd6f4", "raised": "#313244", "control": "#45475a", "border": "#585b70", "accent": "#cba6f7", "mutedForeground": "#a6adc8", "ring": "#cba6f7" },
-    "source": { "repository": "https://github.com/catppuccin/palette", "commit": "07d02aa110ef9eb7e7427afca5c73ba9cf7f8ebd", "files": ["palette.json"], "license": "MIT", "licenseUrl": "https://github.com/catppuccin/palette/blob/07d02aa110ef9eb7e7427afca5c73ba9cf7f8ebd/LICENSE" }
+    "source": {
+      "repository": "https://github.com/catppuccin/palette",
+      "commit": "07d02aa110ef9eb7e7427afca5c73ba9cf7f8ebd",
+      "files": [
+        "palette.json"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/catppuccin/palette/blob/07d02aa110ef9eb7e7427afca5c73ba9cf7f8ebd/LICENSE"
+    },
+    "terminal": {
+      "background": "#1e1e2e",
+      "foreground": "#cdd6f4",
+      "cursor": "#f5e0dc",
+      "cursorText": "#1e1e2e",
+      "selectionBackground": "#585b70",
+      "selectionForeground": "#cdd6f4",
+      "ansi": [
+        "#45475a",
+        "#f38ba8",
+        "#a6e3a1",
+        "#f9e2af",
+        "#89b4fa",
+        "#f5c2e7",
+        "#94e2d5",
+        "#a6adc8",
+        "#585b70",
+        "#f37799",
+        "#89d88b",
+        "#ebd391",
+        "#74a8fc",
+        "#f2aede",
+        "#6bd7ca",
+        "#bac2de"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Catppuccin Mocha",
+      "theme": "Catppuccin Mocha",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#cba6f7",
+    "uiOverrides": {
+      "background": "#1e1e2e",
+      "foreground": "#cdd6f4",
+      "raised": "#313244",
+      "control": "#45475a",
+      "border": "#585b70",
+      "accent": "#cba6f7",
+      "mutedForeground": "#a6adc8",
+      "ring": "#cba6f7"
+    }
   },
   {
     "id": "dracula",
     "name": "Dracula",
     "appearance": "dark",
-    "colors": { "background": "#282a36", "foreground": "#f8f8f2", "raised": "#343746", "control": "#44475a", "border": "#191a21", "accent": "#bd93f9", "mutedForeground": "#6272a4", "ring": "#6272a4" },
-    "source": { "repository": "https://github.com/dracula/visual-studio-code", "commit": "1b9ecf4d7e0c8cc2e2e890a7a41ad1db5fff1e6c", "files": ["src/dracula.yml"], "license": "MIT", "licenseUrl": "https://github.com/dracula/visual-studio-code/blob/1b9ecf4d7e0c8cc2e2e890a7a41ad1db5fff1e6c/LICENSE" }
+    "source": {
+      "repository": "https://github.com/dracula/visual-studio-code",
+      "commit": "1b9ecf4d7e0c8cc2e2e890a7a41ad1db5fff1e6c",
+      "files": [
+        "src/dracula.yml"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/dracula/visual-studio-code/blob/1b9ecf4d7e0c8cc2e2e890a7a41ad1db5fff1e6c/LICENSE"
+    },
+    "terminal": {
+      "background": "#282a36",
+      "foreground": "#f8f8f2",
+      "cursor": "#f8f8f2",
+      "cursorText": "#282a36",
+      "selectionBackground": "#44475a",
+      "selectionForeground": "#ffffff",
+      "ansi": [
+        "#21222c",
+        "#ff5555",
+        "#50fa7b",
+        "#f1fa8c",
+        "#bd93f9",
+        "#ff79c6",
+        "#8be9fd",
+        "#f8f8f2",
+        "#6272a4",
+        "#ff6e6e",
+        "#69ff94",
+        "#ffffa5",
+        "#d6acff",
+        "#ff92df",
+        "#a4ffff",
+        "#ffffff"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Dracula",
+      "theme": "Dracula",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#bd93f9"
   },
   {
     "id": "dracula-alucard",
     "name": "Dracula Alucard",
     "appearance": "light",
-    "colors": { "background": "#fffbeb", "foreground": "#1f1f1f", "raised": "#cfcfde", "control": "#cfcfde", "border": "#6c664b", "accent": "#644ac9", "mutedForeground": "#6c664b", "ring": "#644ac9" },
-    "source": { "repository": "https://github.com/dracula/dracula-theme", "commit": "2985f660b04e6961b0887ffac2f8d3f35f431698", "files": ["README.md"], "license": "MIT", "licenseUrl": "https://github.com/dracula/dracula-theme/blob/2985f660b04e6961b0887ffac2f8d3f35f431698/LICENSE" }
+    "source": {
+      "repository": "https://github.com/dracula/dracula-theme",
+      "commit": "2985f660b04e6961b0887ffac2f8d3f35f431698",
+      "files": [
+        "README.md"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/dracula/dracula-theme/blob/2985f660b04e6961b0887ffac2f8d3f35f431698/LICENSE"
+    },
+    "terminal": {
+      "background": "#fffbeb",
+      "foreground": "#1f1f1f",
+      "cursor": "#644ac9",
+      "cursorText": "#fffbeb",
+      "selectionBackground": "#cfcfde",
+      "selectionForeground": "#1f1f1f",
+      "ansi": [
+        "#1f1f1f",
+        "#cb3a2a",
+        "#14710a",
+        "#846e15",
+        "#036a96",
+        "#a3144d",
+        "#0897b3",
+        "#6c664b",
+        "#6c664b",
+        "#cb3a2a",
+        "#14710a",
+        "#846e15",
+        "#644ac9",
+        "#a3144d",
+        "#0897b3",
+        "#fffbeb"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/dracula/dracula-theme",
+      "commit": "2985f660b04e6961b0887ffac2f8d3f35f431698",
+      "file": "README.md",
+      "theme": "Alucard",
+      "license": "MIT"
+    },
+    "accent": "#644ac9"
   },
   {
     "id": "github-light",
     "name": "GitHub Light",
     "appearance": "light",
-    "colors": { "background": "#ffffff", "foreground": "#24292e", "raised": "#f6f8fa", "control": "#fafbfc", "border": "#e1e4e8", "accent": "#2188ff", "mutedForeground": "#6a737d", "ring": "#2188ff" },
-    "source": { "repository": "https://github.com/primer/github-vscode-theme", "commit": "cd78e5e4e7bcf132a6f428ae0f32264bb1b729cf", "files": ["src/classic/colors.json", "src/classic/theme.js"], "license": "MIT", "licenseUrl": "https://github.com/primer/github-vscode-theme/blob/cd78e5e4e7bcf132a6f428ae0f32264bb1b729cf/LICENSE" }
+    "source": {
+      "repository": "https://github.com/primer/github-vscode-theme",
+      "commit": "cd78e5e4e7bcf132a6f428ae0f32264bb1b729cf",
+      "files": [
+        "src/classic/colors.json",
+        "src/classic/theme.js"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/primer/github-vscode-theme/blob/cd78e5e4e7bcf132a6f428ae0f32264bb1b729cf/LICENSE"
+    },
+    "terminal": {
+      "background": "#ffffff",
+      "foreground": "#1f2328",
+      "cursor": "#0969da",
+      "cursorText": "#3c9cff",
+      "selectionBackground": "#1f2328",
+      "selectionForeground": "#ffffff",
+      "ansi": [
+        "#24292f",
+        "#cf222e",
+        "#116329",
+        "#4d2d00",
+        "#0969da",
+        "#8250df",
+        "#1b7c83",
+        "#6e7781",
+        "#57606a",
+        "#a40e26",
+        "#1a7f37",
+        "#633c01",
+        "#218bff",
+        "#a475f9",
+        "#3192aa",
+        "#8c959f"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/GitHub Light Default",
+      "theme": "GitHub Light Default",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#2188ff"
   },
   {
     "id": "github-dark",
     "name": "GitHub Dark",
     "appearance": "dark",
-    "colors": { "background": "#24292e", "foreground": "#e1e4e8", "raised": "#1f2428", "control": "#2f363d", "border": "#1b1f23", "accent": "#005cc5", "mutedForeground": "#959da5", "ring": "#005cc5" },
-    "source": { "repository": "https://github.com/primer/github-vscode-theme", "commit": "cd78e5e4e7bcf132a6f428ae0f32264bb1b729cf", "files": ["src/classic/colors.json", "src/classic/theme.js"], "license": "MIT", "licenseUrl": "https://github.com/primer/github-vscode-theme/blob/cd78e5e4e7bcf132a6f428ae0f32264bb1b729cf/LICENSE" }
+    "source": {
+      "repository": "https://github.com/primer/github-vscode-theme",
+      "commit": "cd78e5e4e7bcf132a6f428ae0f32264bb1b729cf",
+      "files": [
+        "src/classic/colors.json",
+        "src/classic/theme.js"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/primer/github-vscode-theme/blob/cd78e5e4e7bcf132a6f428ae0f32264bb1b729cf/LICENSE"
+    },
+    "terminal": {
+      "background": "#0d1117",
+      "foreground": "#e6edf3",
+      "cursor": "#2f81f7",
+      "cursorText": "#6fc1ff",
+      "selectionBackground": "#e6edf3",
+      "selectionForeground": "#0d1117",
+      "ansi": [
+        "#484f58",
+        "#ff7b72",
+        "#3fb950",
+        "#d29922",
+        "#58a6ff",
+        "#bc8cff",
+        "#39c5cf",
+        "#b1bac4",
+        "#6e7681",
+        "#ffa198",
+        "#56d364",
+        "#e3b341",
+        "#79c0ff",
+        "#d2a8ff",
+        "#56d4dd",
+        "#ffffff"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/GitHub Dark Default",
+      "theme": "GitHub Dark Default",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#005cc5"
   },
   {
     "id": "github-dark-dimmed",
     "name": "GitHub Dark Dimmed",
     "appearance": "dark",
-    "colors": { "background": "#22272e", "foreground": "#adbac7", "raised": "#2d333b", "control": "#22272e", "border": "#444c56", "accent": "#316dca", "mutedForeground": "#768390", "ring": "#316dca" },
-    "source": { "repository": "https://github.com/primer/primitives", "commit": "f82864eb33c37f8624704bd996bc21b97d3c311b", "files": ["data/colors/themes/dark_dimmed.ts", "data/colors/vars/global_dark.ts"], "license": "MIT", "licenseUrl": "https://github.com/primer/primitives/blob/f82864eb33c37f8624704bd996bc21b97d3c311b/LICENSE" }
+    "source": {
+      "repository": "https://github.com/primer/primitives",
+      "commit": "f82864eb33c37f8624704bd996bc21b97d3c311b",
+      "files": [
+        "data/colors/themes/dark_dimmed.ts",
+        "data/colors/vars/global_dark.ts"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/primer/primitives/blob/f82864eb33c37f8624704bd996bc21b97d3c311b/LICENSE"
+    },
+    "terminal": {
+      "background": "#22272e",
+      "foreground": "#adbac7",
+      "cursor": "#539bf5",
+      "cursorText": "#93dbff",
+      "selectionBackground": "#adbac7",
+      "selectionForeground": "#22272e",
+      "ansi": [
+        "#545d68",
+        "#f47067",
+        "#57ab5a",
+        "#c69026",
+        "#539bf5",
+        "#b083f0",
+        "#39c5cf",
+        "#909dab",
+        "#636e7b",
+        "#ff938a",
+        "#6bc46d",
+        "#daaa3f",
+        "#6cb6ff",
+        "#dcbdfb",
+        "#56d4dd",
+        "#cdd9e5"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/GitHub Dark Dimmed",
+      "theme": "GitHub Dark Dimmed",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#316dca"
   },
   {
     "id": "one-dark",
     "name": "Atom One Dark",
     "appearance": "dark",
-    "colors": { "background": "#282c34", "foreground": "#abb2bf", "raised": "#353b45", "control": "#1b1d23", "border": "#181a1f", "accent": "#528bff", "mutedForeground": "#828997", "ring": "#528bff" },
-    "source": { "repository": "https://github.com/atom/one-dark-ui", "commit": "18c2143d41e17b337fff6dc7024562c4d999be17", "files": ["styles/ui-variables-custom.less", "styles/ui-variables.less"], "license": "MIT", "licenseUrl": "https://github.com/atom/one-dark-ui/blob/18c2143d41e17b337fff6dc7024562c4d999be17/LICENSE.md" }
+    "source": {
+      "repository": "https://github.com/atom/one-dark-ui",
+      "commit": "18c2143d41e17b337fff6dc7024562c4d999be17",
+      "files": [
+        "styles/ui-variables-custom.less",
+        "styles/ui-variables.less"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/atom/one-dark-ui/blob/18c2143d41e17b337fff6dc7024562c4d999be17/LICENSE.md"
+    },
+    "terminal": {
+      "background": "#21252b",
+      "foreground": "#abb2bf",
+      "cursor": "#abb2bf",
+      "cursorText": "#21252b",
+      "selectionBackground": "#323844",
+      "selectionForeground": "#abb2bf",
+      "ansi": [
+        "#21252b",
+        "#e06c75",
+        "#98c379",
+        "#e5c07b",
+        "#61afef",
+        "#c678dd",
+        "#56b6c2",
+        "#abb2bf",
+        "#767676",
+        "#e06c75",
+        "#98c379",
+        "#e5c07b",
+        "#61afef",
+        "#c678dd",
+        "#56b6c2",
+        "#abb2bf"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Atom One Dark",
+      "theme": "Atom One Dark",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#528bff"
   },
   {
     "id": "one-light",
     "name": "Atom One Light",
     "appearance": "light",
-    "colors": { "background": "#fafafa", "foreground": "#383a42", "raised": "#ffffff", "control": "#ffffff", "border": "#dbdbdc", "accent": "#526fff", "mutedForeground": "#696c77", "ring": "#526fff" },
-    "source": { "repository": "https://github.com/atom/one-light-ui", "commit": "a27bce35088ecd323e44f5c2510bcf2d4e9efcf8", "files": ["styles/ui-variables-custom.less", "styles/ui-variables.less"], "license": "MIT", "licenseUrl": "https://github.com/atom/one-light-ui/blob/a27bce35088ecd323e44f5c2510bcf2d4e9efcf8/LICENSE.md" }
+    "source": {
+      "repository": "https://github.com/atom/one-light-ui",
+      "commit": "a27bce35088ecd323e44f5c2510bcf2d4e9efcf8",
+      "files": [
+        "styles/ui-variables-custom.less",
+        "styles/ui-variables.less"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/atom/one-light-ui/blob/a27bce35088ecd323e44f5c2510bcf2d4e9efcf8/LICENSE.md"
+    },
+    "terminal": {
+      "background": "#f9f9f9",
+      "foreground": "#2a2c33",
+      "cursor": "#bbbbbb",
+      "cursorText": "#ffffff",
+      "selectionBackground": "#ededed",
+      "selectionForeground": "#2a2c33",
+      "ansi": [
+        "#000000",
+        "#de3e35",
+        "#3f953a",
+        "#d2b67c",
+        "#2f5af3",
+        "#950095",
+        "#3f953a",
+        "#bbbbbb",
+        "#000000",
+        "#de3e35",
+        "#3f953a",
+        "#d2b67c",
+        "#2f5af3",
+        "#a00095",
+        "#3f953a",
+        "#ffffff"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Atom One Light",
+      "theme": "Atom One Light",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#526fff"
   },
   {
     "id": "tokyo-night-night",
     "name": "Tokyo Night",
     "appearance": "dark",
-    "colors": { "background": "#1a1b26", "foreground": "#c0caf5", "raised": "#16161e", "control": "#292e42", "border": "#15161e", "accent": "#7aa2f7", "mutedForeground": "#a9b1d6", "ring": "#27a1b9" },
-    "source": { "repository": "https://github.com/folke/tokyonight.nvim", "commit": "cdc07ac78467a233fd62c493de29a17e0cf2b2b6", "files": ["lua/tokyonight/colors/night.lua", "extras/pi/tokyonight_night.json"], "license": "Apache-2.0", "licenseUrl": "https://github.com/folke/tokyonight.nvim/blob/cdc07ac78467a233fd62c493de29a17e0cf2b2b6/LICENSE" }
+    "source": {
+      "repository": "https://github.com/folke/tokyonight.nvim",
+      "commit": "cdc07ac78467a233fd62c493de29a17e0cf2b2b6",
+      "files": [
+        "lua/tokyonight/colors/night.lua",
+        "extras/pi/tokyonight_night.json"
+      ],
+      "license": "Apache-2.0",
+      "licenseUrl": "https://github.com/folke/tokyonight.nvim/blob/cdc07ac78467a233fd62c493de29a17e0cf2b2b6/LICENSE"
+    },
+    "terminal": {
+      "background": "#1a1b26",
+      "foreground": "#c0caf5",
+      "cursor": "#c0caf5",
+      "cursorText": "#1a1b26",
+      "selectionBackground": "#283457",
+      "selectionForeground": "#c0caf5",
+      "ansi": [
+        "#15161e",
+        "#f7768e",
+        "#9ece6a",
+        "#e0af68",
+        "#7aa2f7",
+        "#bb9af7",
+        "#7dcfff",
+        "#a9b1d6",
+        "#414868",
+        "#f7768e",
+        "#9ece6a",
+        "#e0af68",
+        "#7aa2f7",
+        "#bb9af7",
+        "#7dcfff",
+        "#c0caf5"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/TokyoNight Night",
+      "theme": "TokyoNight Night",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#7aa2f7"
   },
   {
     "id": "tokyo-night-storm",
     "name": "Tokyo Night Storm",
     "appearance": "dark",
-    "colors": { "background": "#24283b", "foreground": "#c0caf5", "raised": "#1f2335", "control": "#292e42", "border": "#1d202f", "accent": "#7aa2f7", "mutedForeground": "#a9b1d6", "ring": "#29a4bd" },
-    "source": { "repository": "https://github.com/folke/tokyonight.nvim", "commit": "cdc07ac78467a233fd62c493de29a17e0cf2b2b6", "files": ["lua/tokyonight/colors/storm.lua", "extras/pi/tokyonight_storm.json"], "license": "Apache-2.0", "licenseUrl": "https://github.com/folke/tokyonight.nvim/blob/cdc07ac78467a233fd62c493de29a17e0cf2b2b6/LICENSE" }
+    "source": {
+      "repository": "https://github.com/folke/tokyonight.nvim",
+      "commit": "cdc07ac78467a233fd62c493de29a17e0cf2b2b6",
+      "files": [
+        "lua/tokyonight/colors/storm.lua",
+        "extras/pi/tokyonight_storm.json"
+      ],
+      "license": "Apache-2.0",
+      "licenseUrl": "https://github.com/folke/tokyonight.nvim/blob/cdc07ac78467a233fd62c493de29a17e0cf2b2b6/LICENSE"
+    },
+    "terminal": {
+      "background": "#24283b",
+      "foreground": "#c0caf5",
+      "cursor": "#c0caf5",
+      "cursorText": "#1d202f",
+      "selectionBackground": "#364a82",
+      "selectionForeground": "#c0caf5",
+      "ansi": [
+        "#1d202f",
+        "#f7768e",
+        "#9ece6a",
+        "#e0af68",
+        "#7aa2f7",
+        "#bb9af7",
+        "#7dcfff",
+        "#a9b1d6",
+        "#4e5575",
+        "#f7768e",
+        "#9ece6a",
+        "#e0af68",
+        "#7aa2f7",
+        "#bb9af7",
+        "#7dcfff",
+        "#c0caf5"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/TokyoNight Storm",
+      "theme": "TokyoNight Storm",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#7aa2f7"
   },
   {
     "id": "tokyo-night-day",
     "name": "Tokyo Night Day",
     "appearance": "light",
-    "colors": { "background": "#e1e2e7", "foreground": "#3760bf", "raised": "#d0d5e3", "control": "#c4c8da", "border": "#b4b5b9", "accent": "#2e7de9", "mutedForeground": "#6172b0", "ring": "#4094a3" },
-    "source": { "repository": "https://github.com/folke/tokyonight.nvim", "commit": "cdc07ac78467a233fd62c493de29a17e0cf2b2b6", "files": ["lua/tokyonight/colors/day.lua", "extras/pi/tokyonight_day.json"], "license": "Apache-2.0", "licenseUrl": "https://github.com/folke/tokyonight.nvim/blob/cdc07ac78467a233fd62c493de29a17e0cf2b2b6/LICENSE" }
+    "source": {
+      "repository": "https://github.com/folke/tokyonight.nvim",
+      "commit": "cdc07ac78467a233fd62c493de29a17e0cf2b2b6",
+      "files": [
+        "lua/tokyonight/colors/day.lua",
+        "extras/pi/tokyonight_day.json"
+      ],
+      "license": "Apache-2.0",
+      "licenseUrl": "https://github.com/folke/tokyonight.nvim/blob/cdc07ac78467a233fd62c493de29a17e0cf2b2b6/LICENSE"
+    },
+    "terminal": {
+      "background": "#e1e2e7",
+      "foreground": "#3760bf",
+      "cursor": "#3760bf",
+      "cursorText": "#e1e2e7",
+      "selectionBackground": "#99a7df",
+      "selectionForeground": "#3760bf",
+      "ansi": [
+        "#e9e9ed",
+        "#f52a65",
+        "#587539",
+        "#8c6c3e",
+        "#2e7de9",
+        "#9854f1",
+        "#007197",
+        "#6172b0",
+        "#a1a6c5",
+        "#f52a65",
+        "#587539",
+        "#8c6c3e",
+        "#2e7de9",
+        "#9854f1",
+        "#007197",
+        "#3760bf"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/TokyoNight Day",
+      "theme": "TokyoNight Day",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#2e7de9"
   },
   {
     "id": "nord",
     "name": "Nord",
     "appearance": "dark",
-    "colors": { "background": "#2e3440", "foreground": "#d8dee9", "raised": "#3b4252", "control": "#3b4252", "border": "#3b4252", "accent": "#88c0d0", "mutedForeground": "#4c566a", "ring": "#88c0d0" },
-    "source": { "repository": "https://github.com/nordtheme/visual-studio-code", "commit": "8ead09822c02d0d49d0f764104505e5a34d3689f", "files": ["themes/nord-color-theme.json"], "license": "MIT", "licenseUrl": "https://github.com/nordtheme/visual-studio-code/blob/8ead09822c02d0d49d0f764104505e5a34d3689f/license" }
+    "source": {
+      "repository": "https://github.com/nordtheme/visual-studio-code",
+      "commit": "8ead09822c02d0d49d0f764104505e5a34d3689f",
+      "files": [
+        "themes/nord-color-theme.json"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/nordtheme/visual-studio-code/blob/8ead09822c02d0d49d0f764104505e5a34d3689f/license"
+    },
+    "terminal": {
+      "background": "#2e3440",
+      "foreground": "#d8dee9",
+      "cursor": "#eceff4",
+      "cursorText": "#282828",
+      "selectionBackground": "#eceff4",
+      "selectionForeground": "#4c566a",
+      "ansi": [
+        "#3b4252",
+        "#bf616a",
+        "#a3be8c",
+        "#ebcb8b",
+        "#81a1c1",
+        "#b48ead",
+        "#88c0d0",
+        "#e5e9f0",
+        "#596377",
+        "#bf616a",
+        "#a3be8c",
+        "#ebcb8b",
+        "#81a1c1",
+        "#b48ead",
+        "#8fbcbb",
+        "#eceff4"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Nord",
+      "theme": "Nord",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#88c0d0",
+    "uiOverrides": {
+      "background": "#2e3440",
+      "foreground": "#e5e9f0",
+      "raised": "#3b4252",
+      "control": "#434c5e",
+      "border": "#4c566a",
+      "accent": "#88c0d0",
+      "mutedForeground": "#81a1c1",
+      "ring": "#88c0d0"
+    }
   },
   {
     "id": "gruvbox-dark",
     "name": "Gruvbox Dark",
     "appearance": "dark",
-    "colors": { "background": "#282828", "foreground": "#ebdbb2", "raised": "#3c3836", "control": "#504945", "border": "#665c54", "accent": "#83a598", "mutedForeground": "#928374", "ring": "#83a598" },
-    "source": { "repository": "https://github.com/morhetz/gruvbox", "commit": "5d15b2765f59754d7ac263c88a0f6e3e58124951", "files": ["colors/gruvbox.vim", "README.md"], "license": "MIT", "licenseUrl": "https://github.com/morhetz/gruvbox/blob/5d15b2765f59754d7ac263c88a0f6e3e58124951/README.md#license" }
+    "source": {
+      "repository": "https://github.com/morhetz/gruvbox",
+      "commit": "5d15b2765f59754d7ac263c88a0f6e3e58124951",
+      "files": [
+        "colors/gruvbox.vim",
+        "README.md"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/morhetz/gruvbox/blob/5d15b2765f59754d7ac263c88a0f6e3e58124951/README.md#license"
+    },
+    "terminal": {
+      "background": "#282828",
+      "foreground": "#ebdbb2",
+      "cursor": "#ebdbb2",
+      "cursorText": "#282828",
+      "selectionBackground": "#665c54",
+      "selectionForeground": "#ebdbb2",
+      "ansi": [
+        "#282828",
+        "#cc241d",
+        "#98971a",
+        "#d79921",
+        "#458588",
+        "#b16286",
+        "#689d6a",
+        "#a89984",
+        "#928374",
+        "#fb4934",
+        "#b8bb26",
+        "#fabd2f",
+        "#83a598",
+        "#d3869b",
+        "#8ec07c",
+        "#ebdbb2"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Gruvbox Dark",
+      "theme": "Gruvbox Dark",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#83a598"
   },
   {
     "id": "gruvbox-light",
     "name": "Gruvbox Light",
     "appearance": "light",
-    "colors": { "background": "#fbf1c7", "foreground": "#3c3836", "raised": "#ebdbb2", "control": "#d5c4a1", "border": "#bdae93", "accent": "#076678", "mutedForeground": "#928374", "ring": "#076678" },
-    "source": { "repository": "https://github.com/morhetz/gruvbox", "commit": "5d15b2765f59754d7ac263c88a0f6e3e58124951", "files": ["colors/gruvbox.vim", "README.md"], "license": "MIT", "licenseUrl": "https://github.com/morhetz/gruvbox/blob/5d15b2765f59754d7ac263c88a0f6e3e58124951/README.md#license" }
+    "source": {
+      "repository": "https://github.com/morhetz/gruvbox",
+      "commit": "5d15b2765f59754d7ac263c88a0f6e3e58124951",
+      "files": [
+        "colors/gruvbox.vim",
+        "README.md"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/morhetz/gruvbox/blob/5d15b2765f59754d7ac263c88a0f6e3e58124951/README.md#license"
+    },
+    "terminal": {
+      "background": "#fbf1c7",
+      "foreground": "#3c3836",
+      "cursor": "#3c3836",
+      "cursorText": "#fbf1c7",
+      "selectionBackground": "#3c3836",
+      "selectionForeground": "#fbf1c7",
+      "ansi": [
+        "#fbf1c7",
+        "#cc241d",
+        "#98971a",
+        "#d79921",
+        "#458588",
+        "#b16286",
+        "#689d6a",
+        "#7c6f64",
+        "#928374",
+        "#9d0006",
+        "#79740e",
+        "#b57614",
+        "#076678",
+        "#8f3f71",
+        "#427b58",
+        "#3c3836"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Gruvbox Light",
+      "theme": "Gruvbox Light",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#076678"
   },
   {
     "id": "solarized-dark",
     "name": "Solarized Dark",
     "appearance": "dark",
-    "colors": { "background": "#002b36", "foreground": "#839496", "raised": "#073642", "control": "#073642", "border": "#586e75", "accent": "#268bd2", "mutedForeground": "#586e75", "ring": "#268bd2" },
-    "source": { "repository": "https://github.com/altercation/solarized", "commit": "62f656a02f93c5190a8753159e34b385588d5ff3", "files": ["README.md", "vim-colors-solarized/colors/solarized.vim"], "license": "MIT", "licenseUrl": "https://github.com/altercation/solarized/blob/62f656a02f93c5190a8753159e34b385588d5ff3/LICENSE" }
+    "source": {
+      "repository": "https://github.com/altercation/solarized",
+      "commit": "62f656a02f93c5190a8753159e34b385588d5ff3",
+      "files": [
+        "README.md",
+        "vim-colors-solarized/colors/solarized.vim"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/altercation/solarized/blob/62f656a02f93c5190a8753159e34b385588d5ff3/LICENSE"
+    },
+    "terminal": {
+      "background": "#002b36",
+      "foreground": "#839496",
+      "cursor": "#839496",
+      "cursorText": "#073642",
+      "selectionBackground": "#073642",
+      "selectionForeground": "#93a1a1",
+      "ansi": [
+        "#073642",
+        "#dc322f",
+        "#859900",
+        "#b58900",
+        "#268bd2",
+        "#d33682",
+        "#2aa198",
+        "#eee8d5",
+        "#335e69",
+        "#cb4b16",
+        "#586e75",
+        "#657b83",
+        "#839496",
+        "#6c71c4",
+        "#93a1a1",
+        "#fdf6e3"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/iTerm2 Solarized Dark",
+      "theme": "iTerm2 Solarized Dark",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#268bd2"
   },
   {
     "id": "solarized-light",
     "name": "Solarized Light",
     "appearance": "light",
-    "colors": { "background": "#fdf6e3", "foreground": "#586e75", "raised": "#eee8d5", "control": "#eee8d5", "border": "#93a1a1", "accent": "#268bd2", "mutedForeground": "#657b83", "ring": "#268bd2" },
-    "source": { "repository": "https://github.com/altercation/solarized", "commit": "62f656a02f93c5190a8753159e34b385588d5ff3", "files": ["README.md", "vim-colors-solarized/colors/solarized.vim"], "license": "MIT", "licenseUrl": "https://github.com/altercation/solarized/blob/62f656a02f93c5190a8753159e34b385588d5ff3/LICENSE" }
+    "source": {
+      "repository": "https://github.com/altercation/solarized",
+      "commit": "62f656a02f93c5190a8753159e34b385588d5ff3",
+      "files": [
+        "README.md",
+        "vim-colors-solarized/colors/solarized.vim"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/altercation/solarized/blob/62f656a02f93c5190a8753159e34b385588d5ff3/LICENSE"
+    },
+    "terminal": {
+      "background": "#fdf6e3",
+      "foreground": "#657b83",
+      "cursor": "#657b83",
+      "cursorText": "#eee8d5",
+      "selectionBackground": "#eee8d5",
+      "selectionForeground": "#586e75",
+      "ansi": [
+        "#073642",
+        "#dc322f",
+        "#859900",
+        "#b58900",
+        "#268bd2",
+        "#d33682",
+        "#2aa198",
+        "#bbb5a2",
+        "#002b36",
+        "#cb4b16",
+        "#586e75",
+        "#657b83",
+        "#839496",
+        "#6c71c4",
+        "#93a1a1",
+        "#fdf6e3"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/iTerm2 Solarized Light",
+      "theme": "iTerm2 Solarized Light",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#268bd2"
   },
   {
     "id": "rose-pine",
     "name": "Rosé Pine",
     "appearance": "dark",
-    "colors": { "background": "#191724", "foreground": "#e0def4", "raised": "#1f1d2e", "control": "#26233a", "border": "#524f67", "accent": "#c4a7e7", "mutedForeground": "#6e6a86", "ring": "#c4a7e7" },
-    "source": { "repository": "https://github.com/rose-pine/rose-pine-palette", "commit": "92af52b465ab6e47437aca223c9b8d3009a2023b", "files": ["source/index.ts", "README.md"], "license": "MIT", "licenseUrl": "https://github.com/rose-pine/rose-pine-palette/blob/92af52b465ab6e47437aca223c9b8d3009a2023b/LICENSE" }
+    "source": {
+      "repository": "https://github.com/rose-pine/rose-pine-palette",
+      "commit": "92af52b465ab6e47437aca223c9b8d3009a2023b",
+      "files": [
+        "source/index.ts",
+        "README.md"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/rose-pine/rose-pine-palette/blob/92af52b465ab6e47437aca223c9b8d3009a2023b/LICENSE"
+    },
+    "terminal": {
+      "background": "#191724",
+      "foreground": "#e0def4",
+      "cursor": "#e0def4",
+      "cursorText": "#191724",
+      "selectionBackground": "#403d52",
+      "selectionForeground": "#e0def4",
+      "ansi": [
+        "#26233a",
+        "#eb6f92",
+        "#31748f",
+        "#f6c177",
+        "#9ccfd8",
+        "#c4a7e7",
+        "#ebbcba",
+        "#e0def4",
+        "#6e6a86",
+        "#eb6f92",
+        "#31748f",
+        "#f6c177",
+        "#9ccfd8",
+        "#c4a7e7",
+        "#ebbcba",
+        "#e0def4"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Rose Pine",
+      "theme": "Rose Pine",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#c4a7e7"
   },
   {
     "id": "rose-pine-moon",
     "name": "Rosé Pine Moon",
     "appearance": "dark",
-    "colors": { "background": "#232136", "foreground": "#e0def4", "raised": "#2a273f", "control": "#393552", "border": "#56526e", "accent": "#c4a7e7", "mutedForeground": "#6e6a86", "ring": "#c4a7e7" },
-    "source": { "repository": "https://github.com/rose-pine/rose-pine-palette", "commit": "92af52b465ab6e47437aca223c9b8d3009a2023b", "files": ["source/index.ts", "README.md"], "license": "MIT", "licenseUrl": "https://github.com/rose-pine/rose-pine-palette/blob/92af52b465ab6e47437aca223c9b8d3009a2023b/LICENSE" }
+    "source": {
+      "repository": "https://github.com/rose-pine/rose-pine-palette",
+      "commit": "92af52b465ab6e47437aca223c9b8d3009a2023b",
+      "files": [
+        "source/index.ts",
+        "README.md"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/rose-pine/rose-pine-palette/blob/92af52b465ab6e47437aca223c9b8d3009a2023b/LICENSE"
+    },
+    "terminal": {
+      "background": "#232136",
+      "foreground": "#e0def4",
+      "cursor": "#e0def4",
+      "cursorText": "#232136",
+      "selectionBackground": "#44415a",
+      "selectionForeground": "#e0def4",
+      "ansi": [
+        "#393552",
+        "#eb6f92",
+        "#3e8fb0",
+        "#f6c177",
+        "#9ccfd8",
+        "#c4a7e7",
+        "#ea9a97",
+        "#e0def4",
+        "#6e6a86",
+        "#eb6f92",
+        "#3e8fb0",
+        "#f6c177",
+        "#9ccfd8",
+        "#c4a7e7",
+        "#ea9a97",
+        "#e0def4"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Rose Pine Moon",
+      "theme": "Rose Pine Moon",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#c4a7e7"
   },
   {
     "id": "rose-pine-dawn",
     "name": "Rosé Pine Dawn",
     "appearance": "light",
-    "colors": { "background": "#faf4ed", "foreground": "#464261", "raised": "#fffaf3", "control": "#f2e9e1", "border": "#cecacd", "accent": "#907aa9", "mutedForeground": "#9893a5", "ring": "#907aa9" },
-    "source": { "repository": "https://github.com/rose-pine/rose-pine-palette", "commit": "92af52b465ab6e47437aca223c9b8d3009a2023b", "files": ["source/index.ts", "README.md"], "license": "MIT", "licenseUrl": "https://github.com/rose-pine/rose-pine-palette/blob/92af52b465ab6e47437aca223c9b8d3009a2023b/LICENSE" }
+    "source": {
+      "repository": "https://github.com/rose-pine/rose-pine-palette",
+      "commit": "92af52b465ab6e47437aca223c9b8d3009a2023b",
+      "files": [
+        "source/index.ts",
+        "README.md"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/rose-pine/rose-pine-palette/blob/92af52b465ab6e47437aca223c9b8d3009a2023b/LICENSE"
+    },
+    "terminal": {
+      "background": "#faf4ed",
+      "foreground": "#575279",
+      "cursor": "#575279",
+      "cursorText": "#faf4ed",
+      "selectionBackground": "#dfdad9",
+      "selectionForeground": "#575279",
+      "ansi": [
+        "#f2e9e1",
+        "#b4637a",
+        "#286983",
+        "#ea9d34",
+        "#56949f",
+        "#907aa9",
+        "#d7827e",
+        "#575279",
+        "#9893a5",
+        "#b4637a",
+        "#286983",
+        "#ea9d34",
+        "#56949f",
+        "#907aa9",
+        "#d7827e",
+        "#575279"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Rose Pine Dawn",
+      "theme": "Rose Pine Dawn",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#907aa9"
   },
   {
     "id": "ayu-dark",
     "name": "Ayu Dark",
     "appearance": "dark",
-    "colors": { "background": "#0d1017", "foreground": "#bfbdb6", "raised": "#10141c", "control": "#141821", "border": "#1b1f29", "accent": "#e6b450", "mutedForeground": "#5a6378", "ring": "#e6b450" },
-    "source": { "repository": "https://github.com/ayu-theme/ayu-colors", "commit": "e3f44fdf2a1c83e3f183d4e8acd40c6a452dcb1c", "files": ["themes/dark.yaml"], "license": "MIT", "licenseUrl": "https://github.com/ayu-theme/ayu-colors/blob/e3f44fdf2a1c83e3f183d4e8acd40c6a452dcb1c/license" }
+    "source": {
+      "repository": "https://github.com/ayu-theme/ayu-colors",
+      "commit": "e3f44fdf2a1c83e3f183d4e8acd40c6a452dcb1c",
+      "files": [
+        "themes/dark.yaml"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/ayu-theme/ayu-colors/blob/e3f44fdf2a1c83e3f183d4e8acd40c6a452dcb1c/license"
+    },
+    "terminal": {
+      "background": "#0b0e14",
+      "foreground": "#bfbdb6",
+      "cursor": "#e6b450",
+      "cursorText": "#0b0e14",
+      "selectionBackground": "#409fff",
+      "selectionForeground": "#0b0e14",
+      "ansi": [
+        "#11151c",
+        "#ea6c73",
+        "#7fd962",
+        "#f9af4f",
+        "#53bdfa",
+        "#cda1fa",
+        "#90e1c6",
+        "#c7c7c7",
+        "#686868",
+        "#f07178",
+        "#aad94c",
+        "#ffb454",
+        "#59c2ff",
+        "#d2a6ff",
+        "#95e6cb",
+        "#ffffff"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Ayu",
+      "theme": "Ayu",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#e6b450"
   },
   {
     "id": "ayu-mirage",
     "name": "Ayu Mirage",
     "appearance": "dark",
-    "colors": { "background": "#1f2430", "foreground": "#cccac2", "raised": "#242936", "control": "#282e3b", "border": "#171b24", "accent": "#ffcc66", "mutedForeground": "#707a8c", "ring": "#ffcc66" },
-    "source": { "repository": "https://github.com/ayu-theme/ayu-colors", "commit": "e3f44fdf2a1c83e3f183d4e8acd40c6a452dcb1c", "files": ["themes/mirage.yaml"], "license": "MIT", "licenseUrl": "https://github.com/ayu-theme/ayu-colors/blob/e3f44fdf2a1c83e3f183d4e8acd40c6a452dcb1c/license" }
+    "source": {
+      "repository": "https://github.com/ayu-theme/ayu-colors",
+      "commit": "e3f44fdf2a1c83e3f183d4e8acd40c6a452dcb1c",
+      "files": [
+        "themes/mirage.yaml"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/ayu-theme/ayu-colors/blob/e3f44fdf2a1c83e3f183d4e8acd40c6a452dcb1c/license"
+    },
+    "terminal": {
+      "background": "#1f2430",
+      "foreground": "#cccac2",
+      "cursor": "#ffcc66",
+      "cursorText": "#1f2430",
+      "selectionBackground": "#409fff",
+      "selectionForeground": "#1f2430",
+      "ansi": [
+        "#171b24",
+        "#ed8274",
+        "#87d96c",
+        "#facc6e",
+        "#6dcbfa",
+        "#dabafa",
+        "#90e1c6",
+        "#c7c7c7",
+        "#686868",
+        "#f28779",
+        "#d5ff80",
+        "#ffd173",
+        "#73d0ff",
+        "#dfbfff",
+        "#95e6cb",
+        "#ffffff"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Ayu Mirage",
+      "theme": "Ayu Mirage",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#ffcc66",
+    "uiOverrides": {
+      "background": "#1f2430",
+      "foreground": "#cccac2",
+      "raised": "#242936",
+      "control": "#282e3b",
+      "border": "#171b24",
+      "accent": "#ffcc66",
+      "mutedForeground": "#707a8c",
+      "ring": "#ffcc66"
+    }
   },
   {
     "id": "ayu-light",
     "name": "Ayu Light",
     "appearance": "light",
-    "colors": { "background": "#f8f9fa", "foreground": "#5c6166", "raised": "#fcfcfc", "control": "#fafafa", "border": "#e7eaed", "accent": "#f29718", "mutedForeground": "#828e9f", "ring": "#f29718" },
-    "source": { "repository": "https://github.com/ayu-theme/ayu-colors", "commit": "e3f44fdf2a1c83e3f183d4e8acd40c6a452dcb1c", "files": ["themes/light.yaml"], "license": "MIT", "licenseUrl": "https://github.com/ayu-theme/ayu-colors/blob/e3f44fdf2a1c83e3f183d4e8acd40c6a452dcb1c/license" }
+    "source": {
+      "repository": "https://github.com/ayu-theme/ayu-colors",
+      "commit": "e3f44fdf2a1c83e3f183d4e8acd40c6a452dcb1c",
+      "files": [
+        "themes/light.yaml"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/ayu-theme/ayu-colors/blob/e3f44fdf2a1c83e3f183d4e8acd40c6a452dcb1c/license"
+    },
+    "terminal": {
+      "background": "#f8f9fa",
+      "foreground": "#5c6166",
+      "cursor": "#ffaa33",
+      "cursorText": "#f8f9fa",
+      "selectionBackground": "#035bd6",
+      "selectionForeground": "#f8f9fa",
+      "ansi": [
+        "#000000",
+        "#ea6c6d",
+        "#6cbf43",
+        "#eca944",
+        "#3199e1",
+        "#9e75c7",
+        "#46ba94",
+        "#bababa",
+        "#686868",
+        "#f07171",
+        "#86b300",
+        "#f2ae49",
+        "#399ee6",
+        "#a37acc",
+        "#4cbf99",
+        "#d1d1d1"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Ayu Light",
+      "theme": "Ayu Light",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#f29718"
   },
   {
     "id": "night-owl",
     "name": "Night Owl",
     "appearance": "dark",
-    "colors": { "background": "#011627", "foreground": "#d6deeb", "raised": "#0b2942", "control": "#0b253a", "border": "#5f7e97", "accent": "#7e57c2", "mutedForeground": "#5f7e97", "ring": "#122d42" },
-    "source": { "repository": "https://github.com/sdras/night-owl-vscode-theme", "commit": "cc291eba7976b20d7c66bde6883c27b902196b07", "files": ["themes/Night Owl-color-theme.json"], "license": "MIT", "licenseUrl": "https://github.com/sdras/night-owl-vscode-theme/blob/cc291eba7976b20d7c66bde6883c27b902196b07/LICENSE.md" }
+    "source": {
+      "repository": "https://github.com/sdras/night-owl-vscode-theme",
+      "commit": "cc291eba7976b20d7c66bde6883c27b902196b07",
+      "files": [
+        "themes/Night Owl-color-theme.json"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/sdras/night-owl-vscode-theme/blob/cc291eba7976b20d7c66bde6883c27b902196b07/LICENSE.md"
+    },
+    "terminal": {
+      "background": "#011627",
+      "foreground": "#d6deeb",
+      "cursor": "#7e57c2",
+      "cursorText": "#ffffff",
+      "selectionBackground": "#5f7e97",
+      "selectionForeground": "#dfe5ee",
+      "ansi": [
+        "#011627",
+        "#ef5350",
+        "#22da6e",
+        "#addb67",
+        "#82aaff",
+        "#c792ea",
+        "#21c7a8",
+        "#ffffff",
+        "#575656",
+        "#ef5350",
+        "#22da6e",
+        "#ffeb95",
+        "#82aaff",
+        "#c792ea",
+        "#7fdbca",
+        "#ffffff"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Night Owl",
+      "theme": "Night Owl",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#7e57c2"
   },
   {
     "id": "light-owl",
     "name": "Light Owl",
     "appearance": "light",
-    "colors": { "background": "#fbfbfb", "foreground": "#403f53", "raised": "#f6f6f6", "control": "#f0f0f0", "border": "#d9d9d9", "accent": "#2aa298", "mutedForeground": "#93a1a1", "ring": "#93a1a1" },
-    "source": { "repository": "https://github.com/sdras/night-owl-vscode-theme", "commit": "cc291eba7976b20d7c66bde6883c27b902196b07", "files": ["themes/Night Owl-Light-color-theme.json"], "license": "MIT", "licenseUrl": "https://github.com/sdras/night-owl-vscode-theme/blob/cc291eba7976b20d7c66bde6883c27b902196b07/LICENSE.md" }
+    "source": {
+      "repository": "https://github.com/sdras/night-owl-vscode-theme",
+      "commit": "cc291eba7976b20d7c66bde6883c27b902196b07",
+      "files": [
+        "themes/Night Owl-Light-color-theme.json"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/sdras/night-owl-vscode-theme/blob/cc291eba7976b20d7c66bde6883c27b902196b07/LICENSE.md"
+    },
+    "terminal": {
+      "background": "#fbfbfb",
+      "foreground": "#403f53",
+      "cursor": "#403f53",
+      "cursorText": "#f6f6f6",
+      "selectionBackground": "#e0e0e0",
+      "selectionForeground": "#403f53",
+      "ansi": [
+        "#403f53",
+        "#de3d3b",
+        "#08916a",
+        "#e0af02",
+        "#288ed7",
+        "#d6438a",
+        "#2aa298",
+        "#bdbdbd",
+        "#989fb1",
+        "#de3d3b",
+        "#08916a",
+        "#daaa01",
+        "#288ed7",
+        "#d6438a",
+        "#2aa298",
+        "#f0f0f0"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Light Owl",
+      "theme": "Light Owl",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#2aa298"
   },
   {
     "id": "everforest-dark",
     "name": "Everforest Dark",
     "appearance": "dark",
-    "colors": { "background": "#2d353b", "foreground": "#d3c6aa", "raised": "#343f44", "control": "#3d484d", "border": "#859289", "accent": "#a7c080", "mutedForeground": "#859289", "ring": "#a7c080" },
-    "source": { "repository": "https://github.com/sainnhe/everforest", "commit": "85a86eb62409e3ec88713bff3d1b9d7374e112e4", "files": ["palette.md", "autoload/everforest.vim"], "license": "MIT", "licenseUrl": "https://github.com/sainnhe/everforest/blob/85a86eb62409e3ec88713bff3d1b9d7374e112e4/LICENSE" }
+    "source": {
+      "repository": "https://github.com/sainnhe/everforest",
+      "commit": "85a86eb62409e3ec88713bff3d1b9d7374e112e4",
+      "files": [
+        "palette.md",
+        "autoload/everforest.vim"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/sainnhe/everforest/blob/85a86eb62409e3ec88713bff3d1b9d7374e112e4/LICENSE"
+    },
+    "terminal": {
+      "background": "#1e2326",
+      "foreground": "#d3c6aa",
+      "cursor": "#e69875",
+      "cursorText": "#4c3743",
+      "selectionBackground": "#4c3743",
+      "selectionForeground": "#d3c6aa",
+      "ansi": [
+        "#7a8478",
+        "#e67e80",
+        "#a7c080",
+        "#dbbc7f",
+        "#7fbbb3",
+        "#d699b6",
+        "#83c092",
+        "#f2efdf",
+        "#a6b0a0",
+        "#f85552",
+        "#8da101",
+        "#dfa000",
+        "#3a94c5",
+        "#df69ba",
+        "#35a77c",
+        "#fffbef"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Everforest Dark Hard",
+      "theme": "Everforest Dark Hard",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#a7c080"
   },
   {
     "id": "everforest-light",
     "name": "Everforest Light",
     "appearance": "light",
-    "colors": { "background": "#fdf6e3", "foreground": "#5c6a72", "raised": "#f4f0d9", "control": "#efebd4", "border": "#939f91", "accent": "#8da101", "mutedForeground": "#939f91", "ring": "#8da101" },
-    "source": { "repository": "https://github.com/sainnhe/everforest", "commit": "85a86eb62409e3ec88713bff3d1b9d7374e112e4", "files": ["palette.md", "autoload/everforest.vim"], "license": "MIT", "licenseUrl": "https://github.com/sainnhe/everforest/blob/85a86eb62409e3ec88713bff3d1b9d7374e112e4/LICENSE" }
+    "source": {
+      "repository": "https://github.com/sainnhe/everforest",
+      "commit": "85a86eb62409e3ec88713bff3d1b9d7374e112e4",
+      "files": [
+        "palette.md",
+        "autoload/everforest.vim"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/sainnhe/everforest/blob/85a86eb62409e3ec88713bff3d1b9d7374e112e4/LICENSE"
+    },
+    "terminal": {
+      "background": "#efebd4",
+      "foreground": "#5c6a72",
+      "cursor": "#f57d26",
+      "cursorText": "#eaedc8",
+      "selectionBackground": "#eaedc8",
+      "selectionForeground": "#5c6a72",
+      "ansi": [
+        "#7a8478",
+        "#e67e80",
+        "#9ab373",
+        "#c1a266",
+        "#7fbbb3",
+        "#d699b6",
+        "#83c092",
+        "#b2af9f",
+        "#a6b0a0",
+        "#f85552",
+        "#8da101",
+        "#dfa000",
+        "#3a94c5",
+        "#df69ba",
+        "#35a77c",
+        "#fffbef"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Everforest Light Med",
+      "theme": "Everforest Light Med",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#8da101"
   },
   {
     "id": "kanagawa-wave",
     "name": "Kanagawa Wave",
     "appearance": "dark",
-    "colors": { "background": "#1f1f28", "foreground": "#dcd7ba", "raised": "#2a2a37", "control": "#223249", "border": "#54546d", "accent": "#938aa9", "mutedForeground": "#727169", "ring": "#938aa9" },
-    "source": { "repository": "https://github.com/rebelot/kanagawa.nvim", "commit": "bb85e4bfc8d89b0e62c8fa53ccdd13d12e2f77b3", "files": ["lua/kanagawa/colors.lua", "lua/kanagawa/themes.lua"], "license": "MIT", "licenseUrl": "https://github.com/rebelot/kanagawa.nvim/blob/bb85e4bfc8d89b0e62c8fa53ccdd13d12e2f77b3/LICENSE" }
+    "source": {
+      "repository": "https://github.com/rebelot/kanagawa.nvim",
+      "commit": "bb85e4bfc8d89b0e62c8fa53ccdd13d12e2f77b3",
+      "files": [
+        "lua/kanagawa/colors.lua",
+        "lua/kanagawa/themes.lua"
+      ],
+      "license": "MIT",
+      "licenseUrl": "https://github.com/rebelot/kanagawa.nvim/blob/bb85e4bfc8d89b0e62c8fa53ccdd13d12e2f77b3/LICENSE"
+    },
+    "terminal": {
+      "background": "#1f1f28",
+      "foreground": "#dcd7ba",
+      "cursor": "#dcd7ba",
+      "cursorText": "#1f1f28",
+      "selectionBackground": "#dcd7ba",
+      "selectionForeground": "#1f1f28",
+      "ansi": [
+        "#090618",
+        "#c34043",
+        "#76946a",
+        "#c0a36e",
+        "#7e9cd8",
+        "#957fb8",
+        "#6a9589",
+        "#c8c093",
+        "#727169",
+        "#e82424",
+        "#98bb6c",
+        "#e6c384",
+        "#7fb4ca",
+        "#938aa9",
+        "#7aa89f",
+        "#dcd7ba"
+      ]
+    },
+    "terminalSource": {
+      "repository": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+      "commit": "752a9c079396cc9939b86e893578ed81e80c140f",
+      "file": "ghostty/Kanagawa Wave",
+      "theme": "Kanagawa Wave",
+      "license": "MIT collection; individual theme rights retained by its author"
+    },
+    "accent": "#938aa9"
   }
 ]

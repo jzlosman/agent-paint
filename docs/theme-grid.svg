@@ -1,48 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1608" height="980" viewBox="0 0 1608 980">
   <rect width="100%" height="100%" fill="#0f1117"/>
-  <text x="32" y="48" fill="#f2f4f8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="30" font-weight="800">Paseo Theme Pack</text>
-  <text x="32" y="78" fill="#9aa4b2" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">30 popular coding palettes · official plugin API · no CDP</text>
+  <text x="32" y="48" fill="#f2f4f8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="30" font-weight="800">Theme Pack · Paseo, Pi &amp; Superset</text>
+  <text x="32" y="78" fill="#9aa4b2" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">30 terminal-first palettes · generated Paseo output shown below</text>
   <g font-family="ui-sans-serif, system-ui, sans-serif">
   <g transform="translate(32 112)">
-    <rect width="296" height="126" rx="14" fill="#282c34" stroke="#181a1f"/>
+    <rect width="296" height="126" rx="14" fill="#21252b" stroke="#484d54"/>
     <text x="18" y="31" fill="#abb2bf" font-size="17" font-weight="700">Atom One Dark</text>
-    <text x="18" y="54" fill="#828997" font-size="12">DARK</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#353b45"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#1b1d23"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#181a1f"/>
+    <text x="18" y="54" fill="#8b8b8b" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#292e34"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#33383e"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#484d54"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#528bff"/>
   </g>
   <g transform="translate(344 112)">
-    <rect width="296" height="126" rx="14" fill="#fafafa" stroke="#dbdbdc"/>
-    <text x="18" y="31" fill="#383a42" font-size="17" font-weight="700">Atom One Light</text>
-    <text x="18" y="54" fill="#696c77" font-size="12">LIGHT</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#ffffff"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#ffffff"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#dbdbdc"/>
+    <rect width="296" height="126" rx="14" fill="#f9f9f9" stroke="#bcbcbe"/>
+    <text x="18" y="31" fill="#2a2c33" font-size="17" font-weight="700">Atom One Light</text>
+    <text x="18" y="54" fill="#000000" font-size="12">LIGHT</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#ececed"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#dcdcdd"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#bcbcbe"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#526fff"/>
   </g>
   <g transform="translate(656 112)">
-    <rect width="296" height="126" rx="14" fill="#0d1017" stroke="#1b1f29"/>
+    <rect width="296" height="126" rx="14" fill="#0b0e14" stroke="#3c3e41"/>
     <text x="18" y="31" fill="#bfbdb6" font-size="17" font-weight="700">Ayu Dark</text>
-    <text x="18" y="54" fill="#5a6378" font-size="12">DARK</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#10141c"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#141821"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#1b1f29"/>
+    <text x="18" y="54" fill="#7a7a7a" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#191b20"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#25282c"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#3c3e41"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#e6b450"/>
   </g>
   <g transform="translate(968 112)">
-    <rect width="296" height="126" rx="14" fill="#f8f9fa" stroke="#e7eaed"/>
-    <text x="18" y="31" fill="#5c6166" font-size="17" font-weight="700">Ayu Light</text>
-    <text x="18" y="54" fill="#828e9f" font-size="12">LIGHT</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#fcfcfc"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#fafafa"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#e7eaed"/>
-    <rect x="198" y="72" width="80" height="34" rx="8" fill="#f29718"/>
+    <rect width="296" height="126" rx="14" fill="#f8f9fa" stroke="#babcbf"/>
+    <text x="18" y="31" fill="#52565b" font-size="17" font-weight="700">Ayu Light</text>
+    <text x="18" y="54" fill="#686868" font-size="12">LIGHT</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#ebecee"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#dbdcde"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#babcbf"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#cc7f14"/>
   </g>
   <g transform="translate(1280 112)">
     <rect width="296" height="126" rx="14" fill="#1f2430" stroke="#171b24"/>
     <text x="18" y="31" fill="#cccac2" font-size="17" font-weight="700">Ayu Mirage</text>
-    <text x="18" y="54" fill="#707a8c" font-size="12">DARK</text>
+    <text x="18" y="54" fill="#828b9a" font-size="12">DARK</text>
     <rect x="18" y="72" width="52" height="34" rx="8" fill="#242936"/>
     <rect x="78" y="72" width="52" height="34" rx="8" fill="#282e3b"/>
     <rect x="138" y="72" width="52" height="34" rx="8" fill="#171b24"/>
@@ -60,7 +60,7 @@
   <g transform="translate(344 254)">
     <rect width="296" height="126" rx="14" fill="#eff1f5" stroke="#acb0be"/>
     <text x="18" y="31" fill="#4c4f69" font-size="17" font-weight="700">Catppuccin Latte</text>
-    <text x="18" y="54" fill="#6c6f85" font-size="12">LIGHT</text>
+    <text x="18" y="54" fill="#6a6d82" font-size="12">LIGHT</text>
     <rect x="18" y="72" width="52" height="34" rx="8" fill="#ccd0da"/>
     <rect x="78" y="72" width="52" height="34" rx="8" fill="#bcc0cc"/>
     <rect x="138" y="72" width="52" height="34" rx="8" fill="#acb0be"/>
@@ -85,192 +85,192 @@
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#cba6f7"/>
   </g>
   <g transform="translate(1280 254)">
-    <rect width="296" height="126" rx="14" fill="#282a36" stroke="#191a21"/>
+    <rect width="296" height="126" rx="14" fill="#282a36" stroke="#4f515a"/>
     <text x="18" y="31" fill="#f8f8f2" font-size="17" font-weight="700">Dracula</text>
-    <text x="18" y="54" fill="#6272a4" font-size="12">DARK</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#343746"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#44475a"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#191a21"/>
+    <text x="18" y="54" fill="#8390b7" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#31323e"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#3a3c47"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#4f515a"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#bd93f9"/>
   </g>
   <g transform="translate(32 396)">
-    <rect width="296" height="126" rx="14" fill="#fffbeb" stroke="#6c664b"/>
+    <rect width="296" height="126" rx="14" fill="#fffbeb" stroke="#c0beb2"/>
     <text x="18" y="31" fill="#1f1f1f" font-size="17" font-weight="700">Dracula Alucard</text>
     <text x="18" y="54" fill="#6c664b" font-size="12">LIGHT</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#cfcfde"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#cfcfde"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#6c664b"/>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#f2eedf"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#e1ded0"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#c0beb2"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#644ac9"/>
   </g>
   <g transform="translate(344 396)">
-    <rect width="296" height="126" rx="14" fill="#2d353b" stroke="#859289"/>
+    <rect width="296" height="126" rx="14" fill="#1e2326" stroke="#4a4b46"/>
     <text x="18" y="31" fill="#d3c6aa" font-size="17" font-weight="700">Everforest Dark</text>
-    <text x="18" y="54" fill="#859289" font-size="12">DARK</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#343f44"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#3d484d"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#859289"/>
+    <text x="18" y="54" fill="#a6b0a0" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#272c2d"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#333636"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#4a4b46"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#a7c080"/>
   </g>
   <g transform="translate(656 396)">
-    <rect width="296" height="126" rx="14" fill="#fdf6e3" stroke="#939f91"/>
-    <text x="18" y="31" fill="#5c6a72" font-size="17" font-weight="700">Everforest Light</text>
-    <text x="18" y="54" fill="#939f91" font-size="12">LIGHT</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#f4f0d9"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#efebd4"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#939f91"/>
-    <rect x="198" y="72" width="80" height="34" rx="8" fill="#8da101"/>
+    <rect width="296" height="126" rx="14" fill="#efebd4" stroke="#b0b1a5"/>
+    <text x="18" y="31" fill="#444f55" font-size="17" font-weight="700">Everforest Light</text>
+    <text x="18" y="54" fill="#666c62" font-size="12">LIGHT</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#e1dfca"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#d1cfbe"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#b0b1a5"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#7e8f01"/>
   </g>
   <g transform="translate(968 396)">
-    <rect width="296" height="126" rx="14" fill="#24292e" stroke="#1b1f23"/>
-    <text x="18" y="31" fill="#e1e4e8" font-size="17" font-weight="700">GitHub Dark</text>
-    <text x="18" y="54" fill="#959da5" font-size="12">DARK</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#1f2428"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#2f363d"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#1b1f23"/>
+    <rect width="296" height="126" rx="14" fill="#0d1117" stroke="#3b4046"/>
+    <text x="18" y="31" fill="#e6edf3" font-size="17" font-weight="700">GitHub Dark</text>
+    <text x="18" y="54" fill="#757d87" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#191e24"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#252a30"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#3b4046"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#005cc5"/>
   </g>
   <g transform="translate(1280 396)">
-    <rect width="296" height="126" rx="14" fill="#22272e" stroke="#444c56"/>
+    <rect width="296" height="126" rx="14" fill="#22272e" stroke="#474f57"/>
     <text x="18" y="31" fill="#adbac7" font-size="17" font-weight="700">GitHub Dark Dimmed</text>
-    <text x="18" y="54" fill="#768390" font-size="12">DARK</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#2d333b"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#22272e"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#444c56"/>
-    <rect x="198" y="72" width="80" height="34" rx="8" fill="#316dca"/>
+    <text x="18" y="54" fill="#858e98" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#2a3037"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#333a41"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#474f57"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#326eca"/>
   </g>
   <g transform="translate(32 538)">
-    <rect width="296" height="126" rx="14" fill="#ffffff" stroke="#e1e4e8"/>
-    <text x="18" y="31" fill="#24292e" font-size="17" font-weight="700">GitHub Light</text>
-    <text x="18" y="54" fill="#6a737d" font-size="12">LIGHT</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#f6f8fa"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#fafbfc"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#e1e4e8"/>
+    <rect width="296" height="126" rx="14" fill="#ffffff" stroke="#c0c1c3"/>
+    <text x="18" y="31" fill="#1f2328" font-size="17" font-weight="700">GitHub Light</text>
+    <text x="18" y="54" fill="#57606a" font-size="12">LIGHT</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#f1f2f2"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#e1e1e2"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#c0c1c3"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#2188ff"/>
   </g>
   <g transform="translate(344 538)">
-    <rect width="296" height="126" rx="14" fill="#282828" stroke="#665c54"/>
+    <rect width="296" height="126" rx="14" fill="#282828" stroke="#524f46"/>
     <text x="18" y="31" fill="#ebdbb2" font-size="17" font-weight="700">Gruvbox Dark</text>
-    <text x="18" y="54" fill="#928374" font-size="12">DARK</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#3c3836"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#504945"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#665c54"/>
+    <text x="18" y="54" fill="#9a8c7e" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#31312f"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#3c3b36"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#524f46"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#83a598"/>
   </g>
   <g transform="translate(656 538)">
-    <rect width="296" height="126" rx="14" fill="#fbf1c7" stroke="#bdae93"/>
+    <rect width="296" height="126" rx="14" fill="#fbf1c7" stroke="#beb598"/>
     <text x="18" y="31" fill="#3c3836" font-size="17" font-weight="700">Gruvbox Light</text>
-    <text x="18" y="54" fill="#928374" font-size="12">LIGHT</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#ebdbb2"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#d5c4a1"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#bdae93"/>
+    <text x="18" y="54" fill="#786c60" font-size="12">LIGHT</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#eee4bd"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#ded4b1"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#beb598"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#076678"/>
   </g>
   <g transform="translate(968 538)">
-    <rect width="296" height="126" rx="14" fill="#1f1f28" stroke="#54546d"/>
+    <rect width="296" height="126" rx="14" fill="#1f1f28" stroke="#4a4849"/>
     <text x="18" y="31" fill="#dcd7ba" font-size="17" font-weight="700">Kanagawa Wave</text>
-    <text x="18" y="54" fill="#727169" font-size="12">DARK</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#2a2a37"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#223249"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#54546d"/>
+    <text x="18" y="54" fill="#878780" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#292830"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#333338"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#4a4849"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#938aa9"/>
   </g>
   <g transform="translate(1280 538)">
-    <rect width="296" height="126" rx="14" fill="#fbfbfb" stroke="#d9d9d9"/>
+    <rect width="296" height="126" rx="14" fill="#fbfbfb" stroke="#bebdc4"/>
     <text x="18" y="31" fill="#403f53" font-size="17" font-weight="700">Light Owl</text>
-    <text x="18" y="54" fill="#93a1a1" font-size="12">LIGHT</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#f6f6f6"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#f0f0f0"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#d9d9d9"/>
+    <text x="18" y="54" fill="#6f7482" font-size="12">LIGHT</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#eeeeef"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#dedde1"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#bebdc4"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#2aa298"/>
   </g>
   <g transform="translate(32 680)">
-    <rect width="296" height="126" rx="14" fill="#011627" stroke="#5f7e97"/>
+    <rect width="296" height="126" rx="14" fill="#011627" stroke="#314454"/>
     <text x="18" y="31" fill="#d6deeb" font-size="17" font-weight="700">Night Owl</text>
-    <text x="18" y="54" fill="#5f7e97" font-size="12">DARK</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#0b2942"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#0b253a"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#5f7e97"/>
+    <text x="18" y="54" fill="#7e7e7e" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#0d2232"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#1a2e3e"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#314454"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#7e57c2"/>
   </g>
   <g transform="translate(344 680)">
-    <rect width="296" height="126" rx="14" fill="#2e3440" stroke="#3b4252"/>
-    <text x="18" y="31" fill="#d8dee9" font-size="17" font-weight="700">Nord</text>
-    <text x="18" y="54" fill="#4c566a" font-size="12">DARK</text>
+    <rect width="296" height="126" rx="14" fill="#2e3440" stroke="#4c566a"/>
+    <text x="18" y="31" fill="#e5e9f0" font-size="17" font-weight="700">Nord</text>
+    <text x="18" y="54" fill="#81a1c1" font-size="12">DARK</text>
     <rect x="18" y="72" width="52" height="34" rx="8" fill="#3b4252"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#3b4252"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#3b4252"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#434c5e"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#4c566a"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#88c0d0"/>
   </g>
   <g transform="translate(656 680)">
-    <rect width="296" height="126" rx="14" fill="#191724" stroke="#524f67"/>
+    <rect width="296" height="126" rx="14" fill="#191724" stroke="#444250"/>
     <text x="18" y="31" fill="#e0def4" font-size="17" font-weight="700">Rosé Pine</text>
-    <text x="18" y="54" fill="#6e6a86" font-size="12">DARK</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#1f1d2e"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#26233a"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#524f67"/>
+    <text x="18" y="54" fill="#817e96" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#24222f"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#2f2d3a"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#444250"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#c4a7e7"/>
   </g>
   <g transform="translate(968 680)">
-    <rect width="296" height="126" rx="14" fill="#faf4ed" stroke="#cecacd"/>
-    <text x="18" y="31" fill="#464261" font-size="17" font-weight="700">Rosé Pine Dawn</text>
-    <text x="18" y="54" fill="#9893a5" font-size="12">LIGHT</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#fffaf3"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#f2e9e1"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#cecacd"/>
+    <rect width="296" height="126" rx="14" fill="#faf4ed" stroke="#bcb7c0"/>
+    <text x="18" y="31" fill="#534f74" font-size="17" font-weight="700">Rosé Pine Dawn</text>
+    <text x="18" y="54" fill="#726e7c" font-size="12">LIGHT</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#ede7e4"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#ddd7d8"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#bcb7c0"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#907aa9"/>
   </g>
   <g transform="translate(1280 680)">
-    <rect width="296" height="126" rx="14" fill="#232136" stroke="#56526e"/>
+    <rect width="296" height="126" rx="14" fill="#232136" stroke="#4b495f"/>
     <text x="18" y="31" fill="#e0def4" font-size="17" font-weight="700">Rosé Pine Moon</text>
-    <text x="18" y="54" fill="#6e6a86" font-size="12">DARK</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#2a273f"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#393552"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#56526e"/>
+    <text x="18" y="54" fill="#8b879e" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#2c2a3f"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#36344a"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#4b495f"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#c4a7e7"/>
   </g>
   <g transform="translate(32 822)">
-    <rect width="296" height="126" rx="14" fill="#002b36" stroke="#586e75"/>
-    <text x="18" y="31" fill="#839496" font-size="17" font-weight="700">Solarized Dark</text>
-    <text x="18" y="54" fill="#586e75" font-size="12">DARK</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#073642"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#073642"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#586e75"/>
+    <rect width="296" height="126" rx="14" fill="#002b36" stroke="#31535b"/>
+    <text x="18" y="31" fill="#a8b4b5" font-size="17" font-weight="700">Solarized Dark</text>
+    <text x="18" y="54" fill="#749299" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#0a343e"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#173e48"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#31535b"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#268bd2"/>
   </g>
   <g transform="translate(344 822)">
-    <rect width="296" height="126" rx="14" fill="#fdf6e3" stroke="#93a1a1"/>
-    <text x="18" y="31" fill="#586e75" font-size="17" font-weight="700">Solarized Light</text>
-    <text x="18" y="54" fill="#657b83" font-size="12">LIGHT</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#eee8d5"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#eee8d5"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#93a1a1"/>
+    <rect width="296" height="126" rx="14" fill="#fdf6e3" stroke="#b9bbb1"/>
+    <text x="18" y="31" fill="#47565c" font-size="17" font-weight="700">Solarized Light</text>
+    <text x="18" y="54" fill="#002b36" font-size="12">LIGHT</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#efe9d8"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#dddacc"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#b9bbb1"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#268bd2"/>
   </g>
   <g transform="translate(656 822)">
-    <rect width="296" height="126" rx="14" fill="#1a1b26" stroke="#15161e"/>
+    <rect width="296" height="126" rx="14" fill="#1a1b26" stroke="#414557"/>
     <text x="18" y="31" fill="#c0caf5" font-size="17" font-weight="700">Tokyo Night</text>
-    <text x="18" y="54" fill="#a9b1d6" font-size="12">DARK</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#16161e"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#292e42"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#15161e"/>
+    <text x="18" y="54" fill="#7e8298" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#232531"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#2d303e"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#414557"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#7aa2f7"/>
   </g>
   <g transform="translate(968 822)">
-    <rect width="296" height="126" rx="14" fill="#e1e2e7" stroke="#b4b5b9"/>
-    <text x="18" y="31" fill="#3760bf" font-size="17" font-weight="700">Tokyo Night Day</text>
-    <text x="18" y="54" fill="#6172b0" font-size="12">LIGHT</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#d0d5e3"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#c4c8da"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#b4b5b9"/>
+    <rect width="296" height="126" rx="14" fill="#e1e2e7" stroke="#9ea9c6"/>
+    <text x="18" y="31" fill="#28458a" font-size="17" font-weight="700">Tokyo Night Day</text>
+    <text x="18" y="54" fill="#616477" font-size="12">LIGHT</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#d3d6e0"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#c2c7d7"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#9ea9c6"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#2e7de9"/>
   </g>
   <g transform="translate(1280 822)">
-    <rect width="296" height="126" rx="14" fill="#24283b" stroke="#1d202f"/>
+    <rect width="296" height="126" rx="14" fill="#24283b" stroke="#494f67"/>
     <text x="18" y="31" fill="#c0caf5" font-size="17" font-weight="700">Tokyo Night Storm</text>
-    <text x="18" y="54" fill="#a9b1d6" font-size="12">DARK</text>
-    <rect x="18" y="72" width="52" height="34" rx="8" fill="#1f2335"/>
-    <rect x="78" y="72" width="52" height="34" rx="8" fill="#292e42"/>
-    <rect x="138" y="72" width="52" height="34" rx="8" fill="#1d202f"/>
+    <text x="18" y="54" fill="#8a8fa4" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#2c3045"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#363a50"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#494f67"/>
     <rect x="198" y="72" width="80" height="34" rx="8" fill="#7aa2f7"/>
   </g>
   </g>
