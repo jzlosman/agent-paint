@@ -281,7 +281,11 @@ test("release site publishes downloadable target files and safe undo instruction
   assert.match(app, /github\.com\/jzlosman\/agent-paint\/blob\/main\/README\.md/);
   assert.match(html, /github\.com\/jzlosman\/agent-paint/);
   assert.doesNotMatch(`${app}\n${html}\n${readme}`, /jzlosman\/(?:paseo-theme-pack)|jzlosman\.github\.io\/paseo-theme-pack/);
-  assert.match(readme, /^# Agent Paint/m);
+  assert.match(readme, /<h1 align="center">Agent Paint<\/h1>/);
+  assert.match(readme, /actions\/workflows\/pages\.yml\/badge\.svg/);
+  assert.match(readme, /img\.shields\.io\/badge\/license-MIT/);
+  assert.match(readme, /img\.shields\.io\/badge\/themes-30/);
+  assert.match(readme, /href="#let-your-agent-install-a-theme"/);
   assert.ok(
     readme.indexOf("https://jzlosman.github.io/agent-paint/") < readme.indexOf("- **Paseo:**"),
     "the gallery link should appear before target details",

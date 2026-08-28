@@ -1,12 +1,29 @@
-# Agent Paint
+<p align="center">
+  <a href="https://jzlosman.github.io/agent-paint/">
+    <img src="site/agent-paint-logo.png" alt="Agent Paint logo" width="112">
+  </a>
+</p>
 
-<img src="site/agent-paint-logo.png" alt="Agent Paint logo" width="120">
+<h1 align="center">Agent Paint</h1>
 
-Popular color schemes for agent harnesses and agent development environments, designed to be installed easily by your coding agent.
+<p align="center"><strong>Popular color schemes for coding agents.</strong></p>
 
-Agent Paint generates native themes for Paseo, Pi, and Superset from terminal-first palettes.
+<p align="center">
+  <a href="https://jzlosman.github.io/agent-paint/">Browse themes</a>
+  ·
+  <a href="#let-your-agent-install-a-theme">Install with your agent</a>
+  ·
+  <a href="#install-manually">Install manually</a>
+</p>
 
-**[Browse and preview all themes →](https://jzlosman.github.io/agent-paint/)**
+<p align="center">
+  <a href="https://github.com/jzlosman/agent-paint/actions/workflows/pages.yml"><img alt="Pages deployment" src="https://github.com/jzlosman/agent-paint/actions/workflows/pages.yml/badge.svg"></a>
+  <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-8cc8ff"></a>
+  <a href="#themes"><img alt="30 themes" src="https://img.shields.io/badge/themes-30-f2f5f7"></a>
+  <a href="#install-manually"><img alt="3 targets" src="https://img.shields.io/badge/targets-3-aab3bf"></a>
+</p>
+
+Agent Paint turns 30 popular terminal palettes into native themes for Paseo, Pi, and Superset. Preview a theme, then let your coding agent install it from this README.
 
 - **Paseo:** one static plugin using the official `plugin.addTheme()` API.
 - **Pi:** one complete native TUI theme JSON per color scheme.
