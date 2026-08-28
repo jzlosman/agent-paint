@@ -152,7 +152,7 @@ function promptFor(theme) {
   const delivery = state.target === "paseo"
     ? "Install the repository's static Paseo plugin, then select the named theme."
     : "Use the generated native JSON file for that target.";
-  return `Read https://github.com/jzlosman/paseo-theme-pack/blob/main/README.md. Install the ${theme.name} theme for ${targetName}. ${delivery} Follow the repository instructions for that target. Review the code or file before installing it, preserve my existing settings, and ask before enabling plugins or changing the active theme.`;
+  return `Read https://github.com/jzlosman/agent-paint/blob/main/README.md. Install the ${theme.name} theme for ${targetName}. ${delivery} Follow the repository instructions for that target. Review the code or file before installing it, preserve my existing settings, and ask before enabling plugins or changing the active theme.`;
 }
 
 function selectTheme(id) {
@@ -182,7 +182,7 @@ function selectTheme(id) {
     themeDownload.setAttribute("download", `${theme.id}.json`);
     themeDownload.removeAttribute("target");
   } else {
-    themeDownload.href = "https://github.com/jzlosman/paseo-theme-pack#paseo";
+    themeDownload.href = "https://github.com/jzlosman/agent-paint#paseo";
     themeDownload.textContent = "View Paseo install";
     themeDownload.removeAttribute("download");
     themeDownload.target = "_blank";

@@ -264,17 +264,21 @@ test("mobile gallery keeps selected actions and agent install reachable", async 
 test("release site publishes downloadable target files and safe undo instructions", async () => {
   const workflow = await readFile(new URL("../.github/workflows/pages.yml", import.meta.url), "utf8");
   const app = await readFile(new URL("../site/app.js", import.meta.url), "utf8");
+  const html = await readFile(new URL("../site/index.html", import.meta.url), "utf8");
   const readme = await readFile(new URL("../README.md", import.meta.url), "utf8");
+  const packageJson = JSON.parse(await readFile(new URL("../package.json", import.meta.url), "utf8"));
 
   assert.match(workflow, /cp -R dist _site\/dist/);
   assert.match(app, /setAttribute\("download"/);
-  assert.match(app, /github\.com\/jzlosman\/paseo-theme-pack\/blob\/main\/README\.md/);
-  assert.doesNotMatch(app, /jzlosman\.github\.io\/paseo-theme-pack/);
+  assert.match(app, /github\.com\/jzlosman\/agent-paint\/blob\/main\/README\.md/);
+  assert.match(html, /github\.com\/jzlosman\/agent-paint/);
+  assert.doesNotMatch(`${app}\n${html}\n${readme}`, /jzlosman\/(?:paseo-theme-pack)|jzlosman\.github\.io\/paseo-theme-pack/);
   assert.match(readme, /^# Agent Paint/m);
   assert.ok(
-    readme.indexOf("https://jzlosman.github.io/paseo-theme-pack/") < readme.indexOf("- **Paseo:**"),
+    readme.indexOf("https://jzlosman.github.io/agent-paint/") < readme.indexOf("- **Paseo:**"),
     "the gallery link should appear before target details",
   );
+  assert.equal(packageJson.name, "agent-paint");
   assert.match(readme, /before-theme-pack/);
   assert.match(readme, /superset settings theme remove theme-pack-nord/);
   assert.match(readme, /paseo plugin remove paseo-theme-pack/);

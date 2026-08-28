@@ -6,7 +6,7 @@ Popular color schemes for agent harnesses and agent development environments, de
 
 Agent Paint generates native themes for Paseo, Pi, and Superset from terminal-first palettes.
 
-**[Browse and preview all themes →](https://jzlosman.github.io/paseo-theme-pack/)**
+**[Browse and preview all themes →](https://jzlosman.github.io/agent-paint/)**
 
 - **Paseo:** one static plugin using the official `plugin.addTheme()` API.
 - **Pi:** one complete native TUI theme JSON per color scheme.
@@ -24,7 +24,7 @@ No CSS injection, CDP, telemetry, runtime network access, install hooks, or runt
 Give your coding agent this README URL and replace the bracketed values:
 
 ```text
-Read https://github.com/jzlosman/paseo-theme-pack/blob/main/README.md.
+Read https://github.com/jzlosman/agent-paint/blob/main/README.md.
 Install the [THEME NAME] theme for [PI, SUPERSET, OR PASEO].
 For Pi or Superset, use the generated native JSON. For Paseo, install the
 static plugin and select the named theme. Review the file or plugin before
@@ -52,8 +52,8 @@ Choose **Paseo**, **Pi**, or **Superset** in the gallery to see the actual seman
 Requires Paseo 0.6.1 or newer.
 
 ```bash
-git clone https://github.com/jzlosman/paseo-theme-pack.git
-cd paseo-theme-pack
+git clone https://github.com/jzlosman/agent-paint.git
+cd agent-paint
 paseo plugin install "$PWD"
 paseo plugin ls
 ```
@@ -86,7 +86,7 @@ temporary="$(mktemp)"
 
 mkdir -p "$theme_dir"
 curl -fsSL \
-  https://raw.githubusercontent.com/jzlosman/paseo-theme-pack/main/dist/pi/nord.json \
+  https://raw.githubusercontent.com/jzlosman/agent-paint/main/dist/pi/nord.json \
   -o "$temporary"
 python3 -m json.tool "$temporary" >/dev/null
 
