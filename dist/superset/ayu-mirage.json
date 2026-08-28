@@ -2,7 +2,7 @@
   "id": "theme-pack-ayu-mirage",
   "name": "Ayu Mirage",
   "type": "dark",
-  "author": "Theme Pack contributors",
+  "author": "Agent Paint contributors",
   "description": "Unofficial Ayu Mirage adaptation generated from a terminal-first palette",
   "ui": {
     "background": "#1f2430",

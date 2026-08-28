@@ -2,6 +2,7 @@
   "name": "paseo-theme-pack",
   "version": "0.1.0",
   "private": true,
+  "description": "Popular color schemes for agent harnesses and agent development environments.",
   "type": "module",
   "scripts": {
     "generate": "node scripts/generate.mjs",

@@ -22,7 +22,7 @@ Success means the generated themes are legible in real use, look recognizably re
 
 ## Positioning
 
-A terminal-first canonical palette produces native, contrast-aware outputs for multiple agent development environments instead of injecting CSS or treating one editor's surface tokens as universally interchangeable.
+Agent Paint makes popular color schemes easy to preview and install across agent harnesses and agent development environments. A terminal-first canonical palette produces native, contrast-aware outputs instead of injecting CSS or treating one editor's surface tokens as universally interchangeable.
 
 ## Operating Context
 
@@ -41,7 +41,7 @@ Users browse a public theme gallery, compare generated palette cards, choose a t
 
 ## Brand Commitments
 
-The working name is “Paseo Theme Pack,” but the collection supports more than Paseo. The voice is direct, technically honest, and developer-friendly. The project must describe themes as unofficial adaptations and must not imply endorsement by Paseo, Pi, Superset, terminal projects, or upstream theme authors.
+The product is named “Agent Paint.” The voice is direct, technically honest, and developer-friendly. The brand should make color feel practical and approachable without AI jargon, empty statistics, or faux-terminal decoration. The project must describe themes as unofficial adaptations and must not imply endorsement by Paseo, Pi, Superset, terminal projects, or upstream theme authors.
 
 ## Evidence on Hand
 

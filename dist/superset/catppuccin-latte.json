@@ -2,7 +2,7 @@
   "id": "theme-pack-catppuccin-latte",
   "name": "Catppuccin Latte",
   "type": "light",
-  "author": "Theme Pack contributors",
+  "author": "Agent Paint contributors",
   "description": "Unofficial Catppuccin Latte adaptation generated from a terminal-first palette",
   "ui": {
     "background": "#eff1f5",

@@ -12,9 +12,9 @@ const themeDownload = document.querySelector("#theme-download");
 const copyThemePrompt = document.querySelector("#copy-theme-prompt");
 
 const targetNotes = {
-  paseo: "Paseo specimens show the eight semantic colors registered through plugin.addTheme().",
-  pi: "Pi specimens show generated message, tool, border, text, and syntax roles on the terminal background.",
-  superset: "Superset specimens show generated application surfaces; the strip carries terminal ANSI colors.",
+  paseo: "Paseo preview · plugin theme",
+  pi: "Pi preview · native TUI theme",
+  superset: "Superset preview · app and terminal theme",
 };
 
 const state = {
@@ -22,24 +22,6 @@ const state = {
   target: "paseo",
   selectedId: null,
 };
-
-function hexChannels(hex) {
-  return hex.slice(1).match(/.{2}/g).map((value) => Number.parseInt(value, 16));
-}
-
-function luminance(hex) {
-  return hexChannels(hex)
-    .map((channel) => {
-      const value = channel / 255;
-      return value <= 0.04045 ? value / 12.92 : ((value + 0.055) / 1.055) ** 2.4;
-    })
-    .reduce((sum, value, index) => sum + value * [0.2126, 0.7152, 0.0722][index], 0);
-}
-
-function contrast(left, right) {
-  const values = [luminance(left), luminance(right)].sort((a, b) => b - a);
-  return (values[0] + 0.05) / (values[1] + 0.05);
-}
 
 function targetColors(theme) {
   if (state.target === "pi") {
@@ -102,7 +84,6 @@ function renderCard(theme) {
   const button = fragment.querySelector(".theme-card-button");
   const title = fragment.querySelector("h2");
   const meta = fragment.querySelector(".theme-meta");
-  const badge = fragment.querySelector(".contrast-badge");
   const strip = fragment.querySelector(".palette-strip");
   const colors = targetColors(theme);
 
@@ -113,9 +94,6 @@ function renderCard(theme) {
   meta.textContent = `${theme.appearance} · ${state.target}`;
   button.setAttribute("aria-label", `Inspect ${theme.name} for ${state.target}`);
   button.setAttribute("aria-pressed", "false");
-  badge.textContent = `${contrast(colors.background, colors.mutedForeground).toFixed(1)}:1`;
-  badge.setAttribute("aria-label", `Secondary text contrast ${badge.textContent}`);
-  badge.title = "Secondary text contrast";
   setCardColors(card, colors);
 
   for (const color of colors.strip) {
@@ -169,7 +147,7 @@ function promptFor(theme) {
   const delivery = state.target === "paseo"
     ? "Install the repository's static Paseo plugin, then select the named theme."
     : "Use the generated native JSON file for that target.";
-  return `Read https://jzlosman.github.io/paseo-theme-pack/ and its linked README. Install the ${theme.name} theme for ${targetName}. ${delivery} Review the code or file before installing it, preserve my existing settings, and ask before enabling plugins or changing the active theme.`;
+  return `Read https://github.com/jzlosman/paseo-theme-pack/blob/main/README.md. Install the ${theme.name} theme for ${targetName}. ${delivery} Follow the repository instructions for that target. Review the code or file before installing it, preserve my existing settings, and ask before enabling plugins or changing the active theme.`;
 }
 
 function selectTheme(id) {

@@ -2,7 +2,7 @@
   "id": "theme-pack-dracula-alucard",
   "name": "Dracula Alucard",
   "type": "light",
-  "author": "Theme Pack contributors",
+  "author": "Agent Paint contributors",
   "description": "Unofficial Dracula Alucard adaptation generated from a terminal-first palette",
   "ui": {
     "background": "#fffbeb",

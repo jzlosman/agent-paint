@@ -1,5 +1,5 @@
 ---
-name: Paseo Theme Pack
+name: Agent Paint
 description: A graphite calibration wall for comparing truthful generated themes across agent surfaces.
 colors:
   page: "#0d1015"
@@ -105,7 +105,7 @@ components:
     width: "100%"
 ---
 
-# Design System: Paseo Theme Pack
+# Design System: Agent Paint
 
 ## Overview
 
@@ -118,7 +118,7 @@ The mood is engineered, measured, color-accurate, and direct. Controls should re
 **Key Characteristics:**
 - Graphite-dark, high-clarity application framing.
 - Restrained instrument controls around vivid generated specimens.
-- Dense comparison layouts with measured metadata and visible contrast evidence.
+- Dense comparison layouts with only the metadata needed to choose a theme.
 - Direct installation and agent handoff paths beside the gallery experience.
 
 ## Colors
@@ -146,7 +146,7 @@ The shell uses a cool graphite neutral stack and one precise calibration-blue fo
 **Body Font:** Mona Sans (with Helvetica Neue and sans-serif fallbacks)  
 **Label/Mono Font:** System monospace (ui-monospace, SFMono-Regular, Menlo, monospace)
 
-**Character:** Mona Sans supplies compact, technically neutral reading text, while Mona Sans Display gives the largest statements blunt visual authority. Monospace is functional instrumentation for counts, contrast, target metadata, and control labels—not terminal decoration.
+**Character:** Mona Sans supplies compact, technically neutral reading text, while Mona Sans Display gives the largest statements blunt visual authority. Monospace is functional instrumentation for target metadata and control labels—not terminal decoration.
 
 ### Hierarchy
 - **Display** (700, fluid 48–96px, 0.92 line-height): The page promise; tightly tracked and balanced, with a mobile range of 43–58px.
@@ -159,7 +159,7 @@ The shell uses a cool graphite neutral stack and one precise calibration-blue fo
 
 ## Layout
 
-The frame is wide and comparison-first: content uses a maximum width of 1540px with 24px side gutters on large screens and 14px gutters below 850px. The opening composition pairs a dominant promise with a two-by-two fact strip, then places the target bus immediately above the gallery so comparison begins before the first viewport ends.
+The frame is wide and comparison-first: content uses a maximum width of 1540px with 24px side gutters on large screens and 14px gutters below 850px. The opening composition pairs the Agent Paint mark with a direct product description, then places the target bus immediately above the gallery so comparison begins before the first viewport ends.
 
 The gallery runs four columns by default with 14px gutters, then moves to three columns at 1180px, two at 850px, and one at 590px. At 1180px the intro stacks and the target selector spans the full control bus; at 590px the bus becomes a compact two-column field row under a three-button target row. The selected action tray is sticky on larger screens and fixed to 14px side insets on mobile so the chosen theme remains actionable.
 
@@ -178,7 +178,7 @@ The system is flat and tonal by default. Depth comes from the page, panel, and s
 
 The form language alternates square measurement structures with gently clipped content objects. Segmented target buttons and underlined fields stay square; primary actions use an 8px radius; inner interface specimens use 10px; and theme cards plus the selected action tray use 14px. Palette strips use a compact 6px clip, while micro-bars use only a 2px softening.
 
-Borders are one-pixel structural lines. Cards clip their generated colors cleanly, and selected cards add an offset three-pixel ring in the theme's own generated ring color. Do not round the control bus, fact strip, prompt console, or method rails into generic floating cards.
+Borders are one-pixel structural lines. Cards clip their generated colors cleanly, and selected cards add an offset three-pixel ring in the theme's own generated ring color. Do not round the control bus or prompt console into generic floating cards.
 
 ## Components
 
@@ -204,7 +204,7 @@ The signature component and visual subject: a generated theme rendered as interf
 - **Corner Style:** 14px outer clip with a 10px inner specimen.
 - **Background:** Every foreground, surface, border, accent, muted text, selection ring, and eight-color strip value comes from the selected generated target.
 - **State:** Hover or keyboard focus lifts only the inner specimen by 2px over 180ms ease-out. Selection uses the generated ring color, an offset outline, and `aria-pressed`.
-- **Evidence:** Keep the theme name, light/dark target metadata, secondary-text contrast badge, interface specimen, and full semantic or ANSI strip visible.
+- **Evidence:** Keep the theme name, light/dark target metadata, interface specimen, and full semantic or ANSI strip visible. Contrast remains enforced in generated output; do not expose unexplained compliance badges in the gallery.
 
 ### Selected Action Tray
 
@@ -224,20 +224,20 @@ A pale, high-contrast control shared by generated downloads, install links, and 
 
 A compact sticky index that stays secondary to the gallery.
 
-- **Style:** 64px high with the grid-mark brand at left and muted 14px links at right. The translucent graphite background uses a 14px backdrop blur and a quiet bottom rule.
+- **Style:** 64px high with the Agent Paint brush mark at left and muted 14px links at right. The translucent graphite background uses a 14px backdrop blur and a quiet bottom rule.
 - **State:** Links brighten to primary text on hover and receive the global focus ring. At 850px gaps and type tighten; the redundant Themes link is hidden while Agent install and GitHub remain available.
 
 ## Do's and Don'ts
 
 ### Do:
 - **Do** keep graphite surfaces and measured one-pixel boundaries subordinate to the generated specimens.
-- **Do** make actual generated target colors, contrast evidence, and palette strips the visual subject.
+- **Do** make actual generated target colors and palette strips the visual subject.
 - **Do** preserve the four-to-three-to-two-to-one gallery progression across the 1180px, 850px, and 590px breakpoints.
 - **Do** use the three-pixel calibration-blue focus ring with a three-pixel offset for keyboard-visible interaction.
 - **Do** keep installation and agent handoff guidance visible as first-class page content beside the gallery flow.
 
 ### Don't:
-- **Don't** replace the opening composition or gallery with generic marketing hero cards.
+- **Don't** replace the opening composition or gallery with generic marketing hero cards or statistic boxes.
 - **Don't** use decorative fake previews when generated theme values are available.
 - **Don't** add neon glows, faux terminal effects, or cyberpunk cosplay to imply technical credibility.
 - **Don't** hide installation, downloads, or agent handoff behind the gallery or an ornamental interaction.

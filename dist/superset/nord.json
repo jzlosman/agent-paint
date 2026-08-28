@@ -2,7 +2,7 @@
   "id": "theme-pack-nord",
   "name": "Nord",
   "type": "dark",
-  "author": "Theme Pack contributors",
+  "author": "Agent Paint contributors",
   "description": "Unofficial Nord adaptation generated from a terminal-first palette",
   "ui": {
     "background": "#2e3440",

@@ -2,7 +2,7 @@
   "id": "theme-pack-kanagawa-wave",
   "name": "Kanagawa Wave",
   "type": "dark",
-  "author": "Theme Pack contributors",
+  "author": "Agent Paint contributors",
   "description": "Unofficial Kanagawa Wave adaptation generated from a terminal-first palette",
   "ui": {
     "background": "#1f1f28",

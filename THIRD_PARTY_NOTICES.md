@@ -1,6 +1,6 @@
 # Third-party notices
 
-Theme Pack contains unofficial semantic adaptations of third-party color palettes. It does not include upstream extension code, logos, icons, fonts, or wallpaper. Names identify source palettes and do not imply endorsement.
+Agent Paint contains unofficial semantic adaptations of third-party color palettes. It does not include upstream extension code, logos, icons, fonts, or wallpaper. Names identify source palettes and do not imply endorsement.
 
 Terminal records are normalized primarily from [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) at commit `752a9c079396cc9939b86e893578ed81e80c140f`, using its Ghostty-format exports. The collection code and curation are MIT licensed by Mark Badolato; the repository states that each individual theme's copyright and license remain with its author. Canonical palette/editor sources remain listed below so individual provenance is not replaced by the collection license.
 

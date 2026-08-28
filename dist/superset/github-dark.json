@@ -2,7 +2,7 @@
   "id": "theme-pack-github-dark",
   "name": "GitHub Dark",
   "type": "dark",
-  "author": "Theme Pack contributors",
+  "author": "Agent Paint contributors",
   "description": "Unofficial GitHub Dark adaptation generated from a terminal-first palette",
   "ui": {
     "background": "#0d1117",

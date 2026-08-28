@@ -2,7 +2,7 @@
   "id": "theme-pack-solarized-dark",
   "name": "Solarized Dark",
   "type": "dark",
-  "author": "Theme Pack contributors",
+  "author": "Agent Paint contributors",
   "description": "Unofficial Solarized Dark adaptation generated from a terminal-first palette",
   "ui": {
     "background": "#002b36",

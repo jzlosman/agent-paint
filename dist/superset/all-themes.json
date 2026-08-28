@@ -3,7 +3,7 @@
     "id": "theme-pack-catppuccin-latte",
     "name": "Catppuccin Latte",
     "type": "light",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Catppuccin Latte adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#eff1f5",
@@ -73,7 +73,7 @@
     "id": "theme-pack-catppuccin-frappe",
     "name": "Catppuccin Frappé",
     "type": "dark",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Catppuccin Frappé adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#303446",
@@ -143,7 +143,7 @@
     "id": "theme-pack-catppuccin-macchiato",
     "name": "Catppuccin Macchiato",
     "type": "dark",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Catppuccin Macchiato adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#24273a",
@@ -213,7 +213,7 @@
     "id": "theme-pack-catppuccin-mocha",
     "name": "Catppuccin Mocha",
     "type": "dark",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Catppuccin Mocha adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#1e1e2e",
@@ -283,7 +283,7 @@
     "id": "theme-pack-dracula",
     "name": "Dracula",
     "type": "dark",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Dracula adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#282a36",
@@ -353,7 +353,7 @@
     "id": "theme-pack-dracula-alucard",
     "name": "Dracula Alucard",
     "type": "light",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Dracula Alucard adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#fffbeb",
@@ -423,7 +423,7 @@
     "id": "theme-pack-github-light",
     "name": "GitHub Light",
     "type": "light",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial GitHub Light adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#ffffff",
@@ -493,7 +493,7 @@
     "id": "theme-pack-github-dark",
     "name": "GitHub Dark",
     "type": "dark",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial GitHub Dark adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#0d1117",
@@ -563,7 +563,7 @@
     "id": "theme-pack-github-dark-dimmed",
     "name": "GitHub Dark Dimmed",
     "type": "dark",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial GitHub Dark Dimmed adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#22272e",
@@ -633,7 +633,7 @@
     "id": "theme-pack-one-dark",
     "name": "Atom One Dark",
     "type": "dark",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Atom One Dark adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#21252b",
@@ -703,7 +703,7 @@
     "id": "theme-pack-one-light",
     "name": "Atom One Light",
     "type": "light",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Atom One Light adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#f9f9f9",
@@ -773,7 +773,7 @@
     "id": "theme-pack-tokyo-night-night",
     "name": "Tokyo Night",
     "type": "dark",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Tokyo Night adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#1a1b26",
@@ -843,7 +843,7 @@
     "id": "theme-pack-tokyo-night-storm",
     "name": "Tokyo Night Storm",
     "type": "dark",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Tokyo Night Storm adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#24283b",
@@ -913,7 +913,7 @@
     "id": "theme-pack-tokyo-night-day",
     "name": "Tokyo Night Day",
     "type": "light",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Tokyo Night Day adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#e1e2e7",
@@ -983,7 +983,7 @@
     "id": "theme-pack-nord",
     "name": "Nord",
     "type": "dark",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Nord adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#2e3440",
@@ -1053,7 +1053,7 @@
     "id": "theme-pack-gruvbox-dark",
     "name": "Gruvbox Dark",
     "type": "dark",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Gruvbox Dark adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#282828",
@@ -1123,7 +1123,7 @@
     "id": "theme-pack-gruvbox-light",
     "name": "Gruvbox Light",
     "type": "light",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Gruvbox Light adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#fbf1c7",
@@ -1193,7 +1193,7 @@
     "id": "theme-pack-solarized-dark",
     "name": "Solarized Dark",
     "type": "dark",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Solarized Dark adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#002b36",
@@ -1263,7 +1263,7 @@
     "id": "theme-pack-solarized-light",
     "name": "Solarized Light",
     "type": "light",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Solarized Light adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#fdf6e3",
@@ -1333,7 +1333,7 @@
     "id": "theme-pack-rose-pine",
     "name": "Rosé Pine",
     "type": "dark",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Rosé Pine adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#191724",
@@ -1403,7 +1403,7 @@
     "id": "theme-pack-rose-pine-moon",
     "name": "Rosé Pine Moon",
     "type": "dark",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Rosé Pine Moon adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#232136",
@@ -1473,7 +1473,7 @@
     "id": "theme-pack-rose-pine-dawn",
     "name": "Rosé Pine Dawn",
     "type": "light",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Rosé Pine Dawn adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#faf4ed",
@@ -1543,7 +1543,7 @@
     "id": "theme-pack-ayu-dark",
     "name": "Ayu Dark",
     "type": "dark",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Ayu Dark adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#0b0e14",
@@ -1613,7 +1613,7 @@
     "id": "theme-pack-ayu-mirage",
     "name": "Ayu Mirage",
     "type": "dark",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Ayu Mirage adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#1f2430",
@@ -1683,7 +1683,7 @@
     "id": "theme-pack-ayu-light",
     "name": "Ayu Light",
     "type": "light",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Ayu Light adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#f8f9fa",
@@ -1753,7 +1753,7 @@
     "id": "theme-pack-night-owl",
     "name": "Night Owl",
     "type": "dark",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Night Owl adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#011627",
@@ -1823,7 +1823,7 @@
     "id": "theme-pack-light-owl",
     "name": "Light Owl",
     "type": "light",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Light Owl adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#fbfbfb",
@@ -1893,7 +1893,7 @@
     "id": "theme-pack-everforest-dark",
     "name": "Everforest Dark",
     "type": "dark",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Everforest Dark adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#1e2326",
@@ -1963,7 +1963,7 @@
     "id": "theme-pack-everforest-light",
     "name": "Everforest Light",
     "type": "light",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Everforest Light adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#efebd4",
@@ -2033,7 +2033,7 @@
     "id": "theme-pack-kanagawa-wave",
     "name": "Kanagawa Wave",
     "type": "dark",
-    "author": "Theme Pack contributors",
+    "author": "Agent Paint contributors",
     "description": "Unofficial Kanagawa Wave adaptation generated from a terminal-first palette",
     "ui": {
       "background": "#1f1f28",

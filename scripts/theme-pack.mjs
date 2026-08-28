@@ -279,7 +279,7 @@ export function buildSupersetTheme(theme) {
     id: `theme-pack-${theme.id}`,
     name: theme.name,
     type: theme.appearance,
-    author: "Theme Pack contributors",
+    author: "Agent Paint contributors",
     description: `Unofficial ${theme.name} adaptation generated from a terminal-first palette`,
     ui: {
       background: ui.background,
@@ -479,7 +479,7 @@ export function renderPreview(themes) {
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
   <rect width="100%" height="100%" fill="#0f1117"/>
-  <text x="${margin}" y="48" fill="#f2f4f8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="30" font-weight="800">Theme Pack · Paseo, Pi &amp; Superset</text>
+  <text x="${margin}" y="48" fill="#f2f4f8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="30" font-weight="800">Agent Paint · Paseo, Pi &amp; Superset</text>
   <text x="${margin}" y="78" fill="#9aa4b2" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">${sorted.length} terminal-first palettes · generated Paseo output shown below</text>
   <g font-family="ui-sans-serif, system-ui, sans-serif">
 ${cards}

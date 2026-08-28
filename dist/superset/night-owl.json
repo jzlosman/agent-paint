@@ -2,7 +2,7 @@
   "id": "theme-pack-night-owl",
   "name": "Night Owl",
   "type": "dark",
-  "author": "Theme Pack contributors",
+  "author": "Agent Paint contributors",
   "description": "Unofficial Night Owl adaptation generated from a terminal-first palette",
   "ui": {
     "background": "#011627",

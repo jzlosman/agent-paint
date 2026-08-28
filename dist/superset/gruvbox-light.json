@@ -2,7 +2,7 @@
   "id": "theme-pack-gruvbox-light",
   "name": "Gruvbox Light",
   "type": "light",
-  "author": "Theme Pack contributors",
+  "author": "Agent Paint contributors",
   "description": "Unofficial Gruvbox Light adaptation generated from a terminal-first palette",
   "ui": {
     "background": "#fbf1c7",

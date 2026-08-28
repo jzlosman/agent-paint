@@ -2,7 +2,7 @@
   "id": "theme-pack-tokyo-night-night",
   "name": "Tokyo Night",
   "type": "dark",
-  "author": "Theme Pack contributors",
+  "author": "Agent Paint contributors",
   "description": "Unofficial Tokyo Night adaptation generated from a terminal-first palette",
   "ui": {
     "background": "#1a1b26",

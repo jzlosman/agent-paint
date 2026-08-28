@@ -2,7 +2,7 @@
   "id": "theme-pack-ayu-light",
   "name": "Ayu Light",
   "type": "light",
-  "author": "Theme Pack contributors",
+  "author": "Agent Paint contributors",
   "description": "Unofficial Ayu Light adaptation generated from a terminal-first palette",
   "ui": {
     "background": "#f8f9fa",

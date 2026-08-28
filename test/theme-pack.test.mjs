@@ -243,7 +243,10 @@ test("checked-in gallery data and shell expose every theme and target", async ()
   assert.match(html, /data-target="pi"/);
   assert.match(html, /data-target="superset"/);
   assert.match(html, /id="theme-gallery"/);
-  assert.match(html, /Give this site to your agent/);
+  assert.match(html, /Agent Paint/);
+  assert.match(html, /Let your agent install it/);
+  assert.match(html, /agent-paint-logo\.png/);
+  assert.doesNotMatch(html, /signal-strip|contrast-badge|AA[\s\S]*secondary text/);
 });
 
 test("mobile gallery keeps selected actions and agent install reachable", async () => {
@@ -262,6 +265,9 @@ test("release site publishes downloadable target files and safe undo instruction
 
   assert.match(workflow, /cp -R dist _site\/dist/);
   assert.match(app, /setAttribute\("download"/);
+  assert.match(app, /github\.com\/jzlosman\/paseo-theme-pack\/blob\/main\/README\.md/);
+  assert.doesNotMatch(app, /jzlosman\.github\.io\/paseo-theme-pack/);
+  assert.match(readme, /^# Agent Paint/m);
   assert.match(readme, /before-theme-pack/);
   assert.match(readme, /superset settings theme remove theme-pack-nord/);
   assert.match(readme, /paseo plugin remove paseo-theme-pack/);

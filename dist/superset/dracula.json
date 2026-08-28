@@ -2,7 +2,7 @@
   "id": "theme-pack-dracula",
   "name": "Dracula",
   "type": "dark",
-  "author": "Theme Pack contributors",
+  "author": "Agent Paint contributors",
   "description": "Unofficial Dracula adaptation generated from a terminal-first palette",
   "ui": {
     "background": "#282a36",
