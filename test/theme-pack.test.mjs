@@ -246,6 +246,8 @@ test("checked-in gallery data and shell expose every theme and target", async ()
   assert.match(html, /Agent Paint/);
   assert.match(html, /Let your agent install it/);
   assert.match(html, /agent-paint-logo\.png/);
+  assert.match(html, /styles\.css\?v=agent-paint-1/);
+  assert.match(html, /app\.js\?v=agent-paint-1/);
   assert.doesNotMatch(html, /signal-strip|contrast-badge|AA[\s\S]*secondary text/);
 });
 
@@ -256,6 +258,7 @@ test("mobile gallery keeps selected actions and agent install reachable", async 
   assert.match(css, /@media \(max-width: 590px\)[\s\S]*\.selection-panel \{[\s\S]*position: fixed/);
   assert.doesNotMatch(css, /nav a:not\(:last-child\)/);
   assert.match(app, /button\.setAttribute\("aria-pressed", "false"\)/);
+  assert.match(app, /catalogUrl\.searchParams\.set\("v"/);
 });
 
 test("release site publishes downloadable target files and safe undo instructions", async () => {
@@ -268,6 +271,10 @@ test("release site publishes downloadable target files and safe undo instruction
   assert.match(app, /github\.com\/jzlosman\/paseo-theme-pack\/blob\/main\/README\.md/);
   assert.doesNotMatch(app, /jzlosman\.github\.io\/paseo-theme-pack/);
   assert.match(readme, /^# Agent Paint/m);
+  assert.ok(
+    readme.indexOf("https://jzlosman.github.io/paseo-theme-pack/") < readme.indexOf("- **Paseo:**"),
+    "the gallery link should appear before target details",
+  );
   assert.match(readme, /before-theme-pack/);
   assert.match(readme, /superset settings theme remove theme-pack-nord/);
   assert.match(readme, /paseo plugin remove paseo-theme-pack/);

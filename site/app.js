@@ -11,6 +11,11 @@ const selectionDescription = document.querySelector("#selection-description");
 const themeDownload = document.querySelector("#theme-download");
 const copyThemePrompt = document.querySelector("#copy-theme-prompt");
 
+const appUrl = new URL(import.meta.url);
+const catalogUrl = new URL("themes.json", appUrl);
+const assetVersion = appUrl.searchParams.get("v");
+if (assetVersion) catalogUrl.searchParams.set("v", assetVersion);
+
 const targetNotes = {
   paseo: "Paseo preview · plugin theme",
   pi: "Pi preview · native TUI theme",
@@ -228,7 +233,7 @@ document.querySelector("#copy-general-prompt").addEventListener("click", (event)
 });
 
 try {
-  const response = await fetch("themes.json");
+  const response = await fetch(catalogUrl);
   if (!response.ok) throw new Error(`Theme catalog returned ${response.status}`);
   state.themes = await response.json();
   renderGallery();

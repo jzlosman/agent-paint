@@ -6,6 +6,8 @@ Popular color schemes for agent harnesses and agent development environments, de
 
 Agent Paint generates native themes for Paseo, Pi, and Superset from terminal-first palettes.
 
+**[Browse and preview all themes →](https://jzlosman.github.io/paseo-theme-pack/)**
+
 - **Paseo:** one static plugin using the official `plugin.addTheme()` API.
 - **Pi:** one complete native TUI theme JSON per color scheme.
 - **Superset:** one importable UI + terminal theme JSON per color scheme, plus an all-themes bundle.
@@ -41,11 +43,7 @@ An agent should:
 
 ## Browse the themes
 
-The Agent Paint gallery is published at:
-
-<https://jzlosman.github.io/paseo-theme-pack/>
-
-Choose **Paseo**, **Pi**, or **Superset** to see the actual semantic colors generated for that target. Select a theme to download its native file or copy a target-specific agent prompt.
+Choose **Paseo**, **Pi**, or **Superset** in the gallery to see the actual semantic colors generated for that target. Select a theme to download its native file or copy a target-specific agent prompt.
 
 ## Install manually
 
