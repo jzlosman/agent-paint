@@ -159,7 +159,7 @@ The shell uses a cool graphite neutral stack and one precise calibration-blue fo
 
 ## Layout
 
-The frame is wide and comparison-first: content uses a maximum width of 1540px with 24px side gutters on large screens and 14px gutters below 850px. The opening composition pairs the Agent Paint mark with a direct product description, then places the target bus immediately above the gallery so comparison begins before the first viewport ends.
+The frame uses a maximum width of 1540px with 24px side gutters on large screens and 14px gutters below 850px. The opening composition pairs the Agent Paint mark with a direct product description, then presents the agent-install prompt as the primary path. Gallery controls and specimens follow as the secondary browse-and-compare path.
 
 The gallery runs four columns by default with 14px gutters, then moves to three columns at 1180px, two at 850px, and one at 590px. At 1180px the intro stacks and the target selector spans the full control bus; at 590px the bus becomes a compact two-column field row under a three-button target row. The selected action tray is sticky on larger screens and fixed to 14px side insets on mobile so the chosen theme remains actionable.
 
@@ -234,7 +234,7 @@ A compact sticky index that stays secondary to the gallery.
 - **Do** make actual generated target colors and palette strips the visual subject.
 - **Do** preserve the four-to-three-to-two-to-one gallery progression across the 1180px, 850px, and 590px breakpoints.
 - **Do** use the three-pixel calibration-blue focus ring with a three-pixel offset for keyboard-visible interaction.
-- **Do** keep installation and agent handoff guidance visible as first-class page content beside the gallery flow.
+- **Do** place installation and agent handoff guidance before the gallery as the primary path.
 
 ### Don't:
 - **Don't** replace the opening composition or gallery with generic marketing hero cards or statistic boxes.

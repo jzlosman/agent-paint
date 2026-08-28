@@ -7,15 +7,15 @@
   <meta name="color-scheme" content="dark light">
   <title>Agent Paint — Themes for coding agents</title>
   <link rel="icon" href="favicon.png" type="image/png">
-  <link rel="stylesheet" href="styles.css?v=agent-paint-1">
-  <script type="module" src="app.js?v=agent-paint-1"></script>
+  <link rel="stylesheet" href="styles.css?v=agent-paint-2">
+  <script type="module" src="app.js?v=agent-paint-2"></script>
 </head>
 <body>
   <!--
   THESIS: The gallery is a calibration wall; actual generated themes replace decorative marketing cards.
   OWN-WORLD: A graphite instrument panel carries full-color specimens, measured labels, and restrained controls.
-  STORY: Compare real outputs, choose a target, inspect a palette, then download it or hand the task to an agent.
-  FIRST VIEWPORT: Product promise and target bus sit above the live theme wall; the gallery begins before the fold.
+  STORY: Understand Agent Paint, hand installation to an agent, then compare real theme outputs.
+  FIRST VIEWPORT: Product promise and agent-install prompt lead; gallery controls follow as the secondary path.
   FORM: User-pinned generated-theme gallery, refined as a calibration wall; seed key fb6f340c.
   FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
   -->
@@ -25,8 +25,8 @@
       <span>Agent Paint</span>
     </a>
     <nav aria-label="Primary navigation">
-      <a href="#themes">Themes</a>
       <a href="#agent-install">Install</a>
+      <a href="#themes">Themes</a>
       <a href="https://github.com/jzlosman/agent-paint">GitHub</a>
     </nav>
   </header>
@@ -37,6 +37,20 @@
       <div class="intro-copy">
         <h1 id="page-title">Agent Paint</h1>
         <p>Popular color schemes for agent harnesses and agent development environments. Pick a theme for Paseo, Pi, or Superset, then let your coding agent apply it.</p>
+      </div>
+    </section>
+
+    <section class="agent-install" id="agent-install" aria-labelledby="agent-title">
+      <div>
+        <h2 id="agent-title">Let your agent install it.</h2>
+        <p>Fill in the theme and app, then send this prompt to your coding agent. It reads the GitHub README—not this page.</p>
+      </div>
+      <div class="prompt-console">
+        <div class="prompt-console-bar">
+          <span>INSTALL_PROMPT.txt</span>
+          <button class="copy-button copy-button--quiet" id="copy-general-prompt" type="button">Copy prompt</button>
+        </div>
+        <pre id="general-prompt">Read https://github.com/jzlosman/agent-paint/blob/main/README.md. Install the [THEME NAME] theme for [PI, SUPERSET, OR PASEO]. Follow the repository instructions for that target. Review the file or plugin before installing it, preserve my existing settings, and ask before enabling plugins or changing the active theme.</pre>
       </div>
     </section>
 
@@ -77,20 +91,6 @@
       <div class="selection-actions">
         <a class="download-link" id="theme-download" href="#">Download theme</a>
         <button class="copy-button" id="copy-theme-prompt" type="button">Copy install prompt</button>
-      </div>
-    </section>
-
-    <section class="agent-install" id="agent-install" aria-labelledby="agent-title">
-      <div>
-        <h2 id="agent-title">Let your agent install it.</h2>
-        <p>Fill in the theme and app, then send this prompt to your coding agent. It reads the GitHub README—not this page.</p>
-      </div>
-      <div class="prompt-console">
-        <div class="prompt-console-bar">
-          <span>INSTALL_PROMPT.txt</span>
-          <button class="copy-button copy-button--quiet" id="copy-general-prompt" type="button">Copy prompt</button>
-        </div>
-        <pre id="general-prompt">Read https://github.com/jzlosman/agent-paint/blob/main/README.md. Install the [THEME NAME] theme for [PI, SUPERSET, OR PASEO]. Follow the repository instructions for that target. Review the file or plugin before installing it, preserve my existing settings, and ask before enabling plugins or changing the active theme.</pre>
       </div>
     </section>
 

@@ -336,8 +336,8 @@ main, footer {
   grid-template-columns: minmax(0, 0.8fr) minmax(520px, 1.2fr);
   gap: clamp(40px, 8vw, 120px);
   align-items: center;
-  margin-top: 128px;
-  padding: 70px 0;
+  margin: 0 0 72px;
+  padding: 56px 0;
   border-top: 1px solid var(--line-bright);
   border-bottom: 1px solid var(--line-bright);
 }
@@ -382,7 +382,7 @@ footer a { color: var(--muted); }
   .site-header { padding-inline: 16px; }
   .site-header nav { gap: 14px; }
   .site-header nav a { font-size: 12px; }
-  .site-header nav a:first-child { display: none; }
+  .site-header nav a[href="#themes"] { display: none; }
   .intro { padding-top: 60px; }
   .theme-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .agent-install, .method { grid-template-columns: 1fr; }
@@ -419,7 +419,7 @@ footer a { color: var(--muted); }
   .selection-panel h2 { font-size: 19px; }
   .selection-actions { margin-top: 12px; }
   .selection-actions > * { flex: 1; }
-  .agent-install { margin-top: 86px; padding-block: 54px; }
+  .agent-install { margin-bottom: 48px; padding-block: 44px; }
   .prompt-console pre { font-size: 12px; }
   footer { display: block; }
   footer a { display: inline-block; margin-top: 12px; }

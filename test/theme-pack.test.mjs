@@ -243,11 +243,19 @@ test("checked-in gallery data and shell expose every theme and target", async ()
   assert.match(html, /data-target="pi"/);
   assert.match(html, /data-target="superset"/);
   assert.match(html, /id="theme-gallery"/);
+  assert.ok(
+    html.indexOf('id="agent-install"') < html.indexOf('id="theme-gallery"'),
+    "agent installation should appear before the gallery",
+  );
+  assert.ok(
+    html.indexOf('href="#agent-install"') < html.indexOf('href="#themes"'),
+    "install navigation should appear before themes",
+  );
   assert.match(html, /Agent Paint/);
   assert.match(html, /Let your agent install it/);
   assert.match(html, /agent-paint-logo\.png/);
-  assert.match(html, /styles\.css\?v=agent-paint-1/);
-  assert.match(html, /app\.js\?v=agent-paint-1/);
+  assert.match(html, /styles\.css\?v=agent-paint-2/);
+  assert.match(html, /app\.js\?v=agent-paint-2/);
   assert.doesNotMatch(html, /signal-strip|contrast-badge|AA[\s\S]*secondary text/);
 });
 
