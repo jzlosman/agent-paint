@@ -1,0 +1,277 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1608" height="980" viewBox="0 0 1608 980">
+  <rect width="100%" height="100%" fill="#0f1117"/>
+  <text x="32" y="48" fill="#f2f4f8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="30" font-weight="800">Paseo Theme Pack</text>
+  <text x="32" y="78" fill="#9aa4b2" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">30 popular coding palettes · official plugin API · no CDP</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+  <g transform="translate(32 112)">
+    <rect width="296" height="126" rx="14" fill="#282c34" stroke="#181a1f"/>
+    <text x="18" y="31" fill="#abb2bf" font-size="17" font-weight="700">Atom One Dark</text>
+    <text x="18" y="54" fill="#828997" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#353b45"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#1b1d23"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#181a1f"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#528bff"/>
+  </g>
+  <g transform="translate(344 112)">
+    <rect width="296" height="126" rx="14" fill="#fafafa" stroke="#dbdbdc"/>
+    <text x="18" y="31" fill="#383a42" font-size="17" font-weight="700">Atom One Light</text>
+    <text x="18" y="54" fill="#696c77" font-size="12">LIGHT</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#ffffff"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#ffffff"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#dbdbdc"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#526fff"/>
+  </g>
+  <g transform="translate(656 112)">
+    <rect width="296" height="126" rx="14" fill="#0d1017" stroke="#1b1f29"/>
+    <text x="18" y="31" fill="#bfbdb6" font-size="17" font-weight="700">Ayu Dark</text>
+    <text x="18" y="54" fill="#5a6378" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#10141c"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#141821"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#1b1f29"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#e6b450"/>
+  </g>
+  <g transform="translate(968 112)">
+    <rect width="296" height="126" rx="14" fill="#f8f9fa" stroke="#e7eaed"/>
+    <text x="18" y="31" fill="#5c6166" font-size="17" font-weight="700">Ayu Light</text>
+    <text x="18" y="54" fill="#828e9f" font-size="12">LIGHT</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#fcfcfc"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#fafafa"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#e7eaed"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#f29718"/>
+  </g>
+  <g transform="translate(1280 112)">
+    <rect width="296" height="126" rx="14" fill="#1f2430" stroke="#171b24"/>
+    <text x="18" y="31" fill="#cccac2" font-size="17" font-weight="700">Ayu Mirage</text>
+    <text x="18" y="54" fill="#707a8c" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#242936"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#282e3b"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#171b24"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#ffcc66"/>
+  </g>
+  <g transform="translate(32 254)">
+    <rect width="296" height="126" rx="14" fill="#303446" stroke="#626880"/>
+    <text x="18" y="31" fill="#c6d0f5" font-size="17" font-weight="700">Catppuccin Frappé</text>
+    <text x="18" y="54" fill="#a5adce" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#414559"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#51576d"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#626880"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#ca9ee6"/>
+  </g>
+  <g transform="translate(344 254)">
+    <rect width="296" height="126" rx="14" fill="#eff1f5" stroke="#acb0be"/>
+    <text x="18" y="31" fill="#4c4f69" font-size="17" font-weight="700">Catppuccin Latte</text>
+    <text x="18" y="54" fill="#6c6f85" font-size="12">LIGHT</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#ccd0da"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#bcc0cc"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#acb0be"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#8839ef"/>
+  </g>
+  <g transform="translate(656 254)">
+    <rect width="296" height="126" rx="14" fill="#24273a" stroke="#5b6078"/>
+    <text x="18" y="31" fill="#cad3f5" font-size="17" font-weight="700">Catppuccin Macchiato</text>
+    <text x="18" y="54" fill="#a5adcb" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#363a4f"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#494d64"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#5b6078"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#c6a0f6"/>
+  </g>
+  <g transform="translate(968 254)">
+    <rect width="296" height="126" rx="14" fill="#1e1e2e" stroke="#585b70"/>
+    <text x="18" y="31" fill="#cdd6f4" font-size="17" font-weight="700">Catppuccin Mocha</text>
+    <text x="18" y="54" fill="#a6adc8" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#313244"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#45475a"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#585b70"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#cba6f7"/>
+  </g>
+  <g transform="translate(1280 254)">
+    <rect width="296" height="126" rx="14" fill="#282a36" stroke="#191a21"/>
+    <text x="18" y="31" fill="#f8f8f2" font-size="17" font-weight="700">Dracula</text>
+    <text x="18" y="54" fill="#6272a4" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#343746"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#44475a"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#191a21"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#bd93f9"/>
+  </g>
+  <g transform="translate(32 396)">
+    <rect width="296" height="126" rx="14" fill="#fffbeb" stroke="#6c664b"/>
+    <text x="18" y="31" fill="#1f1f1f" font-size="17" font-weight="700">Dracula Alucard</text>
+    <text x="18" y="54" fill="#6c664b" font-size="12">LIGHT</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#cfcfde"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#cfcfde"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#6c664b"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#644ac9"/>
+  </g>
+  <g transform="translate(344 396)">
+    <rect width="296" height="126" rx="14" fill="#2d353b" stroke="#859289"/>
+    <text x="18" y="31" fill="#d3c6aa" font-size="17" font-weight="700">Everforest Dark</text>
+    <text x="18" y="54" fill="#859289" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#343f44"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#3d484d"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#859289"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#a7c080"/>
+  </g>
+  <g transform="translate(656 396)">
+    <rect width="296" height="126" rx="14" fill="#fdf6e3" stroke="#939f91"/>
+    <text x="18" y="31" fill="#5c6a72" font-size="17" font-weight="700">Everforest Light</text>
+    <text x="18" y="54" fill="#939f91" font-size="12">LIGHT</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#f4f0d9"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#efebd4"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#939f91"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#8da101"/>
+  </g>
+  <g transform="translate(968 396)">
+    <rect width="296" height="126" rx="14" fill="#24292e" stroke="#1b1f23"/>
+    <text x="18" y="31" fill="#e1e4e8" font-size="17" font-weight="700">GitHub Dark</text>
+    <text x="18" y="54" fill="#959da5" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#1f2428"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#2f363d"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#1b1f23"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#005cc5"/>
+  </g>
+  <g transform="translate(1280 396)">
+    <rect width="296" height="126" rx="14" fill="#22272e" stroke="#444c56"/>
+    <text x="18" y="31" fill="#adbac7" font-size="17" font-weight="700">GitHub Dark Dimmed</text>
+    <text x="18" y="54" fill="#768390" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#2d333b"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#22272e"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#444c56"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#316dca"/>
+  </g>
+  <g transform="translate(32 538)">
+    <rect width="296" height="126" rx="14" fill="#ffffff" stroke="#e1e4e8"/>
+    <text x="18" y="31" fill="#24292e" font-size="17" font-weight="700">GitHub Light</text>
+    <text x="18" y="54" fill="#6a737d" font-size="12">LIGHT</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#f6f8fa"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#fafbfc"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#e1e4e8"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#2188ff"/>
+  </g>
+  <g transform="translate(344 538)">
+    <rect width="296" height="126" rx="14" fill="#282828" stroke="#665c54"/>
+    <text x="18" y="31" fill="#ebdbb2" font-size="17" font-weight="700">Gruvbox Dark</text>
+    <text x="18" y="54" fill="#928374" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#3c3836"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#504945"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#665c54"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#83a598"/>
+  </g>
+  <g transform="translate(656 538)">
+    <rect width="296" height="126" rx="14" fill="#fbf1c7" stroke="#bdae93"/>
+    <text x="18" y="31" fill="#3c3836" font-size="17" font-weight="700">Gruvbox Light</text>
+    <text x="18" y="54" fill="#928374" font-size="12">LIGHT</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#ebdbb2"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#d5c4a1"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#bdae93"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#076678"/>
+  </g>
+  <g transform="translate(968 538)">
+    <rect width="296" height="126" rx="14" fill="#1f1f28" stroke="#54546d"/>
+    <text x="18" y="31" fill="#dcd7ba" font-size="17" font-weight="700">Kanagawa Wave</text>
+    <text x="18" y="54" fill="#727169" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#2a2a37"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#223249"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#54546d"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#938aa9"/>
+  </g>
+  <g transform="translate(1280 538)">
+    <rect width="296" height="126" rx="14" fill="#fbfbfb" stroke="#d9d9d9"/>
+    <text x="18" y="31" fill="#403f53" font-size="17" font-weight="700">Light Owl</text>
+    <text x="18" y="54" fill="#93a1a1" font-size="12">LIGHT</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#f6f6f6"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#f0f0f0"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#d9d9d9"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#2aa298"/>
+  </g>
+  <g transform="translate(32 680)">
+    <rect width="296" height="126" rx="14" fill="#011627" stroke="#5f7e97"/>
+    <text x="18" y="31" fill="#d6deeb" font-size="17" font-weight="700">Night Owl</text>
+    <text x="18" y="54" fill="#5f7e97" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#0b2942"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#0b253a"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#5f7e97"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#7e57c2"/>
+  </g>
+  <g transform="translate(344 680)">
+    <rect width="296" height="126" rx="14" fill="#2e3440" stroke="#3b4252"/>
+    <text x="18" y="31" fill="#d8dee9" font-size="17" font-weight="700">Nord</text>
+    <text x="18" y="54" fill="#4c566a" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#3b4252"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#3b4252"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#3b4252"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#88c0d0"/>
+  </g>
+  <g transform="translate(656 680)">
+    <rect width="296" height="126" rx="14" fill="#191724" stroke="#524f67"/>
+    <text x="18" y="31" fill="#e0def4" font-size="17" font-weight="700">Rosé Pine</text>
+    <text x="18" y="54" fill="#6e6a86" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#1f1d2e"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#26233a"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#524f67"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#c4a7e7"/>
+  </g>
+  <g transform="translate(968 680)">
+    <rect width="296" height="126" rx="14" fill="#faf4ed" stroke="#cecacd"/>
+    <text x="18" y="31" fill="#464261" font-size="17" font-weight="700">Rosé Pine Dawn</text>
+    <text x="18" y="54" fill="#9893a5" font-size="12">LIGHT</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#fffaf3"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#f2e9e1"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#cecacd"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#907aa9"/>
+  </g>
+  <g transform="translate(1280 680)">
+    <rect width="296" height="126" rx="14" fill="#232136" stroke="#56526e"/>
+    <text x="18" y="31" fill="#e0def4" font-size="17" font-weight="700">Rosé Pine Moon</text>
+    <text x="18" y="54" fill="#6e6a86" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#2a273f"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#393552"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#56526e"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#c4a7e7"/>
+  </g>
+  <g transform="translate(32 822)">
+    <rect width="296" height="126" rx="14" fill="#002b36" stroke="#586e75"/>
+    <text x="18" y="31" fill="#839496" font-size="17" font-weight="700">Solarized Dark</text>
+    <text x="18" y="54" fill="#586e75" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#073642"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#073642"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#586e75"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#268bd2"/>
+  </g>
+  <g transform="translate(344 822)">
+    <rect width="296" height="126" rx="14" fill="#fdf6e3" stroke="#93a1a1"/>
+    <text x="18" y="31" fill="#586e75" font-size="17" font-weight="700">Solarized Light</text>
+    <text x="18" y="54" fill="#657b83" font-size="12">LIGHT</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#eee8d5"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#eee8d5"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#93a1a1"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#268bd2"/>
+  </g>
+  <g transform="translate(656 822)">
+    <rect width="296" height="126" rx="14" fill="#1a1b26" stroke="#15161e"/>
+    <text x="18" y="31" fill="#c0caf5" font-size="17" font-weight="700">Tokyo Night</text>
+    <text x="18" y="54" fill="#a9b1d6" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#16161e"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#292e42"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#15161e"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#7aa2f7"/>
+  </g>
+  <g transform="translate(968 822)">
+    <rect width="296" height="126" rx="14" fill="#e1e2e7" stroke="#b4b5b9"/>
+    <text x="18" y="31" fill="#3760bf" font-size="17" font-weight="700">Tokyo Night Day</text>
+    <text x="18" y="54" fill="#6172b0" font-size="12">LIGHT</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#d0d5e3"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#c4c8da"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#b4b5b9"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#2e7de9"/>
+  </g>
+  <g transform="translate(1280 822)">
+    <rect width="296" height="126" rx="14" fill="#24283b" stroke="#1d202f"/>
+    <text x="18" y="31" fill="#c0caf5" font-size="17" font-weight="700">Tokyo Night Storm</text>
+    <text x="18" y="54" fill="#a9b1d6" font-size="12">DARK</text>
+    <rect x="18" y="72" width="52" height="34" rx="8" fill="#1f2335"/>
+    <rect x="78" y="72" width="52" height="34" rx="8" fill="#292e42"/>
+    <rect x="138" y="72" width="52" height="34" rx="8" fill="#1d202f"/>
+    <rect x="198" y="72" width="80" height="34" rx="8" fill="#7aa2f7"/>
+  </g>
+  </g>
+</svg>

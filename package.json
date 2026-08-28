@@ -1,0 +1,14 @@
+{
+  "name": "paseo-theme-pack",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "test": "node --test",
+    "check": "node --test && node scripts/generate.mjs --check"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
