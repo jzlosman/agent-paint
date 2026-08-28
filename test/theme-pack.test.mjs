@@ -292,6 +292,20 @@ test("release site publishes downloadable target files and safe undo instruction
   assert.match(readme, /paseo plugin remove paseo-theme-pack/);
 });
 
+test("site publishes Open Graph metadata and image", async () => {
+  const html = await readFile(new URL("../site/index.html", import.meta.url), "utf8");
+
+  assert.match(html, /property="og:image" content="https:\/\/jzlosman\.github\.io\/agent-paint\/agent-paint-open-graph\.png"/);
+  assert.match(html, /property="og:image:width" content="1280"/);
+  assert.match(html, /property="og:image:height" content="640"/);
+  assert.match(html, /name="twitter:card" content="summary_large_image"/);
+
+  const image = await readFile(new URL("../site/agent-paint-open-graph.png", import.meta.url));
+  assert.equal(image.subarray(1, 4).toString(), "PNG");
+  assert.equal(image.readUInt32BE(16), 1280);
+  assert.equal(image.readUInt32BE(20), 640);
+});
+
 test("renders a shareable palette preview", () => {
   const output = renderPreview([validTheme]);
 
